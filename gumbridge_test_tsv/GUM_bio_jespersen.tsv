@@ -1,0 +1,1067 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Referent|entity|infstat|salience|identity
+#T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
+
+
+#Text=Otto Jespersen
+1-1	0-4	Otto	person[1]	new[1]	sal[1]	Otto_Jespersen[1]	coref	2-1[2_1]
+1-2	5-14	Jespersen	person[1]	new[1]	sal[1]	Otto_Jespersen[1]	_	_
+
+#Text=Jens Otto Harry Jespersen or Otto Jespersen ( Danish : [ ʌtˢo ˈjɛsb̥ɐsn̩ ] ; 16 July 1860 – 30 April 1943 ) was a Danish linguist who specialized in the grammar of the English language .
+2-1	15-19	Jens	person[2]	giv[2]	nonsal[2]	Otto_Jespersen[2]	coref	2-6[3_2]
+2-2	20-24	Otto	person[2]	giv[2]	nonsal[2]	Otto_Jespersen[2]	_	_
+2-3	25-30	Harry	person[2]	giv[2]	nonsal[2]	Otto_Jespersen[2]	_	_
+2-4	31-40	Jespersen	person[2]	giv[2]	nonsal[2]	Otto_Jespersen[2]	_	_
+2-5	41-43	or	_	_	_	_	_	_	_
+2-6	44-48	Otto	person[3]	giv[3]	nonsal[3]	Otto_Jespersen[3]	coref	2-12[5_3]
+2-7	49-58	Jespersen	person[3]	giv[3]	nonsal[3]	Otto_Jespersen[3]	_	_
+2-8	59-60	(	_	_	_	_	_	_	_
+2-9	61-67	Danish	abstract[4]	new[4]	sal[4]	_	coref	15-10[123_4]
+2-10	68-69	:	_	_	_	_	_	_	_
+2-11	70-71	[	_	_	_	_	_	_	_
+2-12	72-76	ʌtˢo	person[5]	giv[5]	nonsal[5]	Otto_Jespersen[5]	coref	2-25[12_5]
+2-13	77-87	ˈjɛsb̥ɐsn̩	person[5]	giv[5]	nonsal[5]	Otto_Jespersen[5]	_	_
+2-14	88-89	]	_	_	_	_	_	_	_
+2-15	90-91	;	_	_	_	_	_	_	_
+2-16	92-94	16	time[6]	new[6]	nonsal[6]	_	_	_
+2-17	95-99	July	time[6]|time[7]	new[6]|new[7]	nonsal[6]|nonsal[7]	_	_	_
+2-18	100-104	1860	time[6]|time[7]|time[8]	new[6]|new[7]|acc[8]	nonsal[6]|nonsal[7]|nonsal[8]	_	_	_
+2-19	105-106	–	_	_	_	_	_	_	_
+2-20	107-109	30	time[9]	new[9]	nonsal[9]	_	bridge:comparison-time	22-48[198-9]
+2-21	110-115	April	time[9]|time[10]	new[9]|new[10]	nonsal[9]|nonsal[10]	_	_	_
+2-22	116-120	1943	time[9]|time[10]|time[11]	new[9]|new[10]|acc[11]	nonsal[9]|nonsal[10]|nonsal[11]	_	_	_
+2-23	121-122	)	_	_	_	_	_	_	_
+2-24	123-126	was	_	_	_	_	_	_	_
+2-25	127-128	a	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	coref|bridge:entity-associative	4-1[16_12]|3-1[15-12]
+2-26	129-135	Danish	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	_	_
+2-27	136-144	linguist	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	_	_
+2-28	145-148	who	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	_	_
+2-29	149-160	specialized	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	_	_
+2-30	161-163	in	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	_	_
+2-31	164-167	the	person[12]|abstract[13]	giv[12]|new[13]	nonsal[12]|sal[13]	Otto_Jespersen[12]	_	_
+2-32	168-175	grammar	person[12]|abstract[13]	giv[12]|new[13]	nonsal[12]|sal[13]	Otto_Jespersen[12]	_	_
+2-33	176-178	of	person[12]|abstract[13]	giv[12]|new[13]	nonsal[12]|sal[13]	Otto_Jespersen[12]	_	_
+2-34	179-182	the	person[12]|abstract[13]|abstract[14]	giv[12]|new[13]|new[14]	nonsal[12]|sal[13]|sal[14]	Otto_Jespersen[12]|English_language[14]	coref	7-23[51_14]
+2-35	183-190	English	person[12]|abstract[13]|abstract[14]	giv[12]|new[13]|new[14]	nonsal[12]|sal[13]|sal[14]	Otto_Jespersen[12]|English_language[14]	_	_
+2-36	191-199	language	person[12]|abstract[13]|abstract[14]	giv[12]|new[13]|new[14]	nonsal[12]|sal[13]|sal[14]	Otto_Jespersen[12]|English_language[14]	_	_
+2-37	200-201	.	_	_	_	_	_	_	_
+
+#Text=Early life
+3-1	202-207	Early	time[15]	acc[15]	nonsal[15]	entity-associative[15]	_	_	_
+3-2	208-212	life	time[15]	acc[15]	nonsal[15]	entity-associative[15]	_	_	_
+
+#Text=Otto Jespersen was born in Randers in Jutland .
+4-1	213-217	Otto	person[16]	giv[16]	nonsal[16]	Otto_Jespersen[16]	coref	5-1[19_16]
+4-2	218-227	Jespersen	person[16]	giv[16]	nonsal[16]	Otto_Jespersen[16]	_	_
+4-3	228-231	was	_	_	_	_	_	_	_
+4-4	232-236	born	_	_	_	_	_	_	_
+4-5	237-239	in	_	_	_	_	_	_	_
+4-6	240-247	Randers	place[17]	new[17]	nonsal[17]	Randers[17]	_	_
+4-7	248-250	in	place[17]	new[17]	nonsal[17]	Randers[17]	_	_
+4-8	251-258	Jutland	place[17]|place[18]	new[17]|new[18]	nonsal[17]|nonsal[18]	Randers[17]|Jutland[18]	_	_
+4-9	259-260	.	_	_	_	_	_	_	_
+
+#Text=He was inspired by the work of Danish philologist Rasmus Rask as a boy , and with the help of Rask 's grammars taught himself some Icelandic , Italian , and Spanish .
+5-1	261-263	He	person[19]	giv[19]	nonsal[19]	Otto_Jespersen[19]	coref	5-13[22_19]
+5-2	264-267	was	_	_	_	_	_	_	_
+5-3	268-276	inspired	_	_	_	_	_	_	_
+5-4	277-279	by	_	_	_	_	_	_	_
+5-5	280-283	the	abstract[20]	new[20]	nonsal[20]	_	_	_
+5-6	284-288	work	abstract[20]	new[20]	nonsal[20]	_	_	_
+5-7	289-291	of	abstract[20]	new[20]	nonsal[20]	_	_	_
+5-8	292-298	Danish	abstract[20]|person[21]	new[20]|new[21]	nonsal[20]|nonsal[21]	Rasmus_Rask[21]	coref	5-21[25_21]
+5-9	299-310	philologist	abstract[20]|person[21]	new[20]|new[21]	nonsal[20]|nonsal[21]	Rasmus_Rask[21]	_	_
+5-10	311-317	Rasmus	abstract[20]|person[21]	new[20]|new[21]	nonsal[20]|nonsal[21]	Rasmus_Rask[21]	_	_
+5-11	318-322	Rask	abstract[20]|person[21]	new[20]|new[21]	nonsal[20]|nonsal[21]	Rasmus_Rask[21]	_	_
+5-12	323-325	as	_	_	_	_	_	_	_
+5-13	326-327	a	person[22]	giv[22]	nonsal[22]	Otto_Jespersen[22]	coref	5-25[27_22]
+5-14	328-331	boy	person[22]	giv[22]	nonsal[22]	Otto_Jespersen[22]	_	_
+5-15	332-333	,	_	_	_	_	_	_	_
+5-16	334-337	and	_	_	_	_	_	_	_
+5-17	338-342	with	_	_	_	_	_	_	_
+5-18	343-346	the	abstract[23]	new[23]	nonsal[23]	_	_	_
+5-19	347-351	help	abstract[23]	new[23]	nonsal[23]	_	_	_
+5-20	352-354	of	abstract[23]	new[23]	nonsal[23]	_	_	_
+5-21	355-359	Rask	abstract[23]|abstract[24]|person[25]	new[23]|new[24]|giv[25]	nonsal[23]|nonsal[24]|nonsal[25]	Rasmus_Rask[25]	_	_
+5-22	360-362	's	abstract[23]|abstract[24]|person[25]	new[23]|new[24]|giv[25]	nonsal[23]|nonsal[24]|nonsal[25]	Rasmus_Rask[25]	_	_
+5-23	363-371	grammars	abstract[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_
+5-24	372-378	taught	event[26]	new[26]	nonsal[26]	_	coref	6-20[38_26]
+5-25	379-386	himself	event[26]|person[27]	new[26]|giv[27]	nonsal[26]|nonsal[27]	Otto_Jespersen[27]	coref	6-1[31_27]
+5-26	387-391	some	event[26]|abstract[28]	new[26]|new[28]	nonsal[26]|nonsal[28]	Icelandic_language[28]	_	_
+5-27	392-401	Icelandic	event[26]|abstract[28]	new[26]|new[28]	nonsal[26]|nonsal[28]	Icelandic_language[28]	_	_
+5-28	402-403	,	event[26]	new[26]	nonsal[26]	_	_	_
+5-29	404-411	Italian	event[26]|abstract[29]	new[26]|new[29]	nonsal[26]|nonsal[29]	Italian_language[29]	_	_
+5-30	412-413	,	event[26]	new[26]	nonsal[26]	_	_	_
+5-31	414-417	and	event[26]	new[26]	nonsal[26]	_	_	_
+5-32	418-425	Spanish	event[26]|abstract[30]	new[26]|new[30]	nonsal[26]|nonsal[30]	Spanish_language[30]	_	_
+5-33	426-427	.	_	_	_	_	_	_	_
+
+#Text=He entered the University of Copenhagen in 1877 when he was 17 , initially studying law but not forgetting his language studies .
+6-1	428-430	He	person[31]	giv[31]	nonsal[31]	Otto_Jespersen[31]	coref	6-10[35_31]
+6-2	431-438	entered	_	_	_	_	_	_	_
+6-3	439-442	the	organization[32]	new[32]	nonsal[32]	University_of_Copenhagen[32]	coref	13-8[99_32]
+6-4	443-453	University	organization[32]	new[32]	nonsal[32]	University_of_Copenhagen[32]	_	_
+6-5	454-456	of	organization[32]	new[32]	nonsal[32]	University_of_Copenhagen[32]	_	_
+6-6	457-467	Copenhagen	organization[32]|place[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	University_of_Copenhagen[32]|Copenhagen[33]	coref	10-13[82_33]
+6-7	468-470	in	_	_	_	_	_	_	_
+6-8	471-475	1877	time[34]	acc[34]	nonsal[34]	_	_	_
+6-9	476-480	when	_	_	_	_	_	_	_
+6-10	481-483	he	person[35]	giv[35]	nonsal[35]	_	coref	6-20[39_35]
+6-11	484-487	was	_	_	_	_	_	_	_
+6-12	488-490	17	abstract[36]	new[36]	nonsal[36]	_	_	_
+6-13	491-492	,	_	_	_	_	_	_	_
+6-14	493-502	initially	_	_	_	_	_	_	_
+6-15	503-511	studying	_	_	_	_	_	_	_
+6-16	512-515	law	abstract[37]	new[37]	nonsal[37]	_	_	_
+6-17	516-519	but	_	_	_	_	_	_	_
+6-18	520-523	not	_	_	_	_	_	_	_
+6-19	524-534	forgetting	_	_	_	_	_	_	_
+6-20	535-538	his	event[38]|person[39]	new[38]|giv[39]	nonsal[38]|nonsal[39]	Otto_Jespersen[39]	coref	7-3[42_39]
+6-21	539-547	language	event[38]|abstract[40]	new[38]|new[40]	nonsal[38]|nonsal[40]	_	_	_
+6-22	548-555	studies	event[38]	new[38]	nonsal[38]	_	_	_
+6-23	556-557	.	_	_	_	_	_	_	_
+
+#Text=In 1881 he shifted his focus completely to languages , and in 1887 earned his master 's degree in French , with English and Latin as his secondary languages .
+7-1	558-560	In	_	_	_	_	_	_	_
+7-2	561-565	1881	time[41]	acc[41]	nonsal[41]	_	_	_
+7-3	566-568	he	person[42]	giv[42]	nonsal[42]	_	coref	7-5[44_42]
+7-4	569-576	shifted	_	_	_	_	_	_	_
+7-5	577-580	his	abstract[43]|person[44]	new[43]|giv[44]	nonsal[43]|nonsal[44]	Otto_Jespersen[44]	coref	7-15[48_44]
+7-6	581-586	focus	abstract[43]	new[43]	nonsal[43]	_	_	_
+7-7	587-597	completely	_	_	_	_	_	_	_
+7-8	598-600	to	_	_	_	_	_	_	_
+7-9	601-610	languages	abstract[45]	new[45]	nonsal[45]	_	_	_
+7-10	611-612	,	_	_	_	_	_	_	_
+7-11	613-616	and	_	_	_	_	_	_	_
+7-12	617-619	in	_	_	_	_	_	_	_
+7-13	620-624	1887	time[46]	acc[46]	nonsal[46]	_	coref	9-2[64_46]
+7-14	625-631	earned	_	_	_	_	_	_	_
+7-15	632-635	his	abstract[47]|person[48]	new[47]|giv[48]	nonsal[47]|nonsal[48]	Otto_Jespersen[48]	coref|bridge:entity-associative	7-27[54_48]|8-5[57-47]
+7-16	636-642	master	abstract[47]	new[47]	nonsal[47]	_	_	_
+7-17	643-645	's	abstract[47]	new[47]	nonsal[47]	_	_	_
+7-18	646-652	degree	abstract[47]	new[47]	nonsal[47]	_	_	_
+7-19	653-655	in	abstract[47]	new[47]	nonsal[47]	_	_	_
+7-20	656-662	French	abstract[47]|abstract[49]	new[47]|new[49]	nonsal[47]|nonsal[49]	French_language[49]	_	_
+7-21	663-664	,	_	_	_	_	_	_	_
+7-22	665-669	with	_	_	_	_	_	_	_
+7-23	670-677	English	abstract[50]|abstract[51]	new[50]|giv[51]	nonsal[50]|nonsal[51]	English_language[51]	coref|coref	7-27[53_50]|13-6[98_51]
+7-24	678-681	and	abstract[50]	new[50]	nonsal[50]	_	_	_
+7-25	682-687	Latin	abstract[50]|abstract[52]	new[50]|new[52]	nonsal[50]|nonsal[52]	Latin[52]	_	_
+7-26	688-690	as	_	_	_	_	_	_	_
+7-27	691-694	his	abstract[53]|person[54]	giv[53]|giv[54]	nonsal[53]|nonsal[54]	Otto_Jespersen[54]	coref	8-1[55_54]
+7-28	695-704	secondary	abstract[53]	giv[53]	nonsal[53]	_	_	_
+7-29	705-714	languages	abstract[53]	giv[53]	nonsal[53]	_	_	_
+7-30	715-716	.	_	_	_	_	_	_	_
+
+#Text=He supported himself during his studies through part - time work as a schoolteacher and as a shorthand reporter in the Danish parliament .
+8-1	717-719	He	person[55]	giv[55]	nonsal[55]	Otto_Jespersen[55]	coref	8-3[56_55]
+8-2	720-729	supported	_	_	_	_	_	_	_
+8-3	730-737	himself	person[56]	giv[56]	nonsal[56]	Otto_Jespersen[56]	coref	8-5[58_56]
+8-4	738-744	during	_	_	_	_	_	_	_
+8-5	745-748	his	event[57]|person[58]	acc[57]|giv[58]	nonsal[57]|nonsal[58]	Otto_Jespersen[58]	coref	8-13[60_58]
+8-6	749-756	studies	event[57]	acc[57]	nonsal[57]	entity-associative[57]	_	_	_
+8-7	757-764	through	_	_	_	_	_	_	_
+8-8	765-769	part	abstract[59]	new[59]	nonsal[59]	_	_	_
+8-9	770-771	-	abstract[59]	new[59]	nonsal[59]	_	_	_
+8-10	772-776	time	abstract[59]	new[59]	nonsal[59]	_	_	_
+8-11	777-781	work	abstract[59]	new[59]	nonsal[59]	_	_	_
+8-12	782-784	as	abstract[59]	new[59]	nonsal[59]	_	_	_
+8-13	785-786	a	abstract[59]|person[60]	new[59]|giv[60]	nonsal[59]|nonsal[60]	Otto_Jespersen[60]	coref	8-17[61_60]
+8-14	787-800	schoolteacher	abstract[59]|person[60]	new[59]|giv[60]	nonsal[59]|nonsal[60]	Otto_Jespersen[60]	_	_
+8-15	801-804	and	abstract[59]	new[59]	nonsal[59]	_	_	_
+8-16	805-807	as	abstract[59]	new[59]	nonsal[59]	_	_	_
+8-17	808-809	a	abstract[59]|person[61]	new[59]|giv[61]	nonsal[59]|nonsal[61]	Otto_Jespersen[61]	coref	9-6[66_61]
+8-18	810-819	shorthand	abstract[59]|person[61]|abstract[62]	new[59]|giv[61]|new[62]	nonsal[59]|nonsal[61]|nonsal[62]	Otto_Jespersen[61]	_	_
+8-19	820-828	reporter	abstract[59]|person[61]	new[59]|giv[61]	nonsal[59]|nonsal[61]	Otto_Jespersen[61]	_	_
+8-20	829-831	in	abstract[59]	new[59]	nonsal[59]	_	_	_
+8-21	832-835	the	abstract[59]|organization[63]	new[59]|new[63]	nonsal[59]|nonsal[63]	_	_	_
+8-22	836-842	Danish	abstract[59]|organization[63]	new[59]|new[63]	nonsal[59]|nonsal[63]	_	_	_
+8-23	843-853	parliament	abstract[59]|organization[63]	new[59]|new[63]	nonsal[59]|nonsal[63]	_	_	_
+8-24	854-855	.	_	_	_	_	_	_	_
+
+#Text=In 1887 – 1888 , he traveled to England , Germany and France , meeting linguists like Henry Sweet and Paul Passy and attending lectures at institutions like Oxford University .
+9-1	856-858	In	_	_	_	_	_	_	_
+9-2	859-863	1887	time[64]	giv[64]	nonsal[64]	_	_	_
+9-3	864-865	–	_	_	_	_	_	_	_
+9-4	866-870	1888	time[65]	acc[65]	nonsal[65]	_	coref	10-16[84_65]
+9-5	871-872	,	_	_	_	_	_	_	_
+9-6	873-875	he	person[66]	giv[66]	nonsal[66]	_	coref	10-5[79_66]
+9-7	876-884	traveled	_	_	_	_	_	_	_
+9-8	885-887	to	_	_	_	_	_	_	_
+9-9	888-895	England	place[67]	acc[67]	nonsal[67]	England[67]	_	_
+9-10	896-897	,	_	_	_	_	_	_	_
+9-11	898-905	Germany	place[68]	acc[68]	nonsal[68]	Germany[68]	_	_
+9-12	906-909	and	_	_	_	_	_	_	_
+9-13	910-916	France	place[69]	acc[69]	nonsal[69]	France[69]	_	_
+9-14	917-918	,	_	_	_	_	_	_	_
+9-15	919-926	meeting	_	_	_	_	_	_	_
+9-16	927-936	linguists	person[70]	new[70]	nonsal[70]	_	_	_
+9-17	937-941	like	person[70]	new[70]	nonsal[70]	_	_	_
+9-18	942-947	Henry	person[70]|person[71]	new[70]|new[71]	nonsal[70]|nonsal[71]	Henry_Sweet[71]	_	_
+9-19	948-953	Sweet	person[70]|person[71]	new[70]|new[71]	nonsal[70]|nonsal[71]	Henry_Sweet[71]	_	_
+9-20	954-957	and	person[70]	new[70]	nonsal[70]	_	_	_
+9-21	958-962	Paul	person[70]|person[72]	new[70]|new[72]	nonsal[70]|nonsal[72]	Paul_Passy[72]	_	_
+9-22	963-968	Passy	person[70]|person[72]	new[70]|new[72]	nonsal[70]|nonsal[72]	Paul_Passy[72]	_	_
+9-23	969-972	and	_	_	_	_	_	_	_
+9-24	973-982	attending	_	_	_	_	_	_	_
+9-25	983-991	lectures	event[73]	new[73]	nonsal[73]	_	_	_
+9-26	992-994	at	_	_	_	_	_	_	_
+9-27	995-1007	institutions	organization[74]	new[74]	nonsal[74]	_	_	_
+9-28	1008-1012	like	organization[74]	new[74]	nonsal[74]	_	_	_
+9-29	1013-1019	Oxford	organization[74]|organization[75]|place[76]	new[74]|new[75]|new[76]	nonsal[74]|nonsal[75]|nonsal[76]	University_of_Oxford[75]|Oxford[76]	_	_
+9-30	1020-1030	University	organization[74]|organization[75]	new[74]|new[75]	nonsal[74]|nonsal[75]	University_of_Oxford[75]	_	_
+9-31	1031-1032	.	_	_	_	_	_	_	_
+
+#Text=Following the advice of his mentor Vilhelm Thomsen , he returned to Copenhagen in August 1888 and began work on his doctoral dissertation on the English case system .
+10-1	1033-1042	Following	_	_	_	_	_	_	_
+10-2	1043-1046	the	abstract[77]	new[77]	nonsal[77]	_	_	_
+10-3	1047-1053	advice	abstract[77]	new[77]	nonsal[77]	_	_	_
+10-4	1054-1056	of	abstract[77]	new[77]	nonsal[77]	_	_	_
+10-5	1057-1060	his	abstract[77]|person[78]|person[79]	new[77]|new[78]|giv[79]	nonsal[77]|nonsal[78]|nonsal[79]	Vilhelm_Thomsen[78]|Otto_Jespersen[79]	coref|coref	10-7[80_78]|10-10[81_79]
+10-6	1061-1067	mentor	abstract[77]|person[78]	new[77]|new[78]	nonsal[77]|nonsal[78]	Vilhelm_Thomsen[78]	_	_
+10-7	1068-1075	Vilhelm	abstract[77]|person[80]	new[77]|giv[80]	nonsal[77]|nonsal[80]	Vilhelm_Thomsen[80]	_	_
+10-8	1076-1083	Thomsen	abstract[77]|person[80]	new[77]|giv[80]	nonsal[77]|nonsal[80]	Vilhelm_Thomsen[80]	_	_
+10-9	1084-1085	,	_	_	_	_	_	_	_
+10-10	1086-1088	he	person[81]	giv[81]	nonsal[81]	_	coref	10-21[87_81]
+10-11	1089-1097	returned	_	_	_	_	_	_	_
+10-12	1098-1100	to	_	_	_	_	_	_	_
+10-13	1101-1111	Copenhagen	place[82]	giv[82]	nonsal[82]	Copenhagen[82]	coref	13-11[100_82]
+10-14	1112-1114	in	_	_	_	_	_	_	_
+10-15	1115-1121	August	time[83]	new[83]	nonsal[83]	_	_	_
+10-16	1122-1126	1888	time[83]|time[84]	new[83]|giv[84]	nonsal[83]|nonsal[84]	_	_	_
+10-17	1127-1130	and	_	_	_	_	_	_	_
+10-18	1131-1136	began	_	_	_	_	_	_	_
+10-19	1137-1141	work	abstract[85]	new[85]	nonsal[85]	_	_	_
+10-20	1142-1144	on	abstract[85]	new[85]	nonsal[85]	_	_	_
+10-21	1145-1148	his	abstract[85]|abstract[86]|person[87]	new[85]|new[86]|giv[87]	nonsal[85]|nonsal[86]|nonsal[87]	Otto_Jespersen[87]	coref|coref	11-4[91_86]|11-1[90_87]
+10-22	1149-1157	doctoral	abstract[85]|abstract[86]	new[85]|new[86]	nonsal[85]|nonsal[86]	_	_	_
+10-23	1158-1170	dissertation	abstract[85]|abstract[86]	new[85]|new[86]	nonsal[85]|nonsal[86]	_	_	_
+10-24	1171-1173	on	abstract[85]|abstract[86]	new[85]|new[86]	nonsal[85]|nonsal[86]	_	_	_
+10-25	1174-1177	the	abstract[85]|abstract[86]|abstract[88]	new[85]|new[86]|new[88]	nonsal[85]|nonsal[86]|nonsal[88]	_	_	_
+10-26	1178-1185	English	abstract[85]|abstract[86]|abstract[88]	new[85]|new[86]|new[88]	nonsal[85]|nonsal[86]|nonsal[88]	_	_	_
+10-27	1186-1190	case	abstract[85]|abstract[86]|abstract[88]|abstract[89]	new[85]|new[86]|new[88]|new[89]	nonsal[85]|nonsal[86]|nonsal[88]|nonsal[89]	_	coref	24-27[223_89]
+10-28	1191-1197	system	abstract[85]|abstract[86]|abstract[88]	new[85]|new[86]|new[88]	nonsal[85]|nonsal[86]|nonsal[88]	_	_	_
+10-29	1198-1199	.	_	_	_	_	_	_	_
+
+#Text=He successfully defended his dissertation in 1891 .
+11-1	1200-1202	He	person[90]	giv[90]	nonsal[90]	Otto_Jespersen[90]	coref	11-4[92_90]
+11-2	1203-1215	successfully	_	_	_	_	_	_	_
+11-3	1216-1224	defended	_	_	_	_	_	_	_
+11-4	1225-1228	his	abstract[91]|person[92]	giv[91]|giv[92]	nonsal[91]|nonsal[92]	Otto_Jespersen[92]	coref|bridge:entity-associative|bridge:entity-associative	13-1[96_92]|12-1[94-92]|12-4[95-92]
+11-5	1229-1241	dissertation	abstract[91]	giv[91]	nonsal[91]	_	_	_
+11-6	1242-1244	in	_	_	_	_	_	_	_
+11-7	1245-1249	1891	time[93]	acc[93]	nonsal[93]	_	_	_
+11-8	1250-1251	.	_	_	_	_	_	_	_
+
+#Text=Academic life and work
+12-1	1252-1260	Academic	abstract[94]	acc[94]	nonsal[94]	entity-associative[94]	_	_	_
+12-2	1261-1265	life	abstract[94]	acc[94]	nonsal[94]	entity-associative[94]	_	_	_
+12-3	1266-1269	and	_	_	_	_	_	_	_
+12-4	1270-1274	work	abstract[95]	acc[95]	nonsal[95]	entity-associative[95]	_	_	_
+
+#Text=Jespersen was a professor of English at the University of Copenhagen from 1893 to 1925 , and served as Rector of the university in 1920 – 21 .
+13-1	1275-1284	Jespersen	person[96]	giv[96]	nonsal[96]	Otto_Jespersen[96]	coref	13-3[97_96]
+13-2	1285-1288	was	_	_	_	_	_	_	_
+13-3	1289-1290	a	person[97]	giv[97]	nonsal[97]	Otto_Jespersen[97]	coref	13-20[103_97]
+13-4	1291-1300	professor	person[97]	giv[97]	nonsal[97]	Otto_Jespersen[97]	_	_
+13-5	1301-1303	of	person[97]	giv[97]	nonsal[97]	Otto_Jespersen[97]	_	_
+13-6	1304-1311	English	person[97]|abstract[98]	giv[97]|giv[98]	nonsal[97]|nonsal[98]	Otto_Jespersen[97]|English_language[98]	coref	22-1[185_98]
+13-7	1312-1314	at	person[97]	giv[97]	nonsal[97]	Otto_Jespersen[97]	_	_
+13-8	1315-1318	the	person[97]|organization[99]	giv[97]|giv[99]	nonsal[97]|nonsal[99]	Otto_Jespersen[97]|University_of_Copenhagen[99]	coref	13-22[104_99]
+13-9	1319-1329	University	person[97]|organization[99]	giv[97]|giv[99]	nonsal[97]|nonsal[99]	Otto_Jespersen[97]|University_of_Copenhagen[99]	_	_
+13-10	1330-1332	of	person[97]|organization[99]	giv[97]|giv[99]	nonsal[97]|nonsal[99]	Otto_Jespersen[97]|University_of_Copenhagen[99]	_	_
+13-11	1333-1343	Copenhagen	person[97]|organization[99]|place[100]	giv[97]|giv[99]|giv[100]	nonsal[97]|nonsal[99]|nonsal[100]	Otto_Jespersen[97]|University_of_Copenhagen[99]|Copenhagen[100]	coref	35-36[301_100]
+13-12	1344-1348	from	_	_	_	_	_	_	_
+13-13	1349-1353	1893	time[101]	acc[101]	nonsal[101]	_	_	_
+13-14	1354-1356	to	_	_	_	_	_	_	_
+13-15	1357-1361	1925	time[102]	acc[102]	nonsal[102]	_	coref	26-14[241_102]
+13-16	1362-1363	,	_	_	_	_	_	_	_
+13-17	1364-1367	and	_	_	_	_	_	_	_
+13-18	1368-1374	served	_	_	_	_	_	_	_
+13-19	1375-1377	as	_	_	_	_	_	_	_
+13-20	1378-1384	Rector	person[103]	giv[103]	nonsal[103]	Otto_Jespersen[103]	coref	14-1[108_103]
+13-21	1385-1387	of	person[103]	giv[103]	nonsal[103]	Otto_Jespersen[103]	_	_
+13-22	1388-1391	the	person[103]|organization[104]	giv[103]|giv[104]	nonsal[103]|nonsal[104]	Otto_Jespersen[103]|University_of_Copenhagen[104]	_	_
+13-23	1392-1402	university	person[103]|organization[104]	giv[103]|giv[104]	nonsal[103]|nonsal[104]	Otto_Jespersen[103]|University_of_Copenhagen[104]	_	_
+13-24	1403-1405	in	_	_	_	_	_	_	_
+13-25	1406-1410	1920	time[105]	acc[105]	nonsal[105]	_	_	_
+13-26	1411-1412	–	_	_	_	_	_	_	_
+13-27	1413-1415	21	time[106]	acc[106]	nonsal[106]	_	_	_
+13-28	1416-1417	.	_	_	_	_	_	_	_
+
+#Text=His early work focused primarily on language teaching reform and on phonetics , but he is best known for his later work on syntax and on language development .
+14-1	1418-1421	His	abstract[107]|person[108]	new[107]|giv[108]	nonsal[107]|nonsal[108]	Otto_Jespersen[108]	coref	14-15[113_108]
+14-2	1422-1427	early	abstract[107]	new[107]	nonsal[107]	_	_	_
+14-3	1428-1432	work	abstract[107]	new[107]	nonsal[107]	_	_	_
+14-4	1433-1440	focused	_	_	_	_	_	_	_
+14-5	1441-1450	primarily	_	_	_	_	_	_	_
+14-6	1451-1453	on	_	_	_	_	_	_	_
+14-7	1454-1462	language	abstract[109]|abstract[110]|abstract[111]	new[109]|new[110]|new[111]	nonsal[109]|nonsal[110]|nonsal[111]	_	_	_
+14-8	1463-1471	teaching	abstract[109]|abstract[110]	new[109]|new[110]	nonsal[109]|nonsal[110]	_	_	_
+14-9	1472-1478	reform	abstract[109]	new[109]	nonsal[109]	_	_	_
+14-10	1479-1482	and	_	_	_	_	_	_	_
+14-11	1483-1485	on	_	_	_	_	_	_	_
+14-12	1486-1495	phonetics	abstract[112]	new[112]	nonsal[112]	_	_	_
+14-13	1496-1497	,	_	_	_	_	_	_	_
+14-14	1498-1501	but	_	_	_	_	_	_	_
+14-15	1502-1504	he	person[113]	giv[113]	nonsal[113]	_	coref	14-20[115_113]
+14-16	1505-1507	is	_	_	_	_	_	_	_
+14-17	1508-1512	best	_	_	_	_	_	_	_
+14-18	1513-1518	known	_	_	_	_	_	_	_
+14-19	1519-1522	for	_	_	_	_	_	_	_
+14-20	1523-1526	his	abstract[114]|person[115]	new[114]|giv[115]	nonsal[114]|nonsal[115]	Otto_Jespersen[115]	coref	15-1[119_115]
+14-21	1527-1532	later	abstract[114]	new[114]	nonsal[114]	_	_	_
+14-22	1533-1537	work	abstract[114]	new[114]	nonsal[114]	_	_	_
+14-23	1538-1540	on	abstract[114]	new[114]	nonsal[114]	_	_	_
+14-24	1541-1547	syntax	abstract[114]|abstract[116]	new[114]|new[116]	nonsal[114]|nonsal[116]	_	coref	16-13[134_116]
+14-25	1548-1551	and	abstract[114]	new[114]	nonsal[114]	_	_	_
+14-26	1552-1554	on	abstract[114]	new[114]	nonsal[114]	_	_	_
+14-27	1555-1563	language	abstract[114]|event[117]|abstract[118]	new[114]|new[117]|new[118]	nonsal[114]|nonsal[117]|nonsal[118]	_	_	_
+14-28	1564-1575	development	abstract[114]|event[117]	new[114]|new[117]	nonsal[114]|nonsal[117]	_	_	_
+14-29	1576-1577	.	_	_	_	_	_	_	_
+
+#Text=He advanced the theories of Rank and Nexus in Danish in two papers : Sprogets logik ( 1913 ) and De to hovedarter af grammatiske forbindelser ( 1921 ) .
+15-1	1578-1580	He	person[119]	giv[119]	nonsal[119]	Otto_Jespersen[119]	coref	16-1[130_119]
+15-2	1581-1589	advanced	_	_	_	_	_	_	_
+15-3	1590-1593	the	abstract[120]	new[120]	nonsal[120]	_	bridge:set-member	16-3[131-120]
+15-4	1594-1602	theories	abstract[120]	new[120]	nonsal[120]	_	_	_
+15-5	1603-1605	of	abstract[120]	new[120]	nonsal[120]	_	_	_
+15-6	1606-1610	Rank	abstract[120]|abstract[121]	new[120]|new[121]	nonsal[120]|nonsal[121]	_	coref	24-43[229_121]
+15-7	1611-1614	and	abstract[120]	new[120]	nonsal[120]	_	_	_
+15-8	1615-1620	Nexus	abstract[120]|abstract[122]	new[120]|new[122]	nonsal[120]|nonsal[122]	_	coref	17-1[148_122]
+15-9	1621-1623	in	abstract[120]	new[120]	nonsal[120]	_	_	_
+15-10	1624-1630	Danish	abstract[120]|abstract[123]	new[120]|giv[123]	nonsal[120]|nonsal[123]	_	coref	22-39[197_123]
+15-11	1631-1633	in	_	_	_	_	_	_	_
+15-12	1634-1637	two	abstract[124]	new[124]	nonsal[124]	_	coref	15-15[125_124]
+15-13	1638-1644	papers	abstract[124]	new[124]	nonsal[124]	_	_	_
+15-14	1645-1646	:	_	_	_	_	_	_	_
+15-15	1647-1655	Sprogets	abstract[125]|abstract[126]	giv[125]|new[126]	nonsal[125]|nonsal[126]	_	_	_
+15-16	1656-1661	logik	abstract[125]|abstract[126]	giv[125]|new[126]	nonsal[125]|nonsal[126]	_	_	_
+15-17	1662-1663	(	abstract[125]	giv[125]	nonsal[125]	_	_	_
+15-18	1664-1668	1913	abstract[125]|time[127]	giv[125]|acc[127]	nonsal[125]|nonsal[127]	_	_	_
+15-19	1669-1670	)	abstract[125]	giv[125]	nonsal[125]	_	_	_
+15-20	1671-1674	and	abstract[125]	giv[125]	nonsal[125]	_	_	_
+15-21	1675-1677	De	abstract[125]|abstract[128]	giv[125]|new[128]	nonsal[125]|nonsal[128]	_	_	_
+15-22	1678-1680	to	abstract[125]|abstract[128]	giv[125]|new[128]	nonsal[125]|nonsal[128]	_	_	_
+15-23	1681-1691	hovedarter	abstract[125]|abstract[128]	giv[125]|new[128]	nonsal[125]|nonsal[128]	_	_	_
+15-24	1692-1694	af	abstract[125]|abstract[128]	giv[125]|new[128]	nonsal[125]|nonsal[128]	_	_	_
+15-25	1695-1706	grammatiske	abstract[125]|abstract[128]	giv[125]|new[128]	nonsal[125]|nonsal[128]	_	_	_
+15-26	1707-1719	forbindelser	abstract[125]|abstract[128]	giv[125]|new[128]	nonsal[125]|nonsal[128]	_	_	_
+15-27	1720-1721	(	abstract[125]	giv[125]	nonsal[125]	_	_	_
+15-28	1722-1726	1921	abstract[125]|time[129]	giv[125]|acc[129]	nonsal[125]|nonsal[129]	_	_	_
+15-29	1727-1728	)	abstract[125]	giv[125]	nonsal[125]	_	_	_
+15-30	1729-1730	.	_	_	_	_	_	_	_
+
+#Text=Jespersen in this theory of ranks removes the parts of speech from the syntax , and differentiates between primaries , secondaries , and tertiaries ; e.g. in " well honed phrase , " " phrase " is a primary , this being defined by a secondary , " honed " , which again is defined by a tertiary " well " .
+16-1	1731-1740	Jespersen	person[130]	giv[130]	nonsal[130]	Otto_Jespersen[130]	coref	20-1[172_130]
+16-2	1741-1743	in	_	_	_	_	_	_	_
+16-3	1744-1748	this	abstract[131]	acc[131]	nonsal[131]	set-member[131]	_	_	_
+16-4	1749-1755	theory	abstract[131]	acc[131]	nonsal[131]	set-member[131]	_	_	_
+16-5	1756-1758	of	abstract[131]	acc[131]	nonsal[131]	set-member[131]	_	_	_
+16-6	1759-1764	ranks	abstract[131]|abstract[132]	acc[131]|new[132]	nonsal[131]|nonsal[132]	_	_	_
+16-7	1765-1772	removes	_	_	_	_	_	_	_
+16-8	1773-1776	the	abstract[133]	new[133]	nonsal[133]	_	_	_
+16-9	1777-1782	parts	abstract[133]	new[133]	nonsal[133]	_	_	_
+16-10	1783-1785	of	abstract[133]	new[133]	nonsal[133]	_	_	_
+16-11	1786-1792	speech	abstract[133]	new[133]	nonsal[133]	_	_	_
+16-12	1793-1797	from	_	_	_	_	_	_	_
+16-13	1798-1801	the	abstract[134]	giv[134]	nonsal[134]	_	coref	22-17[190_134]
+16-14	1802-1808	syntax	abstract[134]	giv[134]	nonsal[134]	_	_	_
+16-15	1809-1810	,	_	_	_	_	_	_	_
+16-16	1811-1814	and	_	_	_	_	_	_	_
+16-17	1815-1829	differentiates	_	_	_	_	_	_	_
+16-18	1830-1837	between	_	_	_	_	_	_	_
+16-19	1838-1847	primaries	abstract[135]	new[135]	nonsal[135]	_	_	_
+16-20	1848-1849	,	_	_	_	_	_	_	_
+16-21	1850-1861	secondaries	abstract[136]	new[136]	nonsal[136]	_	_	_
+16-22	1862-1863	,	_	_	_	_	_	_	_
+16-23	1864-1867	and	_	_	_	_	_	_	_
+16-24	1868-1878	tertiaries	abstract[137]	new[137]	nonsal[137]	_	_	_
+16-25	1879-1880	;	_	_	_	_	_	_	_
+16-26	1881-1885	e.g.	_	_	_	_	_	_	_
+16-27	1886-1888	in	_	_	_	_	_	_	_
+16-28	1889-1890	"	_	_	_	_	_	_	_
+16-29	1891-1895	well	abstract[138]	new[138]	nonsal[138]	_	coref	16-57[146_138]
+16-30	1896-1901	honed	abstract[139]	new[139]	nonsal[139]	_	coref	16-45[144_139]
+16-31	1902-1908	phrase	abstract[140]	new[140]	nonsal[140]	_	coref	16-35[141_140]
+16-32	1909-1910	,	_	_	_	_	_	_	_
+16-33	1911-1912	"	_	_	_	_	_	_	_
+16-34	1913-1914	"	_	_	_	_	_	_	_
+16-35	1915-1921	phrase	abstract[141]	giv[141]	nonsal[141]	_	coref	16-38[142_141]
+16-36	1922-1923	"	_	_	_	_	_	_	_
+16-37	1924-1926	is	_	_	_	_	_	_	_
+16-38	1927-1928	a	abstract[142]	giv[142]	nonsal[142]	_	coref	16-41[143_142]
+16-39	1929-1936	primary	abstract[142]	giv[142]	nonsal[142]	_	_	_
+16-40	1937-1938	,	_	_	_	_	_	_	_
+16-41	1939-1943	this	abstract[143]	giv[143]	nonsal[143]	_	_	_
+16-42	1944-1949	being	_	_	_	_	_	_	_
+16-43	1950-1957	defined	_	_	_	_	_	_	_
+16-44	1958-1960	by	_	_	_	_	_	_	_
+16-45	1961-1962	a	abstract[144]	giv[144]	nonsal[144]	_	coref	16-49[145_144]
+16-46	1963-1972	secondary	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-47	1973-1974	,	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-48	1975-1976	"	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-49	1977-1982	honed	abstract[144]|abstract[145]	giv[144]|giv[145]	nonsal[144]|nonsal[145]	_	_	_
+16-50	1983-1984	"	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-51	1985-1986	,	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-52	1987-1992	which	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-53	1993-1998	again	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-54	1999-2001	is	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-55	2002-2009	defined	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-56	2010-2012	by	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-57	2013-2014	a	abstract[144]|abstract[146]	giv[144]|giv[146]	nonsal[144]|nonsal[146]	_	coref	16-60[147_146]
+16-58	2015-2023	tertiary	abstract[144]|abstract[146]	giv[144]|giv[146]	nonsal[144]|nonsal[146]	_	_	_
+16-59	2024-2025	"	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-60	2026-2030	well	abstract[144]|abstract[147]	giv[144]|giv[147]	nonsal[144]|nonsal[147]	_	_	_
+16-61	2031-2032	"	abstract[144]	giv[144]	nonsal[144]	_	_	_
+16-62	2033-2034	.	_	_	_	_	_	_	_
+
+#Text=The term Nexus is applied to sentences , structures similar to sentences and sentences in formation , in which two concepts are expressed in one unit ; e.g. , it rained , he ran indoors .
+17-1	2035-2038	The	abstract[148]	giv[148]	nonsal[148]	_	coref	18-1[157_148]
+17-2	2039-2043	term	abstract[148]	giv[148]	nonsal[148]	_	_	_
+17-3	2044-2049	Nexus	abstract[148]	giv[148]	nonsal[148]	_	_	_
+17-4	2050-2052	is	_	_	_	_	_	_	_
+17-5	2053-2060	applied	_	_	_	_	_	_	_
+17-6	2061-2063	to	_	_	_	_	_	_	_
+17-7	2064-2073	sentences	abstract[149]	new[149]	nonsal[149]	_	coref	17-12[151_149]
+17-8	2074-2075	,	_	_	_	_	_	_	_
+17-9	2076-2086	structures	abstract[150]	new[150]	nonsal[150]	_	_	_
+17-10	2087-2094	similar	abstract[150]	new[150]	nonsal[150]	_	_	_
+17-11	2095-2097	to	abstract[150]	new[150]	nonsal[150]	_	_	_
+17-12	2098-2107	sentences	abstract[150]|abstract[151]	new[150]|giv[151]	nonsal[150]|nonsal[151]	_	_	_
+17-13	2108-2111	and	_	_	_	_	_	_	_
+17-14	2112-2121	sentences	abstract[152]	new[152]	nonsal[152]	_	_	_
+17-15	2122-2124	in	abstract[152]	new[152]	nonsal[152]	_	_	_
+17-16	2125-2134	formation	abstract[152]|abstract[153]	new[152]|new[153]	nonsal[152]|nonsal[153]	_	_	_
+17-17	2135-2136	,	abstract[152]	new[152]	nonsal[152]	_	_	_
+17-18	2137-2139	in	abstract[152]	new[152]	nonsal[152]	_	_	_
+17-19	2140-2145	which	abstract[152]	new[152]	nonsal[152]	_	_	_
+17-20	2146-2149	two	abstract[152]|abstract[154]	new[152]|new[154]	nonsal[152]|nonsal[154]	_	_	_
+17-21	2150-2158	concepts	abstract[152]|abstract[154]	new[152]|new[154]	nonsal[152]|nonsal[154]	_	_	_
+17-22	2159-2162	are	abstract[152]	new[152]	nonsal[152]	_	_	_
+17-23	2163-2172	expressed	abstract[152]	new[152]	nonsal[152]	_	_	_
+17-24	2173-2175	in	abstract[152]	new[152]	nonsal[152]	_	_	_
+17-25	2176-2179	one	abstract[152]|abstract[155]	new[152]|new[155]	nonsal[152]|nonsal[155]	_	_	_
+17-26	2180-2184	unit	abstract[152]|abstract[155]	new[152]|new[155]	nonsal[152]|nonsal[155]	_	_	_
+17-27	2185-2186	;	_	_	_	_	_	_	_
+17-28	2187-2191	e.g.	_	_	_	_	_	_	_
+17-29	2192-2193	,	_	_	_	_	_	_	_
+17-30	2194-2196	it	_	_	_	_	_	_	_
+17-31	2197-2203	rained	_	_	_	_	_	_	_
+17-32	2204-2205	,	_	_	_	_	_	_	_
+17-33	2206-2208	he	person[156]	acc[156]	nonsal[156]	_	_	_
+17-34	2209-2212	ran	_	_	_	_	_	_	_
+17-35	2213-2220	indoors	_	_	_	_	_	_	_
+17-36	2221-2222	.	_	_	_	_	_	_	_
+
+#Text=This term is qualified by a further concept called a junction which represents one idea , expressed by means of two or more elements , whereas a nexus combines two ideas .
+18-1	2223-2227	This	abstract[157]	giv[157]	nonsal[157]	_	coref	18-27[162_157]
+18-2	2228-2232	term	abstract[157]	giv[157]	nonsal[157]	_	_	_
+18-3	2233-2235	is	_	_	_	_	_	_	_
+18-4	2236-2245	qualified	_	_	_	_	_	_	_
+18-5	2246-2248	by	_	_	_	_	_	_	_
+18-6	2249-2250	a	abstract[158]	new[158]	nonsal[158]	_	coref	18-10[159_158]
+18-7	2251-2258	further	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-8	2259-2266	concept	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-9	2267-2273	called	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-10	2274-2275	a	abstract[158]|abstract[159]	new[158]|giv[159]	nonsal[158]|nonsal[159]	_	coref	19-1[164_159]
+18-11	2276-2284	junction	abstract[158]|abstract[159]	new[158]|giv[159]	nonsal[158]|nonsal[159]	_	_	_
+18-12	2285-2290	which	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-13	2291-2301	represents	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-14	2302-2305	one	abstract[158]|abstract[160]	new[158]|new[160]	nonsal[158]|nonsal[160]	_	_	_
+18-15	2306-2310	idea	abstract[158]|abstract[160]	new[158]|new[160]	nonsal[158]|nonsal[160]	_	_	_
+18-16	2311-2312	,	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-17	2313-2322	expressed	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-18	2323-2325	by	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-19	2326-2331	means	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-20	2332-2334	of	abstract[158]	new[158]	nonsal[158]	_	_	_
+18-21	2335-2338	two	abstract[158]|abstract[161]	new[158]|new[161]	nonsal[158]|nonsal[161]	_	_	_
+18-22	2339-2341	or	abstract[158]|abstract[161]	new[158]|new[161]	nonsal[158]|nonsal[161]	_	_	_
+18-23	2342-2346	more	abstract[158]|abstract[161]	new[158]|new[161]	nonsal[158]|nonsal[161]	_	_	_
+18-24	2347-2355	elements	abstract[158]|abstract[161]	new[158]|new[161]	nonsal[158]|nonsal[161]	_	_	_
+18-25	2356-2357	,	_	_	_	_	_	_	_
+18-26	2358-2365	whereas	_	_	_	_	_	_	_
+18-27	2366-2367	a	abstract[162]	giv[162]	nonsal[162]	_	coref	19-3[165_162]
+18-28	2368-2373	nexus	abstract[162]	giv[162]	nonsal[162]	_	_	_
+18-29	2374-2382	combines	_	_	_	_	_	_	_
+18-30	2383-2386	two	abstract[163]	new[163]	nonsal[163]	_	_	_
+18-31	2387-2392	ideas	abstract[163]	new[163]	nonsal[163]	_	_	_
+18-32	2393-2394	.	_	_	_	_	_	_	_
+
+#Text=Junction and nexus proved valuable in bringing the concept of context to the forefront of the attention of the world of linguistics .
+19-1	2395-2403	Junction	abstract[164]	giv[164]	nonsal[164]	_	_	_
+19-2	2404-2407	and	_	_	_	_	_	_	_
+19-3	2408-2413	nexus	abstract[165]	giv[165]	nonsal[165]	_	coref	24-45[230_165]
+19-4	2414-2420	proved	_	_	_	_	_	_	_
+19-5	2421-2429	valuable	_	_	_	_	_	_	_
+19-6	2430-2432	in	_	_	_	_	_	_	_
+19-7	2433-2441	bringing	_	_	_	_	_	_	_
+19-8	2442-2445	the	abstract[166]	new[166]	nonsal[166]	_	_	_
+19-9	2446-2453	concept	abstract[166]	new[166]	nonsal[166]	_	_	_
+19-10	2454-2456	of	abstract[166]	new[166]	nonsal[166]	_	_	_
+19-11	2457-2464	context	abstract[166]|abstract[167]	new[166]|new[167]	nonsal[166]|nonsal[167]	_	_	_
+19-12	2465-2467	to	_	_	_	_	_	_	_
+19-13	2468-2471	the	place[168]	new[168]	nonsal[168]	_	_	_
+19-14	2472-2481	forefront	place[168]	new[168]	nonsal[168]	_	_	_
+19-15	2482-2484	of	place[168]	new[168]	nonsal[168]	_	_	_
+19-16	2485-2488	the	place[168]|abstract[169]	new[168]|new[169]	nonsal[168]|nonsal[169]	_	_	_
+19-17	2489-2498	attention	place[168]|abstract[169]	new[168]|new[169]	nonsal[168]|nonsal[169]	_	_	_
+19-18	2499-2501	of	place[168]|abstract[169]	new[168]|new[169]	nonsal[168]|nonsal[169]	_	_	_
+19-19	2502-2505	the	place[168]|abstract[169]|abstract[170]	new[168]|new[169]|new[170]	nonsal[168]|nonsal[169]|nonsal[170]	_	_	_
+19-20	2506-2511	world	place[168]|abstract[169]|abstract[170]	new[168]|new[169]|new[170]	nonsal[168]|nonsal[169]|nonsal[170]	_	_	_
+19-21	2512-2514	of	place[168]|abstract[169]|abstract[170]	new[168]|new[169]|new[170]	nonsal[168]|nonsal[169]|nonsal[170]	_	_	_
+19-22	2515-2526	linguistics	place[168]|abstract[169]|abstract[170]|abstract[171]	new[168]|new[169]|new[170]|new[171]	nonsal[168]|nonsal[169]|nonsal[170]|nonsal[171]	_	_	_
+19-23	2527-2528	.	_	_	_	_	_	_	_
+
+#Text=He was most widely recognized for some of his books .
+20-1	2529-2531	He	person[172]	giv[172]	nonsal[172]	Otto_Jespersen[172]	coref	20-9[175_172]
+20-2	2532-2535	was	_	_	_	_	_	_	_
+20-3	2536-2540	most	_	_	_	_	_	_	_
+20-4	2541-2547	widely	_	_	_	_	_	_	_
+20-5	2548-2558	recognized	_	_	_	_	_	_	_
+20-6	2559-2562	for	_	_	_	_	_	_	_
+20-7	2563-2567	some	abstract[173]	new[173]	nonsal[173]	_	_	_
+20-8	2568-2570	of	abstract[173]	new[173]	nonsal[173]	_	_	_
+20-9	2571-2574	his	abstract[173]|abstract[174]|person[175]	new[173]|new[174]|giv[175]	nonsal[173]|sal[174]|nonsal[175]	Otto_Jespersen[175]	coref	21-18[183_175]
+20-10	2575-2580	books	abstract[173]|abstract[174]	new[173]|new[174]	nonsal[173]|sal[174]	_	_	_
+20-11	2581-2582	.	_	_	_	_	_	_	_
+
+#Text=Language : Its Nature , Development and Origin ( 1922 ) is considered by many to be his masterpiece .
+21-1	2583-2591	Language	abstract[176]|abstract[177]	acc[176]|new[177]	sal[176]|sal[177]	_	coref	21-3[179_177]
+21-2	2592-2593	:	abstract[176]	acc[176]	sal[176]	set-member[176]	_	_	_
+21-3	2594-2597	Its	abstract[176]|abstract[178]|abstract[179]	acc[176]|new[178]|giv[179]	sal[176]|sal[178]|nonsal[179]	_	_	_
+21-4	2598-2604	Nature	abstract[176]|abstract[178]	acc[176]|new[178]	sal[176]|sal[178]	_	_	_
+21-5	2605-2606	,	abstract[176]|abstract[178]	acc[176]|new[178]	sal[176]|sal[178]	_	_	_
+21-6	2607-2618	Development	abstract[176]|abstract[178]	acc[176]|new[178]	sal[176]|sal[178]	_	_	_
+21-7	2619-2622	and	abstract[176]|abstract[178]	acc[176]|new[178]	sal[176]|sal[178]	_	_	_
+21-8	2623-2629	Origin	abstract[176]|abstract[178]	acc[176]|new[178]	sal[176]|sal[178]	_	_	_
+21-9	2630-2631	(	_	_	_	_	_	_	_
+21-10	2632-2636	1922	time[180]	acc[180]	sal[180]	_	_	_
+21-11	2637-2638	)	_	_	_	_	_	_	_
+21-12	2639-2641	is	_	_	_	_	_	_	_
+21-13	2642-2652	considered	_	_	_	_	_	_	_
+21-14	2653-2655	by	_	_	_	_	_	_	_
+21-15	2656-2660	many	person[181]	new[181]	nonsal[181]	_	_	_
+21-16	2661-2663	to	_	_	_	_	_	_	_
+21-17	2664-2666	be	_	_	_	_	_	_	_
+21-18	2667-2670	his	abstract[182]|person[183]	new[182]|giv[183]	nonsal[182]|nonsal[183]	Otto_Jespersen[183]	coref	22-37[196_183]
+21-19	2671-2682	masterpiece	abstract[182]	new[182]	nonsal[182]	_	_	_
+21-20	2683-2684	.	_	_	_	_	_	_	_
+
+#Text=Modern English Grammar on Historical Principles ( 1909 – 1949 ) , concentrated on morphology and syntax , and Growth and Structure of the English Language ( 1905 ) is a comprehensive view of English by someone with another native language , and still in print , over 70 years after his death and more than 100 years after publication .
+22-1	2685-2691	Modern	abstract[184]|abstract[185]	acc[184]|giv[185]	nonsal[184]|nonsal[185]	English_language[185]	coref	22-24[192_185]
+22-2	2692-2699	English	abstract[184]|abstract[185]	acc[184]|giv[185]	nonsal[184]|nonsal[185]	English_language[185]	_	_
+22-3	2700-2707	Grammar	abstract[184]	acc[184]	nonsal[184]	set-member[184]	_	_	_
+22-4	2708-2710	on	abstract[184]	acc[184]	nonsal[184]	set-member[184]	_	_	_
+22-5	2711-2721	Historical	abstract[184]|abstract[186]	acc[184]|new[186]	nonsal[184]|nonsal[186]	_	_	_
+22-6	2722-2732	Principles	abstract[184]|abstract[186]	acc[184]|new[186]	nonsal[184]|nonsal[186]	_	_	_
+22-7	2733-2734	(	_	_	_	_	_	_	_
+22-8	2735-2739	1909	time[187]	acc[187]	nonsal[187]	_	_	_
+22-9	2740-2741	–	_	_	_	_	_	_	_
+22-10	2742-2746	1949	time[188]	acc[188]	nonsal[188]	_	_	_
+22-11	2747-2748	)	_	_	_	_	_	_	_
+22-12	2749-2750	,	_	_	_	_	_	_	_
+22-13	2751-2763	concentrated	_	_	_	_	_	_	_
+22-14	2764-2766	on	_	_	_	_	_	_	_
+22-15	2767-2777	morphology	abstract[189]	new[189]	nonsal[189]	_	_	_
+22-16	2778-2781	and	_	_	_	_	_	_	_
+22-17	2782-2788	syntax	abstract[190]	giv[190]	nonsal[190]	_	_	_
+22-18	2789-2790	,	_	_	_	_	_	_	_
+22-19	2791-2794	and	_	_	_	_	_	_	_
+22-20	2795-2801	Growth	abstract[191]	acc[191]	nonsal[191]	set-member[191]	_	coref	22-31[194_191]
+22-21	2802-2805	and	abstract[191]	acc[191]	nonsal[191]	set-member[191]	_	_	_
+22-22	2806-2815	Structure	abstract[191]	acc[191]	nonsal[191]	set-member[191]	_	_	_
+22-23	2816-2818	of	abstract[191]	acc[191]	nonsal[191]	set-member[191]	_	_	_
+22-24	2819-2822	the	abstract[191]|abstract[192]	acc[191]|giv[192]	nonsal[191]|nonsal[192]	English_language[192]	coref	22-35[195_192]
+22-25	2823-2830	English	abstract[191]|abstract[192]	acc[191]|giv[192]	nonsal[191]|nonsal[192]	English_language[192]	_	_
+22-26	2831-2839	Language	abstract[191]|abstract[192]	acc[191]|giv[192]	nonsal[191]|nonsal[192]	English_language[192]	_	_
+22-27	2840-2841	(	_	_	_	_	_	_	_
+22-28	2842-2846	1905	time[193]	acc[193]	nonsal[193]	_	bridge:comparison-time	22-55[201-193]
+22-29	2847-2848	)	_	_	_	_	_	_	_
+22-30	2849-2851	is	_	_	_	_	_	_	_
+22-31	2852-2853	a	abstract[194]	giv[194]	nonsal[194]	_	bridge:entity-associative	22-60[202-194]
+22-32	2854-2867	comprehensive	abstract[194]	giv[194]	nonsal[194]	_	_	_
+22-33	2868-2872	view	abstract[194]	giv[194]	nonsal[194]	_	_	_
+22-34	2873-2875	of	abstract[194]	giv[194]	nonsal[194]	_	_	_
+22-35	2876-2883	English	abstract[194]|abstract[195]	giv[194]|giv[195]	nonsal[194]|nonsal[195]	English_language[195]	_	_
+22-36	2884-2886	by	abstract[194]	giv[194]	nonsal[194]	_	_	_
+22-37	2887-2894	someone	abstract[194]|person[196]	giv[194]|giv[196]	nonsal[194]|nonsal[196]	Otto_Jespersen[196]	coref	22-52[200_196]
+22-38	2895-2899	with	abstract[194]|person[196]	giv[194]|giv[196]	nonsal[194]|nonsal[196]	Otto_Jespersen[196]	_	_
+22-39	2900-2907	another	abstract[194]|person[196]|abstract[197]	giv[194]|giv[196]|giv[197]	nonsal[194]|nonsal[196]|nonsal[197]	Otto_Jespersen[196]	_	_
+22-40	2908-2914	native	abstract[194]|person[196]|abstract[197]	giv[194]|giv[196]|giv[197]	nonsal[194]|nonsal[196]|nonsal[197]	Otto_Jespersen[196]	_	_
+22-41	2915-2923	language	abstract[194]|person[196]|abstract[197]	giv[194]|giv[196]|giv[197]	nonsal[194]|nonsal[196]|nonsal[197]	Otto_Jespersen[196]	_	_
+22-42	2924-2925	,	_	_	_	_	_	_	_
+22-43	2926-2929	and	_	_	_	_	_	_	_
+22-44	2930-2935	still	_	_	_	_	_	_	_
+22-45	2936-2938	in	_	_	_	_	_	_	_
+22-46	2939-2944	print	_	_	_	_	_	_	_
+22-47	2945-2946	,	_	_	_	_	_	_	_
+22-48	2947-2951	over	time[198]	acc[198]	nonsal[198]	comparison-time[198]	_	_	_
+22-49	2952-2954	70	time[198]	acc[198]	nonsal[198]	comparison-time[198]	_	_	_
+22-50	2955-2960	years	time[198]	acc[198]	nonsal[198]	comparison-time[198]	_	_	_
+22-51	2961-2966	after	time[198]	acc[198]	nonsal[198]	comparison-time[198]	_	_	_
+22-52	2967-2970	his	time[198]|event[199]|person[200]	acc[198]|new[199]|giv[200]	nonsal[198]|nonsal[199]|nonsal[200]	Otto_Jespersen[200]	coref	23-3[204_200]
+22-53	2971-2976	death	time[198]|event[199]	acc[198]|new[199]	nonsal[198]|nonsal[199]	_	_	_
+22-54	2977-2980	and	_	_	_	_	_	_	_
+22-55	2981-2985	more	time[201]	acc[201]	nonsal[201]	comparison-time[201]	_	_	_
+22-56	2986-2990	than	time[201]	acc[201]	nonsal[201]	comparison-time[201]	_	_	_
+22-57	2991-2994	100	time[201]	acc[201]	nonsal[201]	comparison-time[201]	_	_	_
+22-58	2995-3000	years	time[201]	acc[201]	nonsal[201]	comparison-time[201]	_	_	_
+22-59	3001-3006	after	time[201]	acc[201]	nonsal[201]	comparison-time[201]	_	_	_
+22-60	3007-3018	publication	time[201]|event[202]	acc[201]|acc[202]	nonsal[201]|nonsal[202]	comparison-time[201]|entity-associative[202]	_	_	_
+22-61	3019-3020	.	_	_	_	_	_	_	_
+
+#Text=Late in his life he published Analytic Syntax ( 1937 ) , in which he presents his views on syntactic structure using an idiosyncratic shorthand notation .
+23-1	3021-3025	Late	_	_	_	_	_	_	_
+23-2	3026-3028	in	_	_	_	_	_	_	_
+23-3	3029-3032	his	abstract[203]|person[204]	new[203]|giv[204]	nonsal[203]|nonsal[204]	Otto_Jespersen[204]	coref	23-5[205_204]
+23-4	3033-3037	life	abstract[203]	new[203]	nonsal[203]	_	_	_
+23-5	3038-3040	he	person[205]	giv[205]	nonsal[205]	_	coref	23-15[208_205]
+23-6	3041-3050	published	_	_	_	_	_	_	_
+23-7	3051-3059	Analytic	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-8	3060-3066	Syntax	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-9	3067-3068	(	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-10	3069-3073	1937	abstract[206]|time[207]	acc[206]|acc[207]	nonsal[206]|nonsal[207]	_	_	_
+23-11	3074-3075	)	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-12	3076-3077	,	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-13	3078-3080	in	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-14	3081-3086	which	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-15	3087-3089	he	abstract[206]|person[208]	acc[206]|giv[208]	nonsal[206]|nonsal[208]	_	coref	23-17[210_208]
+23-16	3090-3098	presents	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-17	3099-3102	his	abstract[206]|abstract[209]|person[210]	acc[206]|new[209]|giv[210]	nonsal[206]|nonsal[209]|nonsal[210]	Otto_Jespersen[210]	coref	24-9[217_210]
+23-18	3103-3108	views	abstract[206]|abstract[209]	acc[206]|new[209]	nonsal[206]|nonsal[209]	_	_	_
+23-19	3109-3111	on	abstract[206]|abstract[209]	acc[206]|new[209]	nonsal[206]|nonsal[209]	_	_	_
+23-20	3112-3121	syntactic	abstract[206]|abstract[209]|abstract[211]	acc[206]|new[209]|new[211]	nonsal[206]|nonsal[209]|nonsal[211]	_	_	_
+23-21	3122-3131	structure	abstract[206]|abstract[209]|abstract[211]	acc[206]|new[209]|new[211]	nonsal[206]|nonsal[209]|nonsal[211]	_	_	_
+23-22	3132-3137	using	abstract[206]	acc[206]	nonsal[206]	set-member[206]	_	_	_
+23-23	3138-3140	an	abstract[206]|abstract[212]	acc[206]|new[212]	nonsal[206]|nonsal[212]	_	_	_
+23-24	3141-3154	idiosyncratic	abstract[206]|abstract[212]	acc[206]|new[212]	nonsal[206]|nonsal[212]	_	_	_
+23-25	3155-3164	shorthand	abstract[206]|abstract[212]|abstract[213]	acc[206]|new[212]|new[213]	nonsal[206]|nonsal[212]|nonsal[213]	_	_	_
+23-26	3165-3173	notation	abstract[206]|abstract[212]	acc[206]|new[212]	nonsal[206]|nonsal[212]	_	_	_
+23-27	3174-3175	.	_	_	_	_	_	_	_
+
+#Text=In The Philosophy of Grammar ( 1924 ) he challenged the accepted views of common concepts in Grammar and proposed corrections to the basic definitions of grammatical case , pronoun , object , voice etc. , and developed further his notions of Rank and Nexus .
+24-1	3176-3178	In	_	_	_	_	_	_	_
+24-2	3179-3182	The	abstract[214]	acc[214]	nonsal[214]	set-member[214]	_	coref	25-5[232_214]
+24-3	3183-3193	Philosophy	abstract[214]	acc[214]	nonsal[214]	set-member[214]	_	_	_
+24-4	3194-3196	of	abstract[214]	acc[214]	nonsal[214]	set-member[214]	_	_	_
+24-5	3197-3204	Grammar	abstract[214]|abstract[215]	acc[214]|new[215]	nonsal[214]|nonsal[215]	Grammar[215]	coref	24-18[220_215]
+24-6	3205-3206	(	_	_	_	_	_	_	_
+24-7	3207-3211	1924	time[216]	acc[216]	nonsal[216]	_	_	_
+24-8	3212-3213	)	_	_	_	_	_	_	_
+24-9	3214-3216	he	person[217]	giv[217]	nonsal[217]	_	coref	24-40[228_217]
+24-10	3217-3227	challenged	_	_	_	_	_	_	_
+24-11	3228-3231	the	abstract[218]	new[218]	nonsal[218]	_	_	_
+24-12	3232-3240	accepted	abstract[218]	new[218]	nonsal[218]	_	_	_
+24-13	3241-3246	views	abstract[218]	new[218]	nonsal[218]	_	_	_
+24-14	3247-3249	of	abstract[218]	new[218]	nonsal[218]	_	_	_
+24-15	3250-3256	common	abstract[218]|abstract[219]	new[218]|new[219]	nonsal[218]|nonsal[219]	_	_	_
+24-16	3257-3265	concepts	abstract[218]|abstract[219]	new[218]|new[219]	nonsal[218]|nonsal[219]	_	_	_
+24-17	3266-3268	in	abstract[218]|abstract[219]	new[218]|new[219]	nonsal[218]|nonsal[219]	_	_	_
+24-18	3269-3276	Grammar	abstract[218]|abstract[219]|abstract[220]	new[218]|new[219]|giv[220]	nonsal[218]|nonsal[219]|nonsal[220]	Grammar[220]	_	_
+24-19	3277-3280	and	_	_	_	_	_	_	_
+24-20	3281-3289	proposed	_	_	_	_	_	_	_
+24-21	3290-3301	corrections	abstract[221]	new[221]	nonsal[221]	_	_	_
+24-22	3302-3304	to	abstract[221]	new[221]	nonsal[221]	_	_	_
+24-23	3305-3308	the	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	_	_
+24-24	3309-3314	basic	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	_	_
+24-25	3315-3326	definitions	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	_	_
+24-26	3327-3329	of	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	_	_
+24-27	3330-3341	grammatical	abstract[221]|abstract[222]|abstract[223]	new[221]|new[222]|giv[223]	nonsal[221]|nonsal[222]|nonsal[223]	_	_	_
+24-28	3342-3346	case	abstract[221]|abstract[222]|abstract[223]	new[221]|new[222]|giv[223]	nonsal[221]|nonsal[222]|nonsal[223]	_	_	_
+24-29	3347-3348	,	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	_	_
+24-30	3349-3356	pronoun	abstract[221]|abstract[222]|abstract[224]	new[221]|new[222]|new[224]	nonsal[221]|nonsal[222]|nonsal[224]	_	_	_
+24-31	3357-3358	,	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	_	_
+24-32	3359-3365	object	abstract[221]|abstract[222]|abstract[225]	new[221]|new[222]|new[225]	nonsal[221]|nonsal[222]|nonsal[225]	_	_	_
+24-33	3366-3367	,	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	_	_
+24-34	3368-3373	voice	abstract[221]|abstract[222]|abstract[226]	new[221]|new[222]|new[226]	nonsal[221]|nonsal[222]|nonsal[226]	_	_	_
+24-35	3374-3378	etc.	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	_	_
+24-36	3379-3380	,	_	_	_	_	_	_	_
+24-37	3381-3384	and	_	_	_	_	_	_	_
+24-38	3385-3394	developed	_	_	_	_	_	_	_
+24-39	3395-3402	further	_	_	_	_	_	_	_
+24-40	3403-3406	his	abstract[227]|person[228]	new[227]|giv[228]	nonsal[227]|nonsal[228]	Otto_Jespersen[228]	coref	27-1[245_228]
+24-41	3407-3414	notions	abstract[227]	new[227]	nonsal[227]	_	_	_
+24-42	3415-3417	of	abstract[227]	new[227]	nonsal[227]	_	_	_
+24-43	3418-3422	Rank	abstract[227]|abstract[229]	new[227]|giv[229]	nonsal[227]|nonsal[229]	_	_	_
+24-44	3423-3426	and	abstract[227]	new[227]	nonsal[227]	_	_	_
+24-45	3427-3432	Nexus	abstract[227]|abstract[230]	new[227]|giv[230]	nonsal[227]|nonsal[230]	_	_	_
+24-46	3433-3434	.	_	_	_	_	_	_	_
+
+#Text=In the 21st century this book is still used as one of the basic texts in modern Structural linguistics .
+25-1	3435-3437	In	_	_	_	_	_	_	_
+25-2	3438-3441	the	time[231]	acc[231]	nonsal[231]	_	_	_
+25-3	3442-3446	21st	time[231]	acc[231]	nonsal[231]	_	_	_
+25-4	3447-3454	century	time[231]	acc[231]	nonsal[231]	_	_	_
+25-5	3455-3459	this	abstract[232]	giv[232]	nonsal[232]	_	_	_
+25-6	3460-3464	book	abstract[232]	giv[232]	nonsal[232]	_	_	_
+25-7	3465-3467	is	_	_	_	_	_	_	_
+25-8	3468-3473	still	_	_	_	_	_	_	_
+25-9	3474-3478	used	_	_	_	_	_	_	_
+25-10	3479-3481	as	_	_	_	_	_	_	_
+25-11	3482-3485	one	abstract[233]	new[233]	nonsal[233]	_	_	_
+25-12	3486-3488	of	abstract[233]	new[233]	nonsal[233]	_	_	_
+25-13	3489-3492	the	abstract[233]|abstract[234]	new[233]|new[234]	nonsal[233]|nonsal[234]	_	_	_
+25-14	3493-3498	basic	abstract[233]|abstract[234]	new[233]|new[234]	nonsal[233]|nonsal[234]	_	_	_
+25-15	3499-3504	texts	abstract[233]|abstract[234]	new[233]|new[234]	nonsal[233]|nonsal[234]	_	_	_
+25-16	3505-3507	in	abstract[233]|abstract[234]	new[233]|new[234]	nonsal[233]|nonsal[234]	_	_	_
+25-17	3508-3514	modern	abstract[233]|abstract[234]|abstract[235]	new[233]|new[234]|new[235]	nonsal[233]|nonsal[234]|nonsal[235]	_	_	_
+25-18	3515-3525	Structural	abstract[233]|abstract[234]|abstract[235]	new[233]|new[234]|new[235]	nonsal[233]|nonsal[234]|nonsal[235]	_	_	_
+25-19	3526-3537	linguistics	abstract[233]|abstract[234]|abstract[235]	new[233]|new[234]|new[235]	nonsal[233]|nonsal[234]|nonsal[235]	_	_	_
+25-20	3538-3539	.	_	_	_	_	_	_	_
+
+#Text=Mankind , Nation and Individual : from a linguistic point of view ( 1925 ) is one of the pioneering works on Sociolinguistics .
+26-1	3540-3547	Mankind	abstract[236]|person[237]	acc[236]|new[237]	nonsal[236]|nonsal[237]	Mankind[237]	coref	26-17[242_236]
+26-2	3548-3549	,	abstract[236]	acc[236]	nonsal[236]	set-member[236]	_	_	_
+26-3	3550-3556	Nation	abstract[236]|organization[238]	acc[236]|new[238]	nonsal[236]|nonsal[238]	Nation[238]	_	_
+26-4	3557-3560	and	abstract[236]	acc[236]	nonsal[236]	set-member[236]	_	_	_
+26-5	3561-3571	Individual	abstract[236]|person[239]	acc[236]|new[239]	nonsal[236]|nonsal[239]	Individual[239]	_	_
+26-6	3572-3573	:	abstract[236]	acc[236]	nonsal[236]	set-member[236]	_	_	_
+26-7	3574-3578	from	abstract[236]	acc[236]	nonsal[236]	set-member[236]	_	_	_
+26-8	3579-3580	a	abstract[236]|abstract[240]	acc[236]|new[240]	nonsal[236]|nonsal[240]	_	_	_
+26-9	3581-3591	linguistic	abstract[236]|abstract[240]	acc[236]|new[240]	nonsal[236]|nonsal[240]	_	_	_
+26-10	3592-3597	point	abstract[236]|abstract[240]	acc[236]|new[240]	nonsal[236]|nonsal[240]	_	_	_
+26-11	3598-3600	of	abstract[236]|abstract[240]	acc[236]|new[240]	nonsal[236]|nonsal[240]	_	_	_
+26-12	3601-3605	view	abstract[236]|abstract[240]	acc[236]|new[240]	nonsal[236]|nonsal[240]	_	_	_
+26-13	3606-3607	(	_	_	_	_	_	_	_
+26-14	3608-3612	1925	time[241]	giv[241]	nonsal[241]	_	coref	34-5[290_241]
+26-15	3613-3614	)	_	_	_	_	_	_	_
+26-16	3615-3617	is	_	_	_	_	_	_	_
+26-17	3618-3621	one	abstract[242]	giv[242]	nonsal[242]	_	_	_
+26-18	3622-3624	of	abstract[242]	giv[242]	nonsal[242]	_	_	_
+26-19	3625-3628	the	abstract[242]|abstract[243]	giv[242]|new[243]	nonsal[242]|nonsal[243]	_	_	_
+26-20	3629-3639	pioneering	abstract[242]|abstract[243]	giv[242]|new[243]	nonsal[242]|nonsal[243]	_	_	_
+26-21	3640-3645	works	abstract[242]|abstract[243]	giv[242]|new[243]	nonsal[242]|nonsal[243]	_	_	_
+26-22	3646-3648	on	abstract[242]|abstract[243]	giv[242]|new[243]	nonsal[242]|nonsal[243]	_	_	_
+26-23	3649-3665	Sociolinguistics	abstract[242]|abstract[243]|abstract[244]	giv[242]|new[243]|new[244]	nonsal[242]|nonsal[243]|nonsal[244]	_	_	_
+26-24	3666-3667	.	_	_	_	_	_	_	_
+
+#Text=Jespersen visited the United States twice :
+27-1	3668-3677	Jespersen	person[245]	giv[245]	nonsal[245]	Otto_Jespersen[245]	coref	28-1[247_245]
+27-2	3678-3685	visited	_	_	_	_	_	_	_
+27-3	3686-3689	the	place[246]	acc[246]	nonsal[246]	United_States[246]	coref	29-3[259_246]
+27-4	3690-3696	United	place[246]	acc[246]	nonsal[246]	United_States[246]	_	_
+27-5	3697-3703	States	place[246]	acc[246]	nonsal[246]	United_States[246]	_	_
+27-6	3704-3709	twice	_	_	_	_	_	_	_
+27-7	3710-3711	:	_	_	_	_	_	_	_
+
+#Text=he lectured at the Congress of Arts and Sciences in St. Louis in 1904 , and in 1909 – 1910 he visited both the University of California and Columbia University .
+28-1	3712-3714	he	person[247]	giv[247]	nonsal[247]	_	coref	28-21[255_247]
+28-2	3715-3723	lectured	_	_	_	_	_	_	_
+28-3	3724-3726	at	_	_	_	_	_	_	_
+28-4	3727-3730	the	organization[248]	new[248]	nonsal[248]	_	_	_
+28-5	3731-3739	Congress	organization[248]	new[248]	nonsal[248]	_	_	_
+28-6	3740-3742	of	organization[248]	new[248]	nonsal[248]	_	_	_
+28-7	3743-3747	Arts	organization[248]|abstract[249]	new[248]|new[249]	nonsal[248]|nonsal[249]	The_arts[249]	_	_
+28-8	3748-3751	and	organization[248]	new[248]	nonsal[248]	_	_	_
+28-9	3752-3760	Sciences	organization[248]|abstract[250]	new[248]|new[250]	nonsal[248]|nonsal[250]	Science[250]	_	_
+28-10	3761-3763	in	organization[248]	new[248]	nonsal[248]	_	_	_
+28-11	3764-3767	St.	organization[248]|place[251]	new[248]|new[251]	nonsal[248]|nonsal[251]	St._Louis[251]	_	_
+28-12	3768-3773	Louis	organization[248]|place[251]	new[248]|new[251]	nonsal[248]|nonsal[251]	St._Louis[251]	_	_
+28-13	3774-3776	in	_	_	_	_	_	_	_
+28-14	3777-3781	1904	time[252]	acc[252]	nonsal[252]	_	_	_
+28-15	3782-3783	,	_	_	_	_	_	_	_
+28-16	3784-3787	and	_	_	_	_	_	_	_
+28-17	3788-3790	in	_	_	_	_	_	_	_
+28-18	3791-3795	1909	time[253]	acc[253]	nonsal[253]	_	_	_
+28-19	3796-3797	–	_	_	_	_	_	_	_
+28-20	3798-3802	1910	time[254]	acc[254]	nonsal[254]	_	coref	39-12[322_254]
+28-21	3803-3805	he	person[255]	giv[255]	nonsal[255]	_	coref	29-6[260_255]
+28-22	3806-3813	visited	_	_	_	_	_	_	_
+28-23	3814-3818	both	_	_	_	_	_	_	_
+28-24	3819-3822	the	organization[256]	new[256]	nonsal[256]	University_of_California[256]	_	_
+28-25	3823-3833	University	organization[256]	new[256]	nonsal[256]	University_of_California[256]	_	_
+28-26	3834-3836	of	organization[256]	new[256]	nonsal[256]	University_of_California[256]	_	_
+28-27	3837-3847	California	organization[256]|place[257]	new[256]|new[257]	nonsal[256]|nonsal[257]	University_of_California[256]|California[257]	_	_
+28-28	3848-3851	and	_	_	_	_	_	_	_
+28-29	3852-3860	Columbia	organization[258]	new[258]	nonsal[258]	Columbia_University[258]	coref	39-6[320_258]
+28-30	3861-3871	University	organization[258]	new[258]	nonsal[258]	Columbia_University[258]	_	_
+28-31	3872-3873	.	_	_	_	_	_	_	_
+
+#Text=While in the U.S. , he took occasion to study the country 's educational system .
+29-1	3874-3879	While	_	_	_	_	_	_	_
+29-2	3880-3882	in	_	_	_	_	_	_	_
+29-3	3883-3886	the	place[259]	giv[259]	nonsal[259]	United_States[259]	coref	29-11[262_259]
+29-4	3887-3891	U.S.	place[259]	giv[259]	nonsal[259]	United_States[259]	_	_
+29-5	3892-3893	,	_	_	_	_	_	_	_
+29-6	3894-3896	he	person[260]	giv[260]	nonsal[260]	_	coref	30-1[264_260]
+29-7	3897-3901	took	_	_	_	_	_	_	_
+29-8	3902-3910	occasion	_	_	_	_	_	_	_
+29-9	3911-3913	to	_	_	_	_	_	_	_
+29-10	3914-3919	study	_	_	_	_	_	_	_
+29-11	3920-3923	the	abstract[261]|place[262]	new[261]|giv[262]	nonsal[261]|nonsal[262]	_	coref	40-21[334_262]
+29-12	3924-3931	country	abstract[261]|place[262]	new[261]|giv[262]	nonsal[261]|nonsal[262]	_	_	_
+29-13	3932-3934	's	abstract[261]|place[262]	new[261]|giv[262]	nonsal[261]|nonsal[262]	_	_	_
+29-14	3935-3946	educational	abstract[261]	new[261]	nonsal[261]	_	_	_
+29-15	3947-3953	system	abstract[261]	new[261]	nonsal[261]	_	_	_
+29-16	3954-3955	.	_	_	_	_	_	_	_
+
+#Text=His autobiography ( see below ) was published in English translation as recently as 1995 .
+30-1	3956-3959	His	abstract[263]|person[264]	new[263]|giv[264]	nonsal[263]|nonsal[264]	Otto_Jespersen[264]	coref	31-1[267_264]
+30-2	3960-3973	autobiography	abstract[263]	new[263]	nonsal[263]	_	_	_
+30-3	3974-3975	(	_	_	_	_	_	_	_
+30-4	3976-3979	see	_	_	_	_	_	_	_
+30-5	3980-3985	below	_	_	_	_	_	_	_
+30-6	3986-3987	)	_	_	_	_	_	_	_
+30-7	3988-3991	was	_	_	_	_	_	_	_
+30-8	3992-4001	published	_	_	_	_	_	_	_
+30-9	4002-4004	in	_	_	_	_	_	_	_
+30-10	4005-4012	English	abstract[265]	new[265]	nonsal[265]	_	_	_
+30-11	4013-4024	translation	abstract[265]	new[265]	nonsal[265]	_	_	_
+30-12	4025-4027	as	_	_	_	_	_	_	_
+30-13	4028-4036	recently	_	_	_	_	_	_	_
+30-14	4037-4039	as	_	_	_	_	_	_	_
+30-15	4040-4044	1995	time[266]	acc[266]	nonsal[266]	_	_	_
+30-16	4045-4046	.	_	_	_	_	_	_	_
+
+#Text=Jespersen was a proponent of phonosemanticism and wrote :
+31-1	4047-4056	Jespersen	person[267]	giv[267]	nonsal[267]	Otto_Jespersen[267]	coref	31-3[268_267]
+31-2	4057-4060	was	_	_	_	_	_	_	_
+31-3	4061-4062	a	person[268]	giv[268]	nonsal[268]	Otto_Jespersen[268]	coref	34-2[289_268]
+31-4	4063-4072	proponent	person[268]	giv[268]	nonsal[268]	Otto_Jespersen[268]	_	_
+31-5	4073-4075	of	person[268]	giv[268]	nonsal[268]	Otto_Jespersen[268]	_	_
+31-6	4076-4092	phonosemanticism	person[268]|abstract[269]	giv[268]|new[269]	nonsal[268]|nonsal[269]	Otto_Jespersen[268]	bridge:comparison-relative|bridge:comparison-relative	32-5[270-269]|32-9[271-269]
+31-7	4093-4096	and	_	_	_	_	_	_	_
+31-8	4097-4102	wrote	_	_	_	_	_	_	_
+31-9	4103-4104	:	_	_	_	_	_	_	_
+
+#Text=“ Is there really much more logic in the opposite extreme which denies any kind of sound symbolism ( apart from the small class of evident echoisms and ‘ onomatopoeia ’ ) and sees in our words only a collection of accidental and irrational associations of sound and meaning ? ...
+32-1	4105-4106	“	_	_	_	_	_	_	_
+32-2	4107-4109	Is	_	_	_	_	_	_	_
+32-3	4110-4115	there	_	_	_	_	_	_	_
+32-4	4116-4122	really	_	_	_	_	_	_	_
+32-5	4123-4127	much	abstract[270]	new[270]	nonsal[270]	comparison-ellipsis[270]	_	_	_
+32-6	4128-4132	more	abstract[270]	new[270]	nonsal[270]	comparison-ellipsis[270]	_	_	_
+32-7	4133-4138	logic	abstract[270]	new[270]	nonsal[270]	comparison-ellipsis[270]	_	_	_
+32-8	4139-4141	in	_	_	_	_	_	_	_
+32-9	4142-4145	the	abstract[271]	new[271]	nonsal[271]	comparison-ellipsis[271]	_	_	_
+32-10	4146-4154	opposite	abstract[271]	new[271]	nonsal[271]	comparison-ellipsis[271]	_	_	_
+32-11	4155-4162	extreme	abstract[271]	new[271]	nonsal[271]	comparison-ellipsis[271]	_	_	_
+32-12	4163-4168	which	abstract[271]	new[271]	nonsal[271]	comparison-ellipsis[271]	_	_	_
+32-13	4169-4175	denies	abstract[271]	new[271]	nonsal[271]	comparison-ellipsis[271]	_	_	_
+32-14	4176-4179	any	abstract[271]|abstract[272]	new[271]|new[272]	nonsal[271]|nonsal[272]	_	_	_
+32-15	4180-4184	kind	abstract[271]|abstract[272]	new[271]|new[272]	nonsal[271]|nonsal[272]	_	_	_
+32-16	4185-4187	of	abstract[271]|abstract[272]	new[271]|new[272]	nonsal[271]|nonsal[272]	_	_	_
+32-17	4188-4193	sound	abstract[271]|abstract[272]|abstract[273]	new[271]|new[272]|new[273]	nonsal[271]|nonsal[272]|nonsal[273]	_	coref	32-47[281_273]
+32-18	4194-4203	symbolism	abstract[271]|abstract[272]	new[271]|new[272]	nonsal[271]|nonsal[272]	_	_	_
+32-19	4204-4205	(	abstract[271]|abstract[272]	new[271]|new[272]	nonsal[271]|nonsal[272]	_	_	_
+32-20	4206-4211	apart	abstract[271]|abstract[272]	new[271]|new[272]	nonsal[271]|nonsal[272]	_	_	_
+32-21	4212-4216	from	abstract[271]|abstract[272]	new[271]|new[272]	nonsal[271]|nonsal[272]	_	_	_
+32-22	4217-4220	the	abstract[271]|abstract[272]|abstract[274]	new[271]|new[272]|new[274]	nonsal[271]|nonsal[272]|nonsal[274]	_	_	_
+32-23	4221-4226	small	abstract[271]|abstract[272]|abstract[274]	new[271]|new[272]|new[274]	nonsal[271]|nonsal[272]|nonsal[274]	_	_	_
+32-24	4227-4232	class	abstract[271]|abstract[272]|abstract[274]	new[271]|new[272]|new[274]	nonsal[271]|nonsal[272]|nonsal[274]	_	_	_
+32-25	4233-4235	of	abstract[271]|abstract[272]|abstract[274]	new[271]|new[272]|new[274]	nonsal[271]|nonsal[272]|nonsal[274]	_	_	_
+32-26	4236-4243	evident	abstract[271]|abstract[272]|abstract[274]|abstract[275]	new[271]|new[272]|new[274]|new[275]	nonsal[271]|nonsal[272]|nonsal[274]|nonsal[275]	_	_	_
+32-27	4244-4252	echoisms	abstract[271]|abstract[272]|abstract[274]|abstract[275]	new[271]|new[272]|new[274]|new[275]	nonsal[271]|nonsal[272]|nonsal[274]|nonsal[275]	_	_	_
+32-28	4253-4256	and	abstract[271]|abstract[272]|abstract[274]	new[271]|new[272]|new[274]	nonsal[271]|nonsal[272]|nonsal[274]	_	_	_
+32-29	4257-4258	‘	abstract[271]|abstract[272]|abstract[274]	new[271]|new[272]|new[274]	nonsal[271]|nonsal[272]|nonsal[274]	_	_	_
+32-30	4259-4271	onomatopoeia	abstract[271]|abstract[272]|abstract[274]|abstract[276]	new[271]|new[272]|new[274]|new[276]	nonsal[271]|nonsal[272]|nonsal[274]|nonsal[276]	_	_	_
+32-31	4272-4273	’	abstract[271]|abstract[272]|abstract[274]	new[271]|new[272]|new[274]	nonsal[271]|nonsal[272]|nonsal[274]	_	_	_
+32-32	4274-4275	)	abstract[271]|abstract[272]	new[271]|new[272]	nonsal[271]|nonsal[272]	_	_	_
+32-33	4276-4279	and	_	_	_	_	_	_	_
+32-34	4280-4284	sees	_	_	_	_	_	_	_
+32-35	4285-4287	in	_	_	_	_	_	_	_
+32-36	4288-4291	our	abstract[277]|person[278]	new[277]|acc[278]	nonsal[277]|nonsal[278]	_	coref	33-10[285_278]
+32-37	4292-4297	words	abstract[277]	new[277]	nonsal[277]	_	_	_
+32-38	4298-4302	only	_	_	_	_	_	_	_
+32-39	4303-4304	a	abstract[279]	new[279]	nonsal[279]	_	_	_
+32-40	4305-4315	collection	abstract[279]	new[279]	nonsal[279]	_	_	_
+32-41	4316-4318	of	abstract[279]	new[279]	nonsal[279]	_	_	_
+32-42	4319-4329	accidental	abstract[279]|abstract[280]	new[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_
+32-43	4330-4333	and	abstract[279]|abstract[280]	new[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_
+32-44	4334-4344	irrational	abstract[279]|abstract[280]	new[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_
+32-45	4345-4357	associations	abstract[279]|abstract[280]	new[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_
+32-46	4358-4360	of	abstract[279]|abstract[280]	new[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_
+32-47	4361-4366	sound	abstract[279]|abstract[280]|abstract[281]	new[279]|new[280]|giv[281]	nonsal[279]|nonsal[280]|nonsal[281]	_	_	_
+32-48	4367-4370	and	abstract[279]|abstract[280]	new[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_
+32-49	4371-4378	meaning	abstract[279]|abstract[280]|abstract[282]	new[279]|new[280]|new[282]	nonsal[279]|nonsal[280]|nonsal[282]	_	_	_
+32-50	4379-4380	?	_	_	_	_	_	_	_
+32-51	4381-4384	...	_	_	_	_	_	_	_
+
+#Text=There is no denying that there are words which we feel instinctively to be adequate to express the ideas they stand for . ”
+33-1	4385-4390	There	_	_	_	_	_	_	_
+33-2	4391-4393	is	_	_	_	_	_	_	_
+33-3	4394-4396	no	event[283]	new[283]	nonsal[283]	_	_	_
+33-4	4397-4404	denying	event[283]	new[283]	nonsal[283]	_	_	_
+33-5	4405-4409	that	event[283]	new[283]	nonsal[283]	_	_	_
+33-6	4410-4415	there	event[283]	new[283]	nonsal[283]	_	_	_
+33-7	4416-4419	are	event[283]	new[283]	nonsal[283]	_	_	_
+33-8	4420-4425	words	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	coref	33-20[287_284]
+33-9	4426-4431	which	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	_	_
+33-10	4432-4434	we	event[283]|abstract[284]|person[285]	new[283]|new[284]|giv[285]	nonsal[283]|nonsal[284]|nonsal[285]	_	_	_
+33-11	4435-4439	feel	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	_	_
+33-12	4440-4453	instinctively	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	_	_
+33-13	4454-4456	to	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	_	_
+33-14	4457-4459	be	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	_	_
+33-15	4460-4468	adequate	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	_	_
+33-16	4469-4471	to	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	_	_
+33-17	4472-4479	express	event[283]|abstract[284]	new[283]|new[284]	nonsal[283]|nonsal[284]	_	_	_
+33-18	4480-4483	the	event[283]|abstract[284]|abstract[286]	new[283]|new[284]|new[286]	nonsal[283]|nonsal[284]|nonsal[286]	_	_	_
+33-19	4484-4489	ideas	event[283]|abstract[284]|abstract[286]	new[283]|new[284]|new[286]	nonsal[283]|nonsal[284]|nonsal[286]	_	_	_
+33-20	4490-4494	they	event[283]|abstract[284]|abstract[286]|abstract[287]	new[283]|new[284]|new[286]|giv[287]	nonsal[283]|nonsal[284]|nonsal[286]|nonsal[287]	_	_	_
+33-21	4495-4500	stand	event[283]|abstract[284]|abstract[286]	new[283]|new[284]|new[286]	nonsal[283]|nonsal[284]|nonsal[286]	_	_	_
+33-22	4501-4504	for	event[283]|abstract[284]|abstract[286]	new[283]|new[284]|new[286]	nonsal[283]|nonsal[284]|nonsal[286]	_	_	_
+33-23	4505-4506	.	_	_	_	_	_	_	_
+33-24	4507-4508	”	_	_	_	_	_	_	_
+
+#Text=After his retirement in 1925 , Jespersen remained active in the international linguistic community .
+34-1	4509-4514	After	_	_	_	_	_	_	_
+34-2	4515-4518	his	event[288]|person[289]	new[288]|giv[289]	nonsal[288]|nonsal[289]	Otto_Jespersen[289]	coref	34-7[291_289]
+34-3	4519-4529	retirement	event[288]	new[288]	nonsal[288]	_	_	_
+34-4	4530-4532	in	event[288]	new[288]	nonsal[288]	_	_	_
+34-5	4533-4537	1925	event[288]|time[290]	new[288]|giv[290]	nonsal[288]|nonsal[290]	_	coref	39-21[325_290]
+34-6	4538-4539	,	_	_	_	_	_	_	_
+34-7	4540-4549	Jespersen	person[291]	giv[291]	nonsal[291]	Otto_Jespersen[291]	coref	35-8[293_291]
+34-8	4550-4558	remained	_	_	_	_	_	_	_
+34-9	4559-4565	active	_	_	_	_	_	_	_
+34-10	4566-4568	in	_	_	_	_	_	_	_
+34-11	4569-4572	the	organization[292]	new[292]	nonsal[292]	_	_	_
+34-12	4573-4586	international	organization[292]	new[292]	nonsal[292]	_	_	_
+34-13	4587-4597	linguistic	organization[292]	new[292]	nonsal[292]	_	_	_
+34-14	4598-4607	community	organization[292]	new[292]	nonsal[292]	_	_	_
+34-15	4608-4609	.	_	_	_	_	_	_	_
+
+#Text=In addition to continuing to write , he convened and chaired the first International Meeting on Linguistic Research in Geneva in 1930 , and acted as president of the Fourth International Congress of Linguists in Copenhagen in 1936 .
+35-1	4610-4612	In	_	_	_	_	_	_	_
+35-2	4613-4621	addition	_	_	_	_	_	_	_
+35-3	4622-4624	to	_	_	_	_	_	_	_
+35-4	4625-4635	continuing	_	_	_	_	_	_	_
+35-5	4636-4638	to	_	_	_	_	_	_	_
+35-6	4639-4644	write	_	_	_	_	_	_	_
+35-7	4645-4646	,	_	_	_	_	_	_	_
+35-8	4647-4649	he	person[293]	giv[293]	nonsal[293]	_	coref	35-27[298_293]
+35-9	4650-4658	convened	_	_	_	_	_	_	_
+35-10	4659-4662	and	_	_	_	_	_	_	_
+35-11	4663-4670	chaired	_	_	_	_	_	_	_
+35-12	4671-4674	the	event[294]	new[294]	nonsal[294]	_	_	_
+35-13	4675-4680	first	event[294]	new[294]	nonsal[294]	_	_	_
+35-14	4681-4694	International	event[294]	new[294]	nonsal[294]	_	_	_
+35-15	4695-4702	Meeting	event[294]	new[294]	nonsal[294]	_	_	_
+35-16	4703-4705	on	event[294]	new[294]	nonsal[294]	_	_	_
+35-17	4706-4716	Linguistic	event[294]|abstract[295]	new[294]|new[295]	nonsal[294]|nonsal[295]	Linguistics[295]	_	_
+35-18	4717-4725	Research	event[294]|abstract[295]	new[294]|new[295]	nonsal[294]|nonsal[295]	Linguistics[295]	_	_
+35-19	4726-4728	in	_	_	_	_	_	_	_
+35-20	4729-4735	Geneva	place[296]	new[296]	nonsal[296]	Geneva[296]	_	_
+35-21	4736-4738	in	_	_	_	_	_	_	_
+35-22	4739-4743	1930	time[297]	acc[297]	nonsal[297]	_	_	_
+35-23	4744-4745	,	_	_	_	_	_	_	_
+35-24	4746-4749	and	_	_	_	_	_	_	_
+35-25	4750-4755	acted	_	_	_	_	_	_	_
+35-26	4756-4758	as	_	_	_	_	_	_	_
+35-27	4759-4768	president	person[298]	giv[298]	nonsal[298]	Otto_Jespersen[298]	coref	36-1[303_298]
+35-28	4769-4771	of	person[298]	giv[298]	nonsal[298]	Otto_Jespersen[298]	_	_
+35-29	4772-4775	the	person[298]|event[299]	giv[298]|new[299]	nonsal[298]|nonsal[299]	Otto_Jespersen[298]	_	_
+35-30	4776-4782	Fourth	person[298]|event[299]	giv[298]|new[299]	nonsal[298]|nonsal[299]	Otto_Jespersen[298]	_	_
+35-31	4783-4796	International	person[298]|event[299]	giv[298]|new[299]	nonsal[298]|nonsal[299]	Otto_Jespersen[298]	_	_
+35-32	4797-4805	Congress	person[298]|event[299]	giv[298]|new[299]	nonsal[298]|nonsal[299]	Otto_Jespersen[298]	_	_
+35-33	4806-4808	of	person[298]|event[299]	giv[298]|new[299]	nonsal[298]|nonsal[299]	Otto_Jespersen[298]	_	_
+35-34	4809-4818	Linguists	person[298]|event[299]|person[300]	giv[298]|new[299]|new[300]	nonsal[298]|nonsal[299]|nonsal[300]	Otto_Jespersen[298]|Linguistics[300]	_	_
+35-35	4819-4821	in	person[298]|event[299]	giv[298]|new[299]	nonsal[298]|nonsal[299]	Otto_Jespersen[298]	_	_
+35-36	4822-4832	Copenhagen	person[298]|event[299]|place[301]	giv[298]|new[299]|giv[301]	nonsal[298]|nonsal[299]|sal[301]	Otto_Jespersen[298]|Copenhagen[301]	_	_
+35-37	4833-4835	in	_	_	_	_	_	_	_
+35-38	4836-4840	1936	time[302]	acc[302]	nonsal[302]	_	_	_
+35-39	4841-4842	.	_	_	_	_	_	_	_
+
+#Text=Jespersen was an important figure in the international language movement .
+36-1	4843-4852	Jespersen	person[303]	giv[303]	nonsal[303]	Otto_Jespersen[303]	coref	36-3[304_303]
+36-2	4853-4856	was	_	_	_	_	_	_	_
+36-3	4857-4859	an	person[304]	giv[304]	nonsal[304]	Otto_Jespersen[304]	coref	37-1[307_304]
+36-4	4860-4869	important	person[304]	giv[304]	nonsal[304]	Otto_Jespersen[304]	_	_
+36-5	4870-4876	figure	person[304]	giv[304]	nonsal[304]	Otto_Jespersen[304]	_	_
+36-6	4877-4879	in	person[304]	giv[304]	nonsal[304]	Otto_Jespersen[304]	_	_
+36-7	4880-4883	the	person[304]|abstract[305]	giv[304]|new[305]	nonsal[304]|nonsal[305]	Otto_Jespersen[304]	_	_
+36-8	4884-4897	international	person[304]|abstract[305]|abstract[306]	giv[304]|new[305]|new[306]	nonsal[304]|nonsal[305]|nonsal[306]	Otto_Jespersen[304]	_	_
+36-9	4898-4906	language	person[304]|abstract[305]|abstract[306]	giv[304]|new[305]|new[306]	nonsal[304]|nonsal[305]|nonsal[306]	Otto_Jespersen[304]	_	_
+36-10	4907-4915	movement	person[304]|abstract[305]	giv[304]|new[305]	nonsal[304]|nonsal[305]	Otto_Jespersen[304]	_	_
+36-11	4916-4917	.	_	_	_	_	_	_	_
+
+#Text=He was an early supporter of the Esperanto offshoot Ido and in 1927 published his own project Novial .
+37-1	4918-4920	He	person[307]	giv[307]	nonsal[307]	Otto_Jespersen[307]	coref	37-3[308_307]
+37-2	4921-4924	was	_	_	_	_	_	_	_
+37-3	4925-4927	an	person[308]	giv[308]	nonsal[308]	Otto_Jespersen[308]	coref	38-1[315_308]
+37-4	4928-4933	early	person[308]	giv[308]	nonsal[308]	Otto_Jespersen[308]	_	_
+37-5	4934-4943	supporter	person[308]	giv[308]	nonsal[308]	Otto_Jespersen[308]	_	_
+37-6	4944-4946	of	person[308]	giv[308]	nonsal[308]	Otto_Jespersen[308]	_	_
+37-7	4947-4950	the	person[308]|abstract[309]	giv[308]|new[309]	nonsal[308]|nonsal[309]	Otto_Jespersen[308]|Ido[309]	coref	37-10[311_309]
+37-8	4951-4960	Esperanto	person[308]|abstract[309]|abstract[310]	giv[308]|new[309]|new[310]	nonsal[308]|nonsal[309]|nonsal[310]	Otto_Jespersen[308]|Ido[309]|Esperanto[310]	_	_
+37-9	4961-4969	offshoot	person[308]|abstract[309]	giv[308]|new[309]	nonsal[308]|nonsal[309]	Otto_Jespersen[308]|Ido[309]	_	_
+37-10	4970-4973	Ido	person[308]|abstract[311]	giv[308]|giv[311]	nonsal[308]|nonsal[311]	Otto_Jespersen[308]|Ido[311]	_	_
+37-11	4974-4977	and	_	_	_	_	_	_	_
+37-12	4978-4980	in	_	_	_	_	_	_	_
+37-13	4981-4985	1927	time[312]	acc[312]	nonsal[312]	_	coref	39-30[328_312]
+37-14	4986-4995	published	_	_	_	_	_	_	_
+37-15	4996-4999	his	abstract[313]	new[313]	nonsal[313]	Novial[313]	coref	37-18[314_313]
+37-16	5000-5003	own	abstract[313]	new[313]	nonsal[313]	Novial[313]	_	_
+37-17	5004-5011	project	abstract[313]	new[313]	nonsal[313]	Novial[313]	_	_
+37-18	5012-5018	Novial	abstract[314]	giv[314]	nonsal[314]	Novial[314]	_	_
+37-19	5019-5020	.	_	_	_	_	_	_	_
+
+#Text=He also worked with the International Auxiliary Language Association .
+38-1	5021-5023	He	person[315]	giv[315]	nonsal[315]	Otto_Jespersen[315]	coref	39-1[318_315]
+38-2	5024-5028	also	_	_	_	_	_	_	_
+38-3	5029-5035	worked	_	_	_	_	_	_	_
+38-4	5036-5040	with	_	_	_	_	_	_	_
+38-5	5041-5044	the	organization[316]	new[316]	nonsal[316]	International_Auxiliary_Language_Association[316]	_	_
+38-6	5045-5058	International	organization[316]	new[316]	nonsal[316]	International_Auxiliary_Language_Association[316]	_	_
+38-7	5059-5068	Auxiliary	organization[316]|abstract[317]	new[316]|new[317]	nonsal[316]|nonsal[317]	International_Auxiliary_Language_Association[316]|International_auxiliary_language[317]	_	_
+38-8	5069-5077	Language	organization[316]|abstract[317]	new[316]|new[317]	nonsal[316]|nonsal[317]	International_Auxiliary_Language_Association[316]|International_auxiliary_language[317]	_	_
+38-9	5078-5089	Association	organization[316]	new[316]	nonsal[316]	International_Auxiliary_Language_Association[316]	_	_
+38-10	5090-5091	.	_	_	_	_	_	_	_
+
+#Text=Jespersen received honorary degrees from Columbia University in New York ( 1910 ) , St. Andrews University in Scotland ( 1925 ) , and the Sorbonne in Paris ( 1927 ) .
+39-1	5092-5101	Jespersen	person[318]	giv[318]	nonsal[318]	Otto_Jespersen[318]	coref	40-1[329_318]
+39-2	5102-5110	received	_	_	_	_	_	_	_
+39-3	5111-5119	honorary	abstract[319]	new[319]	nonsal[319]	_	_	_
+39-4	5120-5127	degrees	abstract[319]	new[319]	nonsal[319]	_	_	_
+39-5	5128-5132	from	_	_	_	_	_	_	_
+39-6	5133-5141	Columbia	organization[320]	giv[320]	nonsal[320]	Columbia_University[320]	_	_
+39-7	5142-5152	University	organization[320]	giv[320]	nonsal[320]	Columbia_University[320]	_	_
+39-8	5153-5155	in	organization[320]	giv[320]	nonsal[320]	Columbia_University[320]	_	_
+39-9	5156-5159	New	organization[320]|place[321]	giv[320]|new[321]	nonsal[320]|nonsal[321]	Columbia_University[320]|New_York_City[321]	_	_
+39-10	5160-5164	York	organization[320]|place[321]	giv[320]|new[321]	nonsal[320]|nonsal[321]	Columbia_University[320]|New_York_City[321]	_	_
+39-11	5165-5166	(	_	_	_	_	_	_	_
+39-12	5167-5171	1910	time[322]	giv[322]	nonsal[322]	_	_	_
+39-13	5172-5173	)	_	_	_	_	_	_	_
+39-14	5174-5175	,	_	_	_	_	_	_	_
+39-15	5176-5179	St.	organization[323]	new[323]	nonsal[323]	University_of_St_Andrews[323]	_	_
+39-16	5180-5187	Andrews	organization[323]	new[323]	nonsal[323]	University_of_St_Andrews[323]	_	_
+39-17	5188-5198	University	organization[323]	new[323]	nonsal[323]	University_of_St_Andrews[323]	_	_
+39-18	5199-5201	in	organization[323]	new[323]	nonsal[323]	University_of_St_Andrews[323]	_	_
+39-19	5202-5210	Scotland	organization[323]|place[324]	new[323]|new[324]	nonsal[323]|nonsal[324]	University_of_St_Andrews[323]|Scotland[324]	_	_
+39-20	5211-5212	(	_	_	_	_	_	_	_
+39-21	5213-5217	1925	time[325]	giv[325]	nonsal[325]	_	_	_
+39-22	5218-5219	)	_	_	_	_	_	_	_
+39-23	5220-5221	,	_	_	_	_	_	_	_
+39-24	5222-5225	and	_	_	_	_	_	_	_
+39-25	5226-5229	the	organization[326]	new[326]	nonsal[326]	University_of_Paris[326]	_	_
+39-26	5230-5238	Sorbonne	organization[326]	new[326]	nonsal[326]	University_of_Paris[326]	_	_
+39-27	5239-5241	in	organization[326]	new[326]	nonsal[326]	University_of_Paris[326]	_	_
+39-28	5242-5247	Paris	organization[326]|place[327]	new[326]|new[327]	nonsal[326]|nonsal[327]	University_of_Paris[326]|Paris[327]	_	_
+39-29	5248-5249	(	_	_	_	_	_	_	_
+39-30	5250-5254	1927	time[328]	giv[328]	nonsal[328]	_	_	_
+39-31	5255-5256	)	_	_	_	_	_	_	_
+39-32	5257-5258	.	_	_	_	_	_	_	_
+
+#Text=He was one of the first six international scholars to be elected as honorary members of the Linguistic Society of America .
+40-1	5259-5261	He	person[329]	giv[329]	nonsal[329]	Otto_Jespersen[329]	coref	40-3[330_329]
+40-2	5262-5265	was	_	_	_	_	_	_	_
+40-3	5266-5269	one	person[330]	giv[330]	nonsal[330]	Otto_Jespersen[330]	_	_
+40-4	5270-5272	of	person[330]	giv[330]	nonsal[330]	Otto_Jespersen[330]	_	_
+40-5	5273-5276	the	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-6	5277-5282	first	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-7	5283-5286	six	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-8	5287-5300	international	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-9	5301-5309	scholars	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-10	5310-5312	to	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-11	5313-5315	be	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-12	5316-5323	elected	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-13	5324-5326	as	person[330]|person[331]	giv[330]|new[331]	nonsal[330]|nonsal[331]	Otto_Jespersen[330]	_	_
+40-14	5327-5335	honorary	person[330]|person[331]|person[332]	giv[330]|new[331]|new[332]	nonsal[330]|nonsal[331]|nonsal[332]	Otto_Jespersen[330]	_	_
+40-15	5336-5343	members	person[330]|person[331]|person[332]	giv[330]|new[331]|new[332]	nonsal[330]|nonsal[331]|nonsal[332]	Otto_Jespersen[330]	_	_
+40-16	5344-5346	of	person[330]|person[331]|person[332]	giv[330]|new[331]|new[332]	nonsal[330]|nonsal[331]|nonsal[332]	Otto_Jespersen[330]	_	_
+40-17	5347-5350	the	person[330]|person[331]|person[332]|organization[333]	giv[330]|new[331]|new[332]|new[333]	nonsal[330]|nonsal[331]|nonsal[332]|nonsal[333]	Otto_Jespersen[330]|Linguistic_Society_of_America[333]	_	_
+40-18	5351-5361	Linguistic	person[330]|person[331]|person[332]|organization[333]	giv[330]|new[331]|new[332]|new[333]	nonsal[330]|nonsal[331]|nonsal[332]|nonsal[333]	Otto_Jespersen[330]|Linguistic_Society_of_America[333]	_	_
+40-19	5362-5369	Society	person[330]|person[331]|person[332]|organization[333]	giv[330]|new[331]|new[332]|new[333]	nonsal[330]|nonsal[331]|nonsal[332]|nonsal[333]	Otto_Jespersen[330]|Linguistic_Society_of_America[333]	_	_
+40-20	5370-5372	of	person[330]|person[331]|person[332]|organization[333]	giv[330]|new[331]|new[332]|new[333]	nonsal[330]|nonsal[331]|nonsal[332]|nonsal[333]	Otto_Jespersen[330]|Linguistic_Society_of_America[333]	_	_
+40-21	5373-5380	America	person[330]|person[331]|person[332]|organization[333]|place[334]	giv[330]|new[331]|new[332]|new[333]|giv[334]	nonsal[330]|nonsal[331]|nonsal[332]|nonsal[333]|nonsal[334]	Otto_Jespersen[330]|Linguistic_Society_of_America[333]|United_States[334]	_	_
+40-22	5381-5382	.	_	_	_	_	_	_	_
