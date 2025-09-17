@@ -8,13 +8,13 @@
 1-2	4-7	you	person[1]	acc[1]	sal[1]	_	coref	4-3[7_1]
 1-3	8-9	—	_	_	_	_	_	_
 1-4	10-12	do	_	_	_	_	_	_
-1-5	13-17	they	abstract[2]|person[3]	new[2]|acc[3]	nonsal[2]|nonsal[3]	_	bridge:entity-associative	41-4[99-2]
+1-5	13-17	they	abstract[2]|person[3]	new[2]|acc[3]	nonsal[2]|nonsal[3]	_	bridge:entity-associative	41-4[99_2]
 1-6	18-23	still	abstract[2]	new[2]	nonsal[2]	_	_	_
 1-7	24-29	teach	abstract[2]	new[2]	nonsal[2]	_	_	_
 1-8	30-32	at	abstract[2]	new[2]	nonsal[2]	_	_	_
 1-9	33-38	Bahia	abstract[2]|place[4]	new[2]|new[4]	nonsal[2]|sal[4]	_	coref	8-3[18_4]
 1-10	39-41	on	abstract[2]	new[2]	nonsal[2]	_	_	_
-1-11	42-48	Sunday	abstract[2]|time[5]	new[2]|new[5]	nonsal[2]|nonsal[5]	Sunday[5]	bridge:set-span-interval	2-1[6-5]
+1-11	42-48	Sunday	abstract[2]|time[5]	new[2]|new[5]	nonsal[2]|nonsal[5]	Sunday[5]	bridge:set-span-interval	2-1[6_5]
 1-12	49-50	?	_	_	_	_	_	_
 
 #Text=Night ?
@@ -75,7 +75,7 @@
 #Text=To go there ?
 8-1	229-231	To	_	_	_	_	_	_
 8-2	232-234	go	_	_	_	_	_	_
-8-3	235-240	there	place[18]	giv[18]	nonsal[18]	_	coref|bridge:entity-associative|bridge:entity-associative	40-3[96_18]|12-10[27-18]|18-7[45-18]
+8-3	235-240	there	place[18]	giv[18]	nonsal[18]	_	coref|bridge:entity-associative|bridge:entity-associative	40-3[96_18]|12-10[27_18]|18-7[45_18]
 8-4	241-242	?	_	_	_	_	_	_
 
 #Text=Yeah .
@@ -164,7 +164,7 @@
 17-6	490-494	mean	_	_	_	_	_	_
 17-7	495-496	,	_	_	_	_	_	_
 17-8	497-499	in	_	_	_	_	_	_
-17-9	500-501	a	abstract[37]	new[37]	nonsal[37]	_	bridge:other	17-20[39-37]
+17-9	500-501	a	abstract[37]	new[37]	nonsal[37]	_	bridge:other	17-20[39_37]
 17-10	502-505	bad	abstract[37]	new[37]	nonsal[37]	_	_	_
 17-11	506-509	way	abstract[37]	new[37]	nonsal[37]	_	_	_
 17-12	510-511	,	_	_	_	_	_	_
@@ -284,7 +284,7 @@
 24-27	895-899	mean	_	_	_	_	_	_
 24-28	900-905	there	_	_	_	_	_	_
 24-29	906-909	was	_	_	_	_	_	_
-24-30	910-914	some	person[57]	new[57]	nonsal[57]	_	bridge:set-member	26-6[63-57]
+24-30	910-914	some	person[57]	new[57]	nonsal[57]	_	bridge:set-member	26-6[63_57]
 24-31	915-918	guy	person[57]	new[57]	nonsal[57]	_	_	_
 24-32	919-924	there	person[57]	new[57]	nonsal[57]	_	_	_
 24-33	925-926	,	person[57]	new[57]	nonsal[57]	_	_	_
@@ -456,8 +456,8 @@
 #Text=I was there Sunday three four weeks ago ?
 40-1	1485-1486	I	person[95]	giv[95]	nonsal[95]	_	coref	41-12[100_95]
 40-2	1487-1490	was	_	_	_	_	_	_
-40-3	1491-1496	there	place[96]	giv[96]	nonsal[96]	_	coref|bridge:entity-associative	90-8[238_96]|57-30[152-96]
-40-4	1497-1503	Sunday	time[97]	new[97]	nonsal[97]	_	bridge:other|bridge:comparison-time	63-8[163-97]|43-2[111-97]
+40-3	1491-1496	there	place[96]	giv[96]	nonsal[96]	_	coref|bridge:entity-associative	90-8[238_96]|57-30[152_96]
+40-4	1497-1503	Sunday	time[97]	new[97]	nonsal[97]	_	bridge:other|bridge:comparison-time	63-8[163_97]|43-2[111_97]
 40-5	1504-1509	three	time[97]|time[98]	new[97]|acc[98]	nonsal[97]|nonsal[98]	_	_	_
 40-6	1510-1514	four	time[97]|time[98]	new[97]|acc[98]	nonsal[97]|nonsal[98]	_	_	_
 40-7	1515-1520	weeks	time[97]|time[98]	new[97]|acc[98]	nonsal[97]|nonsal[98]	_	_	_
@@ -506,7 +506,7 @@
 41-39	1677-1682	right	place[105]	new[105]	nonsal[105]	_	_	_
 41-40	1683-1684	,	_	_	_	_	_	_
 41-41	1685-1687	is	_	_	_	_	_	_
-41-42	1688-1689	a	object[107]	new[107]	nonsal[107]	_	coref|bridge:comparison-relative	62-2[158_107]|59-13[156-107]
+41-42	1688-1689	a	object[107]	new[107]	nonsal[107]	_	coref|bridge:comparison-relative	62-2[158_107]|59-13[156_107]
 41-43	1690-1695	table	object[107]	new[107]	nonsal[107]	_	_	_
 41-44	1696-1700	with	object[107]	new[107]	nonsal[107]	_	_	_
 41-45	1701-1704	two	object[107]|person[108]	new[107]|new[108]	nonsal[107]|nonsal[108]	_	coref	42-1[109_108]
@@ -558,7 +558,7 @@
 47-4	1844-1848	well	_	_	_	_	_	_
 47-5	1849-1853	they	person[116]	giv[116]	nonsal[116]	_	coref	47-7[117_116]
 47-6	1854-1858	were	_	_	_	_	_	_
-47-7	1859-1869	attractive	person[117]	giv[117]	nonsal[117]	_	coref|bridge:comparison-sense|bridge:set-member	63-1[161_117]|47-10[118-117]|62-5[159-117]
+47-7	1859-1869	attractive	person[117]	giv[117]	nonsal[117]	_	coref|bridge:comparison-sense|bridge:set-member	63-1[161_117]|47-10[118_117]|62-5[159_117]
 47-8	1870-1875	women	person[117]	giv[117]	nonsal[117]	_	_	_
 47-9	1876-1877	,	_	_	_	_	_	_
 47-10	1878-1881	the	person[118]	acc[118]	nonsal[118]	_	coref	49-2[125_118]
@@ -585,7 +585,7 @@
 48-10	1962-1963	,	person[120]	new[120]	sal[120]	_	_	_
 48-11	1964-1967	out	person[120]	new[120]	sal[120]	_	_	_
 48-12	1968-1973	there	person[120]	new[120]	sal[120]	_	_	_
-48-13	1974-1981	dancing	person[120]|event[123]	new[120]|new[123]	sal[120]|nonsal[123]	_	coref|bridge:entity-associative	57-7[146_123]|57-7[146-123]
+48-13	1974-1981	dancing	person[120]|event[123]	new[120]|new[123]	sal[120]|nonsal[123]	_	coref|bridge:entity-associative	57-7[146_123]|57-7[146_123]
 48-14	1982-1983	,	person[120]	new[120]	sal[120]	_	_	_
 48-15	1984-1986	by	person[120]	new[120]	sal[120]	_	_	_
 48-16	1987-1994	himself	person[120]|person[124]	new[120]|giv[124]	sal[120]|nonsal[124]	_	coref	49-8[126_124]
@@ -702,7 +702,7 @@
 57-4	2366-2369	did	_	_	_	_	_	_
 57-5	2370-2374	that	abstract[145]	giv[145]	nonsal[145]	_	_	_
 57-6	2375-2378	for	_	_	_	_	_	_
-57-7	2379-2382	the	event[146]	acc[146]	nonsal[146]	_	bridge:entity-associative	59-3[154-146]
+57-7	2379-2382	the	event[146]	acc[146]	nonsal[146]	_	bridge:entity-associative	59-3[154_146]
 57-8	2383-2388	whole	event[146]	acc[146]	nonsal[146]	_	_	_
 57-9	2389-2394	dance	event[146]	acc[146]	nonsal[146]	_	_	_
 57-10	2395-2396	,	_	_	_	_	_	_
@@ -852,7 +852,7 @@
 67-7	2924-2927	gon	abstract[171]	new[171]	nonsal[171]	_	_	_
 67-8	2928-2930	na	abstract[171]	new[171]	nonsal[171]	_	_	_
 67-9	2931-2935	take	abstract[171]	new[171]	nonsal[171]	_	_	_
-67-10	2936-2939	the	abstract[171]|person[174]	new[171]|new[174]	nonsal[171]|nonsal[174]	_	bridge:set-subset|bridge:set-member	68-9[180-174]|73-3[197-174]
+67-10	2936-2939	the	abstract[171]|person[174]	new[171]|new[174]	nonsal[171]|nonsal[174]	_	bridge:set-subset|bridge:set-member	68-9[180_174]|73-3[197_174]
 67-11	2940-2944	guys	abstract[171]|person[174]	new[171]|new[174]	nonsal[171]|nonsal[174]	_	_	_
 67-12	2945-2947	in	abstract[171]|person[174]	new[171]|new[174]	nonsal[171]|nonsal[174]	_	_	_
 67-13	2948-2952	this	abstract[171]|person[174]|organization[175]	new[171]|new[174]|new[175]	nonsal[171]|nonsal[174]|nonsal[175]	_	_	_
@@ -1052,7 +1052,7 @@
 81-2	3661-3663	uh	_	_	_	_	_	_
 81-3	3664-3665	,	_	_	_	_	_	_
 81-4	3666-3668	he	person[215]	giv[215]	nonsal[215]	_	_	_
-81-5	3669-3674	comes	event[216]	new[216]	nonsal[216]	_	bridge:comparison-time|bridge:comparison-time	81-25[219-216]|82-4[226-216]
+81-5	3669-3674	comes	event[216]	new[216]	nonsal[216]	_	bridge:comparison-time|bridge:comparison-time	81-25[219_216]|82-4[226_216]
 81-6	3675-3679	over	event[216]	new[216]	nonsal[216]	_	_	_
 81-7	3680-3685	there	event[216]	new[216]	nonsal[216]	_	_	_
 81-8	3686-3687	,	event[216]	new[216]	nonsal[216]	_	_	_

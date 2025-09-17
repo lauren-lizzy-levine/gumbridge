@@ -221,7 +221,7 @@
 10-17	1043-1044	.	_	_	_	_	_	_
 
 #Text=Demagogues have always used fear for intimidation of the subordinates or enemies , and shepherding the tribe by the leaders .
-11-1	1045-1055	Demagogues	person[59]	new[59]	nonsal[59]	_	bridge:entity-associative|bridge:entity-associative	11-12[63-59]|11-9[62-59]
+11-1	1045-1055	Demagogues	person[59]	new[59]	nonsal[59]	_	bridge:entity-associative|bridge:entity-associative	11-12[63_59]|11-9[62_59]
 11-2	1056-1060	have	_	_	_	_	_	_
 11-3	1061-1067	always	_	_	_	_	_	_
 11-4	1068-1072	used	_	_	_	_	_	_
@@ -236,7 +236,7 @@
 11-13	1126-1127	,	_	_	_	_	_	_
 11-14	1128-1131	and	_	_	_	_	_	_
 11-15	1132-1143	shepherding	_	_	_	_	_	_
-11-16	1144-1147	the	organization[64]	new[64]	nonsal[64]	_	bridge:entity-associative	11-19[65-64]
+11-16	1144-1147	the	organization[64]	new[64]	nonsal[64]	_	bridge:entity-associative	11-19[65_64]
 11-17	1148-1153	tribe	organization[64]	new[64]	nonsal[64]	_	_	_
 11-18	1154-1156	by	_	_	_	_	_	_
 11-19	1157-1160	the	person[65]	acc[65]	nonsal[65]	_	_	_
@@ -293,7 +293,7 @@
 13-28	1404-1405	.	_	_	_	_	_	_
 
 #Text=We learn fear from tribe mates
-14-1	1406-1408	We	person[80]	giv[80]	nonsal[80]	_	coref|bridge:entity-associative	15-5[84_80]|14-5[82-80]
+14-1	1406-1408	We	person[80]	giv[80]	nonsal[80]	_	coref|bridge:entity-associative	15-5[84_80]|14-5[82_80]
 14-2	1409-1414	learn	_	_	_	_	_	_
 14-3	1415-1419	fear	abstract[81]	giv[81]	nonsal[81]	_	coref	15-9[85_81]
 14-4	1420-1424	from	_	_	_	_	_	_
@@ -323,7 +323,7 @@
 15-20	1538-1539	.	_	_	_	_	_	_
 
 #Text=We also learn from observation , such as witnessing a predator attacking another human .
-16-1	1540-1542	We	person[88]	giv[88]	nonsal[88]	_	coref|bridge:comparison-relative	17-3[92_88]|16-13[91-88]
+16-1	1540-1542	We	person[88]	giv[88]	nonsal[88]	_	coref|bridge:comparison-relative	17-3[92_88]|16-13[91_88]
 16-2	1543-1547	also	_	_	_	_	_	_
 16-3	1548-1553	learn	_	_	_	_	_	_
 16-4	1554-1558	from	_	_	_	_	_	_
@@ -361,7 +361,7 @@
 #Text=Learning from our conspecifics – members of the same species – is an evolutionary advantage that has prevented us from repeating dangerous experiences of other humans .
 18-1	1710-1718	Learning	abstract[95]	new[95]	nonsal[95]	_	coref	18-13[100_95]
 18-2	1719-1723	from	abstract[95]	new[95]	nonsal[95]	_	_	_
-18-3	1724-1727	our	abstract[95]|person[96]|person[97]	new[95]|new[96]|giv[97]	nonsal[95]|nonsal[96]|nonsal[97]	_	coref|coref|bridge:comparison-relative	18-6[98_96]|18-19[101_97]|18-8[99-97]
+18-3	1724-1727	our	abstract[95]|person[96]|person[97]	new[95]|new[96]|giv[97]	nonsal[95]|nonsal[96]|nonsal[97]	_	coref|coref|bridge:comparison-relative	18-6[98_96]|18-19[101_97]|18-8[99_97]
 18-4	1728-1740	conspecifics	abstract[95]|person[96]	new[95]|new[96]	nonsal[95]|nonsal[96]	_	_	_
 18-5	1741-1742	–	abstract[95]	new[95]	nonsal[95]	_	_	_
 18-6	1743-1750	members	abstract[95]|person[98]	new[95]|giv[98]	nonsal[95]|nonsal[98]	_	_	_
@@ -377,7 +377,7 @@
 18-16	1802-1806	that	abstract[100]	new[100]	nonsal[100]	_	_	_
 18-17	1807-1810	has	abstract[100]	new[100]	nonsal[100]	_	_	_
 18-18	1811-1820	prevented	abstract[100]	new[100]	nonsal[100]	_	_	_
-18-19	1821-1823	us	abstract[100]|person[101]	new[100]|giv[101]	nonsal[100]|nonsal[101]	_	coref|bridge:comparison-relative	19-1[104_101]|18-25[103-101]
+18-19	1821-1823	us	abstract[100]|person[101]	new[100]|giv[101]	nonsal[100]|nonsal[101]	_	coref|bridge:comparison-relative	19-1[104_101]|18-25[103_101]
 18-20	1824-1828	from	abstract[100]	new[100]	nonsal[100]	_	_	_
 18-21	1829-1838	repeating	abstract[100]	new[100]	nonsal[100]	_	_	_
 18-22	1839-1848	dangerous	abstract[100]|event[102]	new[100]|new[102]	nonsal[100]|nonsal[102]	_	_	_
@@ -526,7 +526,7 @@
 25-4	2505-2517	neuroscience	abstract[136]|abstract[137]	new[136]|new[137]	nonsal[136]|nonsal[137]	_	_	_
 25-5	2518-2523	shows	_	_	_	_	_	_
 25-6	2524-2528	that	_	_	_	_	_	_
-25-7	2529-2532	our	object[138]|person[139]	new[138]|giv[139]	nonsal[138]|nonsal[139]	_	coref|coref|bridge:comparison-relative	40-7[230_138]|26-6[145_139]|25-23[143-139]
+25-7	2529-2532	our	object[138]|person[139]	new[138]|giv[139]	nonsal[138]|nonsal[139]	_	coref|coref|bridge:comparison-relative	40-7[230_138]|26-6[145_139]|25-23[143_139]
 25-8	2533-2539	brains	object[138]	new[138]	nonsal[138]	_	_	_
 25-9	2540-2544	even	_	_	_	_	_	_
 25-10	2545-2552	respond	_	_	_	_	_	_
@@ -613,7 +613,7 @@
 28-12	2934-2942	cohesion	abstract[156]|abstract[157]	giv[156]|new[157]	nonsal[156]|nonsal[157]	Tribalism[156]	_	_
 28-13	2943-2946	and	abstract[156]	giv[156]	nonsal[156]	Tribalism[156]	_	_
 28-14	2947-2951	help	abstract[156]	giv[156]	nonsal[156]	Tribalism[156]	_	_
-28-15	2952-2954	us	abstract[156]|person[159]	giv[156]|giv[159]	nonsal[156]|nonsal[159]	Tribalism[156]	coref|bridge:comparison-relative	29-19[167_159]|28-17[160-159]
+28-15	2952-2954	us	abstract[156]|person[159]	giv[156]|giv[159]	nonsal[156]|nonsal[159]	Tribalism[156]	coref|bridge:comparison-relative	29-19[167_159]|28-17[160_159]
 28-16	2955-2960	fight	abstract[156]	giv[156]	nonsal[156]	Tribalism[156]	_	_
 28-17	2961-2964	the	abstract[156]|person[160]	giv[156]|acc[160]	nonsal[156]|nonsal[160]	Tribalism[156]	coref	31-7[176_160]
 28-18	2965-2970	other	abstract[156]|person[160]	giv[156]|acc[160]	nonsal[156]|nonsal[160]	Tribalism[156]	_	_
@@ -883,7 +883,7 @@
 39-16	4146-4147	”	_	_	_	_	_	_
 
 #Text=We humans have different functions in the brain , and fear oftentimes bypasses logic .
-40-1	4148-4150	We	person[228]	giv[228]	nonsal[228]	_	coref|bridge:entity-meronomy	43-6[239_228]|40-7[230-228]
+40-1	4148-4150	We	person[228]	giv[228]	nonsal[228]	_	coref|bridge:entity-meronomy	43-6[239_228]|40-7[230_228]
 40-2	4151-4157	humans	person[228]	giv[228]	nonsal[228]	_	_	_
 40-3	4158-4162	have	_	_	_	_	_	_
 40-4	4163-4172	different	abstract[229]	new[229]	nonsal[229]	_	_	_
@@ -902,7 +902,7 @@
 #Text=There are several reasons .
 41-1	4235-4240	There	_	_	_	_	_	_
 41-2	4241-4244	are	_	_	_	_	_	_
-41-3	4245-4252	several	abstract[233]	new[233]	nonsal[233]	_	bridge:comparison-sense	42-1[234-233]
+41-3	4245-4252	several	abstract[233]	new[233]	nonsal[233]	_	bridge:comparison-sense	42-1[234_233]
 41-4	4253-4260	reasons	abstract[233]	new[233]	nonsal[233]	_	_	_
 41-5	4261-4262	.	_	_	_	_	_	_
 
@@ -941,7 +941,7 @@
 43-19	4385-4386	.	_	_	_	_	_	_
 
 #Text=Some people are afraid of spiders , others of snakes or even cats and dogs .
-44-1	4387-4391	Some	person[240]	giv[240]	nonsal[240]	_	bridge:comparison-sense	44-8[242-240]
+44-1	4387-4391	Some	person[240]	giv[240]	nonsal[240]	_	bridge:comparison-sense	44-8[242_240]
 44-2	4392-4398	people	person[240]	giv[240]	nonsal[240]	_	_	_
 44-3	4399-4402	are	_	_	_	_	_	_
 44-4	4403-4409	afraid	_	_	_	_	_	_
@@ -1015,10 +1015,10 @@
 
 #Text=When one person kills a few others in a city of millions , which is of course a tragedy , major networks ’ coverage could lead one to perceive the whole city is under siege and unsafe .
 48-1	4739-4743	When	_	_	_	_	_	_
-48-2	4744-4747	one	person[264]	new[264]	nonsal[264]	_	bridge:comparison-sense	48-5[265-264]
+48-2	4744-4747	one	person[264]	new[264]	nonsal[264]	_	bridge:comparison-sense	48-5[265_264]
 48-3	4748-4754	person	person[264]	new[264]	nonsal[264]	_	_	_
 48-4	4755-4760	kills	_	_	_	_	_	_
-48-5	4761-4762	a	person[265]	acc[265]	nonsal[265]	_	bridge:comparison-sense	48-12[267-265]
+48-5	4761-4762	a	person[265]	acc[265]	nonsal[265]	_	bridge:comparison-sense	48-12[267_265]
 48-6	4763-4766	few	person[265]	acc[265]	nonsal[265]	_	_	_
 48-7	4767-4773	others	person[265]	acc[265]	nonsal[265]	_	_	_
 48-8	4774-4776	in	_	_	_	_	_	_

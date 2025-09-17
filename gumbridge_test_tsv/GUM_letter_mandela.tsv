@@ -53,14 +53,14 @@
 6-4	189-191	to	event[15]	giv[15]	nonsal[15]	_	_	_
 6-5	192-197	state	event[15]	giv[15]	nonsal[15]	_	_	_
 6-6	198-202	that	event[15]	giv[15]	nonsal[15]	_	_	_
-6-7	203-207	this	event[15]|abstract[16]	giv[15]|giv[16]	nonsal[15]|nonsal[16]	_	coref|bridge:entity-resultative	8-1[27_16]|7-1[19-16]
+6-7	203-207	this	event[15]|abstract[16]	giv[15]|giv[16]	nonsal[15]|nonsal[16]	_	coref|bridge:entity-resultative	8-1[27_16]|7-1[19_16]
 6-8	208-217	intention	event[15]|abstract[16]	giv[15]|giv[16]	nonsal[15]|nonsal[16]	_	_	_
 6-9	218-221	has	event[15]	giv[15]	nonsal[15]	_	_	_
 6-10	222-227	never	event[15]	giv[15]	nonsal[15]	_	_	_
 6-11	228-232	been	event[15]	giv[15]	nonsal[15]	_	_	_
 6-12	233-241	endorsed	event[15]	giv[15]	nonsal[15]	_	_	_
 6-13	242-244	by	event[15]	giv[15]	nonsal[15]	_	_	_
-6-14	245-248	the	event[15]|person[17]	giv[15]|new[17]	nonsal[15]|sal[17]	_	bridge:comparison-sense	7-11[21-17]
+6-14	245-248	the	event[15]|person[17]	giv[15]|new[17]	nonsal[15]|sal[17]	_	bridge:comparison-sense	7-11[21_17]
 6-15	249-258	non-white	event[15]|person[17]	giv[15]|new[17]	nonsal[15]|sal[17]	_	_	_
 6-16	259-267	majority	event[15]|person[17]	giv[15]|new[17]	nonsal[15]|sal[17]	_	_	_
 6-17	268-270	of	event[15]|person[17]	giv[15]|new[17]	nonsal[15]|sal[17]	_	_	_
@@ -122,7 +122,7 @@
 8-11	569-570	,	_	_	_	_	_	_
 8-12	571-574	has	_	_	_	_	_	_
 8-13	575-582	created	_	_	_	_	_	_
-8-14	583-593	conditions	abstract[30]	new[30]	nonsal[30]	_	bridge:entity-resultative	12-9[54-30]
+8-14	583-593	conditions	abstract[30]	new[30]	nonsal[30]	_	bridge:entity-resultative	12-9[54_30]
 8-15	594-603	bordering	abstract[30]	new[30]	nonsal[30]	_	_	_
 8-16	604-606	on	abstract[30]	new[30]	nonsal[30]	_	_	_
 8-17	607-613	crisis	abstract[30]|event[31]	new[30]|new[31]	nonsal[30]|nonsal[31]	_	_	_
@@ -326,7 +326,7 @@
 15-1	1626-1628	We	person[84]	giv[84]	nonsal[84]	_	coref	20-20[122_84]
 15-2	1629-1632	can	_	_	_	_	_	_
 15-3	1633-1636	see	_	_	_	_	_	_
-15-4	1637-1639	no	abstract[85]	new[85]	nonsal[85]	_	bridge:comparison-relative	16-4[95-85]
+15-4	1637-1639	no	abstract[85]	new[85]	nonsal[85]	_	bridge:comparison-relative	16-4[95_85]
 15-5	1640-1648	workable	abstract[85]	new[85]	nonsal[85]	_	_	_
 15-6	1649-1660	alternative	abstract[85]	new[85]	nonsal[85]	_	_	_
 15-7	1661-1663	to	abstract[85]	new[85]	nonsal[85]	_	_	_
@@ -341,7 +341,7 @@
 15-16	1719-1727	proceeds	_	_	_	_	_	_
 15-17	1728-1730	to	_	_	_	_	_	_
 15-18	1731-1738	enforce	_	_	_	_	_	_
-15-19	1739-1740	a	event[88]	giv[88]	nonsal[88]	_	bridge:entity-resultative	15-28[90-88]
+15-19	1739-1740	a	event[88]	giv[88]	nonsal[88]	_	bridge:entity-resultative	15-28[90_88]
 15-20	1741-1749	minority	event[88]	giv[88]	nonsal[88]	_	_	_
 15-21	1750-1758	decision	event[88]	giv[88]	nonsal[88]	_	_	_
 15-22	1759-1761	on	_	_	_	_	_	_
@@ -470,7 +470,7 @@
 19-25	2396-2397	.	_	_	_	_	_	_
 
 #Text=A substantial European body of opinion , represented by both the Progressive and the Liberal Parties , has endorsed our call .
-20-1	2398-2399	A	abstract[116]|person[117]	new[116]|new[117]	nonsal[116]|nonsal[117]	_	bridge:entity-associative	20-10[118-117]
+20-1	2398-2399	A	abstract[116]|person[117]	new[116]|new[117]	nonsal[116]|nonsal[117]	_	bridge:entity-associative	20-10[118_117]
 20-2	2400-2411	substantial	abstract[116]|person[117]	new[116]|new[117]	nonsal[116]|nonsal[117]	_	_	_
 20-3	2412-2420	European	abstract[116]|person[117]	new[116]|new[117]	nonsal[116]|nonsal[117]	_	_	_
 20-4	2421-2425	body	abstract[116]|person[117]	new[116]|new[117]	nonsal[116]|nonsal[117]	_	_	_
@@ -512,7 +512,7 @@
 21-16	2611-2616	press	abstract[125]|organization[126]	new[125]|new[126]	nonsal[125]|nonsal[126]	_	_	_
 21-17	2617-2618	,	_	_	_	_	_	_
 21-18	2619-2623	from	_	_	_	_	_	_
-21-19	2624-2631	several	organization[127]	new[127]	nonsal[127]	_	bridge:comparison-sense	21-26[128-127]
+21-19	2624-2631	several	organization[127]	new[127]	nonsal[127]	_	bridge:comparison-sense	21-26[128_127]
 21-20	2632-2640	national	organization[127]	new[127]	nonsal[127]	_	_	_
 21-21	2641-2647	church	organization[127]	new[127]	nonsal[127]	_	_	_
 21-22	2648-2661	organisations	organization[127]	new[127]	nonsal[127]	_	_	_
@@ -639,7 +639,7 @@
 #Text=We in South Africa , and the world outside expect an answer .
 29-1	3185-3187	We	person[153]	giv[153]	nonsal[153]	_	coref	30-11[160_153]
 29-2	3188-3190	in	_	_	_	_	_	_
-29-3	3191-3196	South	place[154]	giv[154]	sal[154]	South_Africa[154]	coref|bridge:comparison-relative	47-18[214_154]|29-7[155-154]
+29-3	3191-3196	South	place[154]	giv[154]	sal[154]	South_Africa[154]	coref|bridge:comparison-relative	47-18[214_154]|29-7[155_154]
 29-4	3197-3203	Africa	place[154]	giv[154]	sal[154]	South_Africa[154]	_	_
 29-5	3204-3205	,	_	_	_	_	_	_
 29-6	3206-3209	and	_	_	_	_	_	_
@@ -1063,7 +1063,7 @@
 51-25	5155-5158	the	abstract[245]|event[246]	giv[245]|new[246]	nonsal[245]|nonsal[246]	_	_	_
 51-26	5159-5170	replacement	abstract[245]|event[246]	giv[245]|new[246]	nonsal[245]|nonsal[246]	_	_	_
 51-27	5171-5173	of	abstract[245]|event[246]	giv[245]|new[246]	nonsal[245]|nonsal[246]	_	_	_
-51-28	5174-5178	this	abstract[245]|event[246]|organization[247]	giv[245]|new[246]|giv[247]	nonsal[245]|nonsal[246]|nonsal[247]	_	bridge:comparison-sense	51-34[249-247]
+51-28	5174-5178	this	abstract[245]|event[246]|organization[247]	giv[245]|new[246]|giv[247]	nonsal[245]|nonsal[246]|nonsal[247]	_	bridge:comparison-sense	51-34[249_247]
 51-29	5179-5189	Government	abstract[245]|event[246]|organization[247]	giv[245]|new[246]|giv[247]	nonsal[245]|nonsal[246]|nonsal[247]	_	_	_
 51-30	5190-5192	of	abstract[245]|event[246]|organization[247]	giv[245]|new[246]|giv[247]	nonsal[245]|nonsal[246]|nonsal[247]	_	_	_
 51-31	5193-5201	national	abstract[245]|event[246]|organization[247]|event[248]	giv[245]|new[246]|giv[247]|giv[248]	nonsal[245]|nonsal[246]|nonsal[247]|nonsal[248]	_	_	_

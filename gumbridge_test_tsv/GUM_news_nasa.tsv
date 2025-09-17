@@ -23,10 +23,10 @@
 #Text=Wednesday , April 13 , 2011
 2-1	100-109	Wednesday	time[8]	acc[8]	nonsal[8]	_	_	_
 2-2	110-111	,	_	_	_	_	_	_
-2-3	112-117	April	time[9]	acc[9]	sal[9]	_	bridge:comparison-time	11-13[75-9]
+2-3	112-117	April	time[9]	acc[9]	sal[9]	_	bridge:comparison-time	11-13[75_9]
 2-4	118-120	13	time[9]	acc[9]	sal[9]	_	_	_
 2-5	121-122	,	time[9]	acc[9]	sal[9]	_	_	_
-2-6	123-127	2011	time[9]|time[10]	acc[9]|new[10]	sal[9]|sal[10]	_	bridge:comparison-time|bridge:comparison-time	15-19[94-10]|16-23[106-10]
+2-6	123-127	2011	time[9]|time[10]	acc[9]|new[10]	sal[9]|sal[10]	_	bridge:comparison-time|bridge:comparison-time	15-19[94_10]|16-23[106_10]
 
 #Text=NASA Administrator Charles Bolden announces where four space shuttle orbiters will be permanently displayed at the conclusion of the Space Shuttle Program during an event commemorating the 30th anniversay of the first shuttle launch on April 12 , 2011 .
 3-1	128-132	NASA	person[11]|organization[12]	new[11]|giv[12]	nonsal[11]|nonsal[12]	Charles_Bolden[11]|NASA[12]	coref|coref	8-5[52_11]|4-3[22_12]
@@ -35,7 +35,7 @@
 3-4	155-161	Bolden	person[11]	new[11]	nonsal[11]	Charles_Bolden[11]	_	_
 3-5	162-171	announces	_	_	_	_	_	_
 3-6	172-177	where	place[13]	giv[13]	nonsal[13]	_	_	_
-3-7	178-182	four	place[13]|object[14]	giv[13]|new[14]	nonsal[13]|nonsal[14]	_	coref|bridge:comparison-relative	19-17[124_14]|8-16[55-14]
+3-7	178-182	four	place[13]|object[14]	giv[13]|new[14]	nonsal[13]|nonsal[14]	_	coref|bridge:comparison-relative	19-17[124_14]|8-16[55_14]
 3-8	183-188	space	place[13]|object[14]	giv[13]|new[14]	nonsal[13]|nonsal[14]	_	_	_
 3-9	189-196	shuttle	place[13]|object[14]	giv[13]|new[14]	nonsal[13]|nonsal[14]	_	_	_
 3-10	197-205	orbiters	place[13]|object[14]	giv[13]|new[14]	nonsal[13]|nonsal[14]	_	_	_
@@ -442,7 +442,7 @@
 17-14	2259-2265	during	time[108]	new[108]	nonsal[108]	_	_	_
 17-15	2266-2274	re-entry	time[108]|event[111]	new[108]|new[111]	nonsal[108]|nonsal[111]	_	_	_
 17-16	2275-2282	killing	time[108]	new[108]	nonsal[108]	_	_	_
-17-17	2283-2286	all	time[108]|person[112]	new[108]|acc[112]	nonsal[108]|nonsal[112]	_	bridge:comparison-sense	18-20[119-112]
+17-17	2283-2286	all	time[108]|person[112]	new[108]|acc[112]	nonsal[108]|nonsal[112]	_	bridge:comparison-sense	18-20[119_112]
 17-18	2287-2292	seven	time[108]|person[112]	new[108]|acc[112]	nonsal[108]|nonsal[112]	_	_	_
 17-19	2293-2303	astronauts	time[108]|person[112]	new[108]|acc[112]	nonsal[108]|nonsal[112]	_	_	_
 17-20	2304-2310	aboard	time[108]|person[112]	new[108]|acc[112]	nonsal[108]|nonsal[112]	_	_	_
@@ -681,7 +681,7 @@
 28-3	3491-3495	were	_	_	_	_	_	_
 28-4	3496-3503	pleased	_	_	_	_	_	_
 28-5	3504-3508	with	_	_	_	_	_	_
-28-6	3509-3512	the	abstract[163]	giv[163]	nonsal[163]	_	bridge:entity-resultative	29-14[170-163]
+28-6	3509-3512	the	abstract[163]	giv[163]	nonsal[163]	_	bridge:entity-resultative	29-14[170_163]
 28-7	3513-3518	final	abstract[163]	giv[163]	nonsal[163]	_	_	_
 28-8	3519-3525	choice	abstract[163]	giv[163]	nonsal[163]	_	_	_
 28-9	3526-3528	of	abstract[163]	giv[163]	nonsal[163]	_	_	_
@@ -809,13 +809,13 @@
 32-14	4140-4144	been	_	_	_	_	_	_
 32-15	4145-4153	selected	_	_	_	_	_	_
 32-16	4154-4156	as	_	_	_	_	_	_
-32-17	4157-4158	a	place[199]	giv[199]	nonsal[199]	_	coref|bridge:comparison-relative	35-13[220_199]|35-13[218-199]
+32-17	4157-4158	a	place[199]	giv[199]	nonsal[199]	_	coref|bridge:comparison-relative	35-13[220_199]|35-13[218_199]
 32-18	4159-4164	final	place[199]	giv[199]	nonsal[199]	_	_	_
 32-19	4165-4169	home	place[199]	giv[199]	nonsal[199]	_	_	_
 32-20	4170-4173	for	place[199]	giv[199]	nonsal[199]	_	_	_
 32-21	4174-4177	one	place[199]|object[200]	giv[199]|new[200]	nonsal[199]|nonsal[200]	_	_	_
 32-22	4178-4180	of	place[199]|object[200]	giv[199]|new[200]	nonsal[199]|nonsal[200]	_	_	_
-32-23	4181-4184	the	place[199]|object[200]|object[201]	giv[199]|new[200]|giv[201]	nonsal[199]|nonsal[200]|nonsal[201]	_	coref|bridge:entity-associative	43-7[267_201]|34-12[216-201]
+32-23	4181-4184	the	place[199]|object[200]|object[201]	giv[199]|new[200]|giv[201]	nonsal[199]|nonsal[200]|nonsal[201]	_	coref|bridge:entity-associative	43-7[267_201]|34-12[216_201]
 32-24	4185-4193	orbiters	place[199]|object[200]|object[201]	giv[199]|new[200]|giv[201]	nonsal[199]|nonsal[200]|nonsal[201]	_	_	_
 32-25	4194-4195	—	_	_	_	_	_	_
 32-26	4196-4200	even	_	_	_	_	_	_
@@ -1209,7 +1209,7 @@
 46-10	6126-6127	)	person[294]	giv[294]	nonsal[294]	_	_	_
 
 #Text=Other items include various shuttle simulators which will be given to the Adler Planetarium in Chicago , Illinois , the Evergreen Aviation & Space Museum of McMinnville , Oregon , and Texas A&M 's Aerospace Engineering Department .
-47-1	6128-6133	Other	object[296]	new[296]	nonsal[296]	_	bridge:set-member|bridge:set-member|bridge:set-member|bridge:set-member	48-1[307-296]|48-28[315-296]|48-6[308-296]|49-5[323-296]
+47-1	6128-6133	Other	object[296]	new[296]	nonsal[296]	_	bridge:set-member|bridge:set-member|bridge:set-member|bridge:set-member	48-1[307_296]|48-28[315_296]|48-6[308_296]|49-5[323_296]
 47-2	6134-6139	items	object[296]	new[296]	nonsal[296]	_	_	_
 47-3	6140-6147	include	_	_	_	_	_	_
 47-4	6148-6155	various	object[297]	acc[297]	nonsal[297]	_	_	_

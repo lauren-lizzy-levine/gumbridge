@@ -128,7 +128,7 @@
 
 #Text=Keep your home clean .
 8-1	549-553	Keep	_	_	_	_	_	_
-8-2	554-558	your	place[36]|person[37]	giv[36]|giv[37]	nonsal[36]|nonsal[37]	_	coref|coref|bridge:set-subset	16-4[62_36]|17-1[65_37]|9-7[40-36]
+8-2	554-558	your	place[36]|person[37]	giv[36]|giv[37]	nonsal[36]|nonsal[37]	_	coref|coref|bridge:set-subset	16-4[62_36]|17-1[65_37]|9-7[40_36]
 8-3	559-563	home	place[36]	giv[36]	nonsal[36]	_	_	_
 8-4	564-569	clean	_	_	_	_	_	_
 8-5	570-571	.	_	_	_	_	_	_
@@ -198,7 +198,7 @@
 13-1	827-837	Peppermint	substance[52]	giv[52]	nonsal[52]	_	coref	13-4[53_52]
 13-2	838-841	oil	substance[52]	giv[52]	nonsal[52]	_	_	_
 13-3	842-844	is	_	_	_	_	_	_
-13-4	845-846	a	substance[53]	giv[53]	nonsal[53]	_	coref|bridge:entity-property	14-17[57_53]|14-1[54-53]
+13-4	845-846	a	substance[53]	giv[53]	nonsal[53]	_	coref|bridge:entity-property	14-17[57_53]|14-1[54_53]
 13-5	847-854	natural	substance[53]	giv[53]	nonsal[53]	_	_	_
 13-6	855-864	deterrent	substance[53]	giv[53]	nonsal[53]	_	_	_
 13-7	865-866	.	_	_	_	_	_	_
@@ -269,7 +269,7 @@
 17-1	1144-1147	You	person[65]	giv[65]	nonsal[65]	_	coref	19-8[75_65]
 17-2	1148-1151	can	_	_	_	_	_	_
 17-3	1152-1155	get	_	_	_	_	_	_
-17-4	1156-1166	peppermint	substance[66]	giv[66]	nonsal[66]	_	coref|bridge:entity-meronomy	21-1[86_66]|18-2[71-66]
+17-4	1156-1166	peppermint	substance[66]	giv[66]	nonsal[66]	_	coref|bridge:entity-meronomy	21-1[86_66]|18-2[71_66]
 17-5	1167-1170	oil	substance[66]	giv[66]	nonsal[66]	_	_	_
 17-6	1171-1173	in	_	_	_	_	_	_
 17-7	1174-1178	most	place[67]	new[67]	nonsal[67]	_	_	_
@@ -301,7 +301,7 @@
 
 #Text=Place a cotton ball under or near your garbage can to deter mice from getting into it .
 19-1	1280-1285	Place	_	_	_	_	_	_
-19-2	1286-1287	a	object[73]	giv[73]	nonsal[73]	_	bridge:set-member	20-2[78-73]
+19-2	1286-1287	a	object[73]	giv[73]	nonsal[73]	_	bridge:set-member	20-2[78_73]
 19-3	1288-1294	cotton	object[73]	giv[73]	nonsal[73]	_	_	_
 19-4	1295-1299	ball	object[73]	giv[73]	nonsal[73]	_	_	_
 19-5	1300-1305	under	_	_	_	_	_	_
@@ -332,7 +332,7 @@
 20-10	1415-1421	likely	place[79]	new[79]	nonsal[79]	_	_	_
 20-11	1422-1424	to	place[79]	new[79]	nonsal[79]	_	_	_
 20-12	1425-1430	enter	place[79]	new[79]	nonsal[79]	_	_	_
-20-13	1431-1435	your	place[79]|place[81]|person[82]	new[79]|giv[81]|giv[82]	nonsal[79]|nonsal[81]|nonsal[82]	_	coref|coref|bridge:entity-meronomy|bridge:entity-meronomy|bridge:entity-meronomy	52-10[210_81]|21-21[90_82]|20-17[83-81]|20-20[84-81]|22-6[93-81]
+20-13	1431-1435	your	place[79]|place[81]|person[82]	new[79]|giv[81]|giv[82]	nonsal[79]|nonsal[81]|nonsal[82]	_	coref|coref|bridge:entity-meronomy|bridge:entity-meronomy|bridge:entity-meronomy	52-10[210_81]|21-21[90_82]|20-17[83_81]|20-20[84_81]|22-6[93_81]
 20-14	1436-1441	house	place[79]|place[81]	new[79]|giv[81]	nonsal[79]|nonsal[81]	_	_	_
 20-15	1442-1443	,	_	_	_	_	_	_
 20-16	1444-1446	by	_	_	_	_	_	_
@@ -374,7 +374,7 @@
 #Text=Try growing peppermint plants near the entryways .
 22-1	1597-1600	Try	_	_	_	_	_	_
 22-2	1601-1608	growing	_	_	_	_	_	_
-22-3	1609-1619	peppermint	plant[92]	new[92]	sal[92]	_	bridge:entity-meronomy	23-4[95-92]
+22-3	1609-1619	peppermint	plant[92]	new[92]	sal[92]	_	bridge:entity-meronomy	23-4[95_92]
 22-4	1620-1626	plants	plant[92]	new[92]	sal[92]	_	_	_
 22-5	1627-1631	near	_	_	_	_	_	_
 22-6	1632-1635	the	place[93]	acc[93]	nonsal[93]	_	coref	27-3[110_93]
@@ -635,10 +635,10 @@
 38-4	2755-2759	kill	_	_	_	_	_	_
 38-5	2760-2764	mice	animal[153]	giv[153]	nonsal[153]	_	coref	38-10[155_153]
 38-6	2765-2768	but	_	_	_	_	_	_
-38-7	2769-2773	they	substance[154]	giv[154]	nonsal[154]	_	coref|bridge:set-member	39-1[158_154]|38-15[157-154]
+38-7	2769-2773	they	substance[154]	giv[154]	nonsal[154]	_	coref|bridge:set-member	39-1[158_154]|38-15[157_154]
 38-8	2774-2780	should	_	_	_	_	_	_
 38-9	2781-2785	keep	_	_	_	_	_	_
-38-10	2786-2790	them	animal[155]	giv[155]	nonsal[155]	_	coref|bridge:set-member	44-17[179_155]|43-20[174-155]
+38-10	2786-2790	them	animal[155]	giv[155]	nonsal[155]	_	coref|bridge:set-member	44-17[179_155]|43-20[174_155]
 38-11	2791-2794	out	_	_	_	_	_	_
 38-12	2795-2797	of	_	_	_	_	_	_
 38-13	2798-2803	areas	place[156]	new[156]	nonsal[156]	_	_	_
@@ -650,7 +650,7 @@
 38-19	2833-2834	.	_	_	_	_	_	_
 
 #Text=These products should be available at your local gardening or home improvement center .
-39-1	2835-2840	These	substance[158]	giv[158]	nonsal[158]	_	bridge:comparison-sense	40-4[164-158]
+39-1	2835-2840	These	substance[158]	giv[158]	nonsal[158]	_	bridge:comparison-sense	40-4[164_158]
 39-2	2841-2849	products	substance[158]	giv[158]	nonsal[158]	_	_	_
 39-3	2850-2856	should	_	_	_	_	_	_
 39-4	2857-2859	be	_	_	_	_	_	_
@@ -750,7 +750,7 @@
 44-18	3269-3270	.	_	_	_	_	_	_
 
 #Text=Kittens typically have to be taught by the mother to easily become a mouser .
-45-1	3271-3278	Kittens	animal[180]	new[180]	nonsal[180]	_	bridge:entity-associative	45-8[181-180]
+45-1	3271-3278	Kittens	animal[180]	new[180]	nonsal[180]	_	bridge:entity-associative	45-8[181_180]
 45-2	3279-3288	typically	_	_	_	_	_	_
 45-3	3289-3293	have	_	_	_	_	_	_
 45-4	3294-3296	to	_	_	_	_	_	_
@@ -835,7 +835,7 @@
 
 #Text=While many mousers are great pets as well , not all are .
 49-1	3653-3658	While	_	_	_	_	_	_
-49-2	3659-3663	many	animal[195]	new[195]	nonsal[195]	_	bridge:comparison-sense	49-11[197-195]
+49-2	3659-3663	many	animal[195]	new[195]	nonsal[195]	_	bridge:comparison-sense	49-11[197_195]
 49-3	3664-3671	mousers	animal[195]	new[195]	nonsal[195]	_	_	_
 49-4	3672-3675	are	_	_	_	_	_	_
 49-5	3676-3681	great	animal[196]	new[196]	nonsal[196]	_	_	_
@@ -906,7 +906,7 @@
 52-12	3947-3948	.	_	_	_	_	_	_
 
 #Text=The mice will sniff the smell of cat urine and clear off in a jiffy .
-53-1	3949-3952	The	animal[211]	giv[211]	nonsal[211]	_	coref|bridge:entity-associative|bridge:entity-associative	57-1[228_211]|54-4[216-211]|55-14[222-211]
+53-1	3949-3952	The	animal[211]	giv[211]	nonsal[211]	_	coref|bridge:entity-associative|bridge:entity-associative	57-1[228_211]|54-4[216_211]|55-14[222_211]
 53-2	3953-3957	mice	animal[211]	giv[211]	nonsal[211]	_	_	_
 53-3	3958-3962	will	_	_	_	_	_	_
 53-4	3963-3968	sniff	_	_	_	_	_	_
@@ -1017,7 +1017,7 @@
 59-2	4403-4406	the	event[239]	new[239]	nonsal[239]	_	_	_
 59-3	4407-4414	nesting	event[239]	new[239]	nonsal[239]	_	_	_
 59-4	4415-4417	of	event[239]	new[239]	nonsal[239]	_	_	_
-59-5	4418-4423	birds	event[239]|animal[240]	new[239]|new[240]	nonsal[239]|sal[240]	_	coref|bridge:comparison-sense	65-11[271_240]|60-10[247-240]
+59-5	4418-4423	birds	event[239]|animal[240]	new[239]|new[240]	nonsal[239]|sal[240]	_	coref|bridge:comparison-sense	65-11[271_240]|60-10[247_240]
 59-6	4424-4426	of	event[239]|animal[240]	new[239]|new[240]	nonsal[239]|sal[240]	_	_	_
 59-7	4427-4431	prey	event[239]|animal[240]	new[239]|new[240]	nonsal[239]|sal[240]	_	_	_
 59-8	4432-4434	in	_	_	_	_	_	_
@@ -1097,7 +1097,7 @@
 64-1	4715-4716	A	animal[264]	new[264]	nonsal[264]	_	_	_
 64-2	4717-4723	family	animal[264]	new[264]	nonsal[264]	_	_	_
 64-3	4724-4726	of	animal[264]	new[264]	nonsal[264]	_	_	_
-64-4	4727-4731	barn	animal[264]|animal[265]	new[264]|new[265]	nonsal[264]|nonsal[265]	_	bridge:comparison-relative	65-6[269-265]
+64-4	4727-4731	barn	animal[264]|animal[265]	new[264]|new[265]	nonsal[264]|nonsal[265]	_	bridge:comparison-relative	65-6[269_265]
 64-5	4732-4736	owls	animal[264]|animal[265]	new[264]|new[265]	nonsal[264]|nonsal[265]	_	_	_
 64-6	4737-4740	can	_	_	_	_	_	_
 64-7	4741-4744	eat	_	_	_	_	_	_

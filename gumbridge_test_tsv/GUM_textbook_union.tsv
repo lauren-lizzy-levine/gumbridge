@@ -85,7 +85,7 @@
 7-14	386-391	Union	place[20]	giv[20]	nonsal[20]	Union_%28American_Civil_War%29[20]	_	_
 7-15	392-395	had	_	_	_	_	_	_
 7-16	396-405	mobilized	_	_	_	_	_	_
-7-17	406-409	its	abstract[21]|place[22]	new[21]|giv[22]	nonsal[21]|nonsal[22]	United_Kingdom[22]	coref|bridge:entity-associative	8-22[32_22]|8-1[25-22]
+7-17	406-409	its	abstract[21]|place[22]	new[21]|giv[22]	nonsal[21]|nonsal[22]	United_Kingdom[22]	coref|bridge:entity-associative	8-22[32_22]|8-1[25_22]
 7-18	410-419	resources	abstract[21]	new[21]	nonsal[21]	_	_	_
 7-19	420-423	for	_	_	_	_	_	_
 7-20	424-427	the	event[23]	giv[23]	nonsal[23]	American_Civil_War[23]	coref	11-12[50_23]
@@ -326,7 +326,7 @@
 
 #Text=With the United States preoccupied , the time seemed ripe for action .
 19-1	1613-1617	With	_	_	_	_	_	_
-19-2	1618-1621	the	place[89]	giv[89]	nonsal[89]	United_States[89]	bridge:entity-associative	42-35[247-89]
+19-2	1618-1621	the	place[89]	giv[89]	nonsal[89]	United_States[89]	bridge:entity-associative	42-35[247_89]
 19-3	1622-1628	United	place[89]	giv[89]	nonsal[89]	United_States[89]	_	_
 19-4	1629-1635	States	place[89]	giv[89]	nonsal[89]	United_States[89]	_	_
 19-5	1636-1647	preoccupied	_	_	_	_	_	_
@@ -447,7 +447,7 @@
 24-6	2209-2214	great	abstract[122]	new[122]	nonsal[122]	_	_	_
 24-7	2215-2225	confidence	abstract[122]	new[122]	nonsal[122]	_	_	_
 24-8	2226-2230	that	abstract[122]	new[122]	nonsal[122]	_	_	_
-24-9	2231-2233	it	abstract[122]|place[123]	new[122]|giv[123]	nonsal[122]|nonsal[123]	Fort_Pillow_State_Historic_Park[123]	coref|bridge:entity-associative	27-1[144_123]|25-1[128-123]
+24-9	2231-2233	it	abstract[122]|place[123]	new[122]|giv[123]	nonsal[122]|nonsal[123]	Fort_Pillow_State_Historic_Park[123]	coref|bridge:entity-associative	27-1[144_123]|25-1[128_123]
 24-10	2234-2239	would	abstract[122]	new[122]	nonsal[122]	_	_	_
 24-11	2240-2244	find	abstract[122]	new[122]	nonsal[122]	_	_	_
 24-12	2245-2247	an	abstract[122]|place[124]	new[122]|new[124]	nonsal[122]|nonsal[124]	_	_	_
@@ -718,7 +718,7 @@
 36-19	3638-3641	the	time[201]	new[201]	nonsal[201]	_	_	_
 36-20	3642-3645	end	time[201]	new[201]	nonsal[201]	_	_	_
 36-21	3646-3648	of	time[201]	new[201]	nonsal[201]	_	_	_
-36-22	3649-3652	the	time[201]|event[202]	new[201]|giv[202]	nonsal[201]|nonsal[202]	American_Civil_War[202]	bridge:entity-associative	40-28[230-202]
+36-22	3649-3652	the	time[201]|event[202]	new[201]|giv[202]	nonsal[201]|nonsal[202]	American_Civil_War[202]	bridge:entity-associative	40-28[230_202]
 36-23	3653-3656	war	time[201]|event[202]	new[201]|giv[202]	nonsal[201]|nonsal[202]	American_Civil_War[202]	_	_
 36-24	3657-3659	in	time[201]	new[201]	nonsal[201]	_	_	_
 36-25	3660-3664	1865	time[201]|time[203]	new[201]|acc[203]	nonsal[201]|nonsal[203]	_	coref	42-2[234_203]
@@ -802,7 +802,7 @@
 40-4	4050-4054	were	_	_	_	_	_	_
 40-5	4055-4062	limited	_	_	_	_	_	_
 40-6	4063-4065	to	_	_	_	_	_	_
-40-7	4066-4073	hauling	event[225]	new[225]	nonsal[225]	_	bridge:comparison-relative	40-19[229-225]
+40-7	4066-4073	hauling	event[225]	new[225]	nonsal[225]	_	bridge:comparison-relative	40-19[229_225]
 40-8	4074-4082	supplies	event[225]|object[226]	new[225]|new[226]	nonsal[225]|nonsal[226]	_	_	_
 40-9	4083-4084	,	event[225]	new[225]	nonsal[225]	_	_	_
 40-10	4085-4092	serving	event[225]	new[225]	nonsal[225]	_	_	_
@@ -874,7 +874,7 @@
 42-36	4434-4435	)	_	_	_	_	_	_
 
 #Text=African American soldiers also received lower wages than their White counterparts : ten dollars per month , with three dollars deducted for clothing .
-43-1	4436-4443	African	abstract[248]|person[249]	new[248]|giv[249]	nonsal[248]|nonsal[249]	_	coref|coref|bridge:comparison-sense	45-11[264_248]|43-9[252_249]|43-9[251-249]
+43-1	4436-4443	African	abstract[248]|person[249]	new[248]|giv[249]	nonsal[248]|nonsal[249]	_	coref|coref|bridge:comparison-sense	45-11[264_248]|43-9[252_249]|43-9[251_249]
 43-2	4444-4452	American	abstract[248]|person[249]	new[248]|giv[249]	nonsal[248]|nonsal[249]	_	_	_
 43-3	4453-4461	soldiers	abstract[248]|person[249]	new[248]|giv[249]	nonsal[248]|nonsal[249]	_	_	_
 43-4	4462-4466	also	abstract[248]	new[248]	nonsal[248]	_	_	_
@@ -1007,7 +1007,7 @@
 48-10	5156-5167	opportunity	abstract[282]	new[282]	nonsal[282]	_	_	_
 48-11	5168-5170	to	abstract[282]	new[282]	nonsal[282]	_	_	_
 48-12	5171-5176	prove	abstract[282]	new[282]	nonsal[282]	_	_	_
-48-13	5177-5187	themselves	abstract[282]|person[283]	new[282]|giv[283]	nonsal[282]|nonsal[283]	_	bridge:set-subset	49-1[284-283]
+48-13	5177-5187	themselves	abstract[282]|person[283]	new[282]|giv[283]	nonsal[282]|nonsal[283]	_	bridge:set-subset	49-1[284_283]
 48-14	5188-5189	.	_	_	_	_	_	_
 
 #Text=Some 85 percent were formerly enslaved people who were fighting for the liberation of all of the enslaved and the end of slavery .
@@ -1044,7 +1044,7 @@
 50-5	5348-5350	to	abstract[290]	new[290]	nonsal[290]	_	_	_
 50-6	5351-5356	serve	abstract[290]	new[290]	nonsal[290]	_	_	_
 50-7	5357-5358	,	_	_	_	_	_	_
-50-8	5359-5363	many	organization[291]	giv[291]	nonsal[291]	_	bridge:comparison-sense	51-1[289-288]
+50-8	5359-5363	many	organization[291]	giv[291]	nonsal[291]	_	bridge:comparison-sense	51-1[289_288]
 50-9	5364-5369	Black	organization[291]	giv[291]	nonsal[291]	_	_	_
 50-10	5370-5379	regiments	organization[291]	giv[291]	nonsal[291]	_	_	_
 50-11	5380-5383	did	_	_	_	_	_	_
@@ -1096,7 +1096,7 @@
 52-9	5645-5646	.	_	_	_	_	_	_
 
 #Text=The Confederacy , not surprisingly , showed no mercy to African American troops .
-53-1	5647-5650	The	place[304]	giv[304]	nonsal[304]	Confederate_States_of_America[304]	coref|bridge:entity-associative	56-17[327_304]|54-5[309-304]
+53-1	5647-5650	The	place[304]	giv[304]	nonsal[304]	Confederate_States_of_America[304]	coref|bridge:entity-associative	56-17[327_304]|54-5[309_304]
 53-2	5651-5662	Confederacy	place[304]	giv[304]	nonsal[304]	Confederate_States_of_America[304]	_	_
 53-3	5663-5664	,	_	_	_	_	_	_
 53-4	5665-5668	not	_	_	_	_	_	_
@@ -1162,7 +1162,7 @@
 55-22	5982-5986	fort	place[320]	giv[320]	nonsal[320]	Fort_Pillow_State_Historic_Park[320]	_	_
 55-23	5987-5988	,	_	_	_	_	_	_
 55-24	5989-5992	and	_	_	_	_	_	_
-55-25	5993-5996	the	person[321]	giv[321]	nonsal[321]	_	bridge:set-subset|bridge:set-subset	56-13[325-321]|56-4[323-321]
+55-25	5993-5996	the	person[321]	giv[321]	nonsal[321]	_	bridge:set-subset|bridge:set-subset	56-13[325_321]|56-4[323_321]
 55-26	5997-6002	Union	person[321]|place[322]	giv[321]|giv[322]	nonsal[321]|nonsal[322]	Union_%28American_Civil_War%29[322]	coref	57-4[330_322]
 55-27	6003-6012	defenders	person[321]	giv[321]	nonsal[321]	_	_	_
 55-28	6013-6024	surrendered	_	_	_	_	_	_

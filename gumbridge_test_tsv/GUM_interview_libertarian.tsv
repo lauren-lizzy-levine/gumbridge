@@ -65,7 +65,7 @@
 4-8	340-345	polls	event[21]|abstract[22]|event[23]	new[21]|new[22]|new[23]	nonsal[21]|nonsal[22]|nonsal[23]	_	_	_
 4-9	346-349	for	event[21]|abstract[22]	new[21]|new[22]	nonsal[21]|nonsal[22]	_	_	_
 4-10	350-353	the	event[21]|abstract[22]|event[24]	new[21]|new[22]|new[24]	nonsal[21]|nonsal[22]|nonsal[24]	_	coref	6-3[47_24]
-4-11	354-358	2013	event[21]|abstract[22]|event[24]|time[25]	new[21]|new[22]|new[24]|giv[25]	nonsal[21]|nonsal[22]|nonsal[24]|nonsal[25]	_	coref|bridge:set-span-interval	6-8[49_25]|5-8[32-25]
+4-11	354-358	2013	event[21]|abstract[22]|event[24]|time[25]	new[21]|new[22]|new[24]|giv[25]	nonsal[21]|nonsal[22]|nonsal[24]|nonsal[25]	_	coref|bridge:set-span-interval	6-8[49_25]|5-8[32_25]
 4-12	359-367	Virginia	event[21]|abstract[22]|event[24]|place[26]	new[21]|new[22]|new[24]|giv[26]	nonsal[21]|nonsal[22]|nonsal[24]|nonsal[26]	Virginia[26]	coref	5-25[39_26]
 4-13	368-381	gubernatorial	event[21]|abstract[22]|event[24]	new[21]|new[22]|new[24]	nonsal[21]|nonsal[22]|nonsal[24]	_	_	_
 4-14	382-390	election	event[21]|abstract[22]|event[24]	new[21]|new[22]|new[24]	nonsal[21]|nonsal[22]|nonsal[24]	_	_	_
@@ -81,7 +81,7 @@
 4-24	437-438	.	_	_	_	_	_	_
 
 #Text=The latest Newsmax / Zogby poll from late September placed him at 13 percent , 14 points behind Republican Party nominee Ken Cuccinelli , Virginia 's Attorney General , and 19 points behind Democratic Party nominee Terry McAuliffe , the former Democratic National Committee chairman , with 24 percent undecided .
-5-1	439-442	The	event[29]	new[29]	nonsal[29]	_	bridge:entity-associative|bridge:entity-associative	5-13[34-29]|5-48[45-29]
+5-1	439-442	The	event[29]	new[29]	nonsal[29]	_	bridge:entity-associative|bridge:entity-associative	5-13[34_29]|5-48[45_29]
 5-2	443-449	latest	event[29]	new[29]	nonsal[29]	_	_	_
 5-3	450-457	Newsmax	event[29]|organization[30]	new[29]|new[30]	nonsal[29]|nonsal[30]	Newsmax[30]	_	_
 5-4	458-459	/	event[29]	new[29]	nonsal[29]	_	_	_
@@ -136,7 +136,7 @@
 #Text=Whoever wins election on November 5 , 2013 , would replace outgoing governor Bob McDonnell .
 6-1	752-759	Whoever	person[46]	new[46]	nonsal[46]	_	_	_
 6-2	760-764	wins	person[46]	new[46]	nonsal[46]	_	_	_
-6-3	765-773	election	person[46]|event[47]	new[46]|giv[47]	nonsal[46]|nonsal[47]	_	bridge:entity-associative	10-11[91-47]
+6-3	765-773	election	person[46]|event[47]	new[46]|giv[47]	nonsal[46]|nonsal[47]	_	bridge:entity-associative	10-11[91_47]
 6-4	774-776	on	person[46]	new[46]	nonsal[46]	_	_	_
 6-5	777-785	November	person[46]|time[48]	new[46]|acc[48]	nonsal[46]|nonsal[48]	_	_	_
 6-6	786-787	5	person[46]|time[48]	new[46]|acc[48]	nonsal[46]|nonsal[48]	_	_	_
@@ -340,7 +340,7 @@
 14-6	1783-1795	professional	abstract[106]	new[106]	nonsal[106]	_	_	_
 14-7	1796-1806	background	abstract[106]	new[106]	nonsal[106]	_	_	_
 14-8	1807-1808	,	_	_	_	_	_	_
-14-9	1809-1810	I	person[108]	giv[108]	nonsal[108]	Robert_Sarvis[108]	coref|bridge:comparison-relative	14-25[112_108]|14-20[111-108]
+14-9	1809-1810	I	person[108]	giv[108]	nonsal[108]	Robert_Sarvis[108]	coref|bridge:comparison-relative	14-25[112_108]|14-20[111_108]
 14-10	1811-1821	understand	_	_	_	_	_	_
 14-11	1822-1825	the	abstract[109]	new[109]	nonsal[109]	_	_	_
 14-12	1826-1832	issues	abstract[109]	new[109]	nonsal[109]	_	_	_
@@ -423,13 +423,13 @@
 16-12	2247-2249	as	abstract[123]|abstract[125]	giv[123]|new[125]	nonsal[123]|nonsal[125]	_	_	_
 16-13	2250-2258	Governor	abstract[123]|abstract[125]|person[127]	giv[123]|new[125]|giv[127]	nonsal[123]|nonsal[125]|nonsal[127]	Bob_McDonnell[127]	coref	17-8[130_127]
 16-14	2259-2261	of	abstract[123]|abstract[125]|person[127]	giv[123]|new[125]|giv[127]	nonsal[123]|nonsal[125]|nonsal[127]	Bob_McDonnell[127]	_	_
-16-15	2262-2270	Virginia	abstract[123]|abstract[125]|person[127]|place[128]	giv[123]|new[125]|giv[127]|giv[128]	nonsal[123]|nonsal[125]|nonsal[127]|nonsal[128]	Bob_McDonnell[127]|Virginia[128]	coref|bridge:other	29-9[203_128]|28-19[193-128]
+16-15	2262-2270	Virginia	abstract[123]|abstract[125]|person[127]|place[128]	giv[123]|new[125]|giv[127]|giv[128]	nonsal[123]|nonsal[125]|nonsal[127]|nonsal[128]	Bob_McDonnell[127]|Virginia[128]	coref|bridge:other	29-9[203_128]|28-19[193_128]
 16-16	2271-2272	?	_	_	_	_	_	_
 
 #Text=What would you have done differently than him ?
 17-1	2273-2277	What	_	_	_	_	_	_
 17-2	2278-2283	would	_	_	_	_	_	_
-17-3	2284-2287	you	person[129]	giv[129]	nonsal[129]	Robert_Sarvis[129]	coref|bridge:comparison-relative	23-12[168_129]|23-3[163-129]
+17-3	2284-2287	you	person[129]	giv[129]	nonsal[129]	Robert_Sarvis[129]	coref|bridge:comparison-relative	23-12[168_129]|23-3[163_129]
 17-4	2288-2292	have	_	_	_	_	_	_
 17-5	2293-2297	done	_	_	_	_	_	_
 17-6	2298-2309	differently	_	_	_	_	_	_
@@ -484,7 +484,7 @@
 20-2	2564-2572	recently	_	_	_	_	_	_
 20-3	2573-2574	,	_	_	_	_	_	_
 20-4	2575-2577	he	person[145]	giv[145]	nonsal[145]	Bob_McDonnell[145]	coref	21-1[155_145]
-20-5	2578-2583	erred	event[146]	new[146]	nonsal[146]	_	bridge:comparison-relative	21-5[156-146]
+20-5	2578-2583	erred	event[146]	new[146]	nonsal[146]	_	bridge:comparison-relative	21-5[156_146]
 20-6	2584-2586	in	event[146]	new[146]	nonsal[146]	_	_	_
 20-7	2587-2596	accepting	event[146]	new[146]	nonsal[146]	_	_	_
 20-8	2597-2598	a	event[146]|abstract[147]	new[146]|new[147]	nonsal[146]|nonsal[147]	_	_	_
@@ -629,7 +629,7 @@
 27-7	3312-3320	nominees	person[182]	split[182]	nonsal[182]	_	_	_
 27-8	3321-3323	as	_	_	_	_	_	_
 27-9	3324-3336	exemplifying	_	_	_	_	_	_
-27-10	3337-3341	what	abstract[184]	new[184]	nonsal[184]	_	bridge:comparison-relative	27-21[187-184]
+27-10	3337-3341	what	abstract[184]	new[184]	nonsal[184]	_	bridge:comparison-relative	27-21[187_184]
 27-11	3342-3344	is	abstract[184]	new[184]	nonsal[184]	_	_	_
 27-12	3345-3350	worst	abstract[184]	new[184]	nonsal[184]	_	_	_
 27-13	3351-3356	about	abstract[184]	new[184]	nonsal[184]	_	_	_
@@ -663,7 +663,7 @@
 28-16	3484-3488	that	_	_	_	_	_	_
 28-17	3489-3490	I	person[192]	giv[192]	nonsal[192]	Robert_Sarvis[192]	coref	28-30[195_192]
 28-18	3491-3501	understand	_	_	_	_	_	_
-28-19	3502-3505	the	abstract[193]	acc[193]	nonsal[193]	_	bridge:entity-associative	28-24[193-192]
+28-19	3502-3505	the	abstract[193]	acc[193]	nonsal[193]	_	bridge:entity-associative	28-24[193_192]
 28-20	3506-3512	issues	abstract[193]	acc[193]	nonsal[193]	_	_	_
 28-21	3513-3519	deeply	_	_	_	_	_	_
 28-22	3520-3523	and	_	_	_	_	_	_

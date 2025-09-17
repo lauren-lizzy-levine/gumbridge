@@ -26,7 +26,7 @@
 2-12	75-76	.	_	_	_	_	_	_
 
 #Text=Today I 'm doing another college day in my life .
-3-1	77-82	Today	time[5]	acc[5]	nonsal[5]	_	coref|bridge:set-span-interval	6-30[25_5]|5-10[15-5]
+3-1	77-82	Today	time[5]	acc[5]	nonsal[5]	_	coref|bridge:set-span-interval	6-30[25_5]|5-10[15_5]
 3-2	83-84	I	person[6]	giv[6]	nonsal[6]	_	coref	3-9[10_6]
 3-3	85-87	'm	_	_	_	_	_	_
 3-4	88-93	doing	_	_	_	_	_	_
@@ -98,7 +98,7 @@
 6-27	368-375	getting	event[23]	new[23]	nonsal[23]	_	_	_
 6-28	376-378	up	event[23]	new[23]	nonsal[23]	_	_	_
 6-29	379-384	early	event[23]	new[23]	nonsal[23]	_	_	_
-6-30	385-390	today	event[23]|time[25]	new[23]|giv[25]	nonsal[23]|nonsal[25]	_	coref|bridge:comparison-time|bridge:comparison-time|bridge:comparison-time	13-2[79_25]|10-13[46-25]|7-11[28-25]|9-27[41-25]
+6-30	385-390	today	event[23]|time[25]	new[23]|giv[25]	nonsal[23]|nonsal[25]	_	coref|bridge:comparison-time|bridge:comparison-time|bridge:comparison-time	13-2[79_25]|10-13[46_25]|7-11[28_25]|9-27[41_25]
 6-31	391-394	and	event[23]	new[23]	nonsal[23]	_	_	_
 6-32	395-400	going	event[23]	new[23]	nonsal[23]	_	_	_
 6-33	401-402	.	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 9-15	656-664	calendar	abstract[38]	giv[38]	nonsal[38]	_	_	_
 9-16	665-671	laying	abstract[38]	giv[38]	nonsal[38]	_	_	_
 9-17	672-675	out	abstract[38]	giv[38]	nonsal[38]	_	_	_
-9-18	676-679	the	abstract[38]|abstract[39]	giv[38]|new[39]	nonsal[38]|nonsal[39]	_	bridge:set-member|bridge:set-member|bridge:set-member|bridge:set-member|bridge:set-subset|bridge:set-subset	13-10[82-39]|13-6[81-39]|14-12[87-39]|14-17[90-39]|15-4[94-39]|16-10[100-39]
+9-18	676-679	the	abstract[38]|abstract[39]	giv[38]|new[39]	nonsal[38]|nonsal[39]	_	bridge:set-member|bridge:set-member|bridge:set-member|bridge:set-member|bridge:set-subset|bridge:set-subset	13-10[82_39]|13-6[81_39]|14-12[87_39]|14-17[90_39]|15-4[94_39]|16-10[100_39]
 9-19	680-688	chapters	abstract[38]|abstract[39]	giv[38]|new[39]	nonsal[38]|nonsal[39]	_	_	_
 9-20	689-693	that	abstract[38]|abstract[39]	giv[38]|new[39]	nonsal[38]|nonsal[39]	_	_	_
 9-21	694-695	I	abstract[38]|abstract[39]|person[40]	giv[38]|new[39]|giv[40]	nonsal[38]|nonsal[39]|nonsal[40]	_	coref	10-3[44_40]
@@ -195,7 +195,7 @@
 10-13	780-784	this	time[46]	acc[46]	nonsal[46]	_	coref	10-16[47_46]
 10-14	785-789	week	time[46]	acc[46]	nonsal[46]	_	_	_
 10-15	790-792	is	_	_	_	_	_	_
-10-16	793-796	our	time[47]|person[48]	giv[47]|acc[48]	nonsal[47]|nonsal[48]	_	coref|bridge:set-span-interval|bridge:set-span-interval|bridge:set-span-interval|bridge:set-span-interval|bridge:comparison-time|bridge:set-span-interval|bridge:set-span-interval|bridge:set-span-interval|bridge:set-span-interval	10-21[50_48]|14-23[92-47]|14-4[85-47]|15-1[93-47]|16-4[98-47]|17-18[113-47]|11-31[64-47]|11-9[55-47]|11-12[57-47]|11-16[58-47]
+10-16	793-796	our	time[47]|person[48]	giv[47]|acc[48]	nonsal[47]|nonsal[48]	_	coref|bridge:set-span-interval|bridge:set-span-interval|bridge:set-span-interval|bridge:set-span-interval|bridge:comparison-time|bridge:set-span-interval|bridge:set-span-interval|bridge:set-span-interval|bridge:set-span-interval	10-21[50_48]|14-23[92_47]|14-4[85_47]|15-1[93_47]|16-4[98_47]|17-18[113_47]|11-31[64_47]|11-9[55_47]|11-12[57_47]|11-16[58_47]
 10-17	797-809	Thanksgiving	time[47]|event[49]	giv[47]|new[49]	nonsal[47]|nonsal[49]	Thanksgiving[49]	coref	11-9[56_49]
 10-18	810-815	break	time[47]	giv[47]	nonsal[47]	_	_	_
 10-19	816-819	and	_	_	_	_	_	_
@@ -456,7 +456,7 @@
 19-7	1914-1915	.	_	_	_	_	_	_
 
 #Text=They are really cute .
-20-1	1916-1920	They	object[124]	giv[124]	nonsal[124]	Vans[124]	coref|bridge:comparison-sense	21-17[130_124]|21-6[127-124]
+20-1	1916-1920	They	object[124]	giv[124]	nonsal[124]	Vans[124]	coref|bridge:comparison-sense	21-17[130_124]|21-6[127_124]
 20-2	1921-1924	are	_	_	_	_	_	_
 20-3	1925-1931	really	_	_	_	_	_	_
 20-4	1932-1936	cute	_	_	_	_	_	_
@@ -516,7 +516,7 @@
 22-24	2168-2171	but	_	_	_	_	_	_
 22-25	2172-2175	one	object[139]	new[139]	nonsal[139]	_	_	_
 22-26	2176-2178	of	object[139]	new[139]	nonsal[139]	_	_	_
-22-27	2179-2184	these	object[139]|object[140]	new[139]|giv[140]	nonsal[139]|nonsal[140]	Vans[140]	coref|bridge:entity-meronomy	23-29[151_140]|23-9[145-140]
+22-27	2179-2184	these	object[139]|object[140]	new[139]|giv[140]	nonsal[139]|nonsal[140]	Vans[140]	coref|bridge:entity-meronomy	23-29[151_140]|23-9[145_140]
 22-28	2185-2189	ones	object[139]|object[140]	new[139]|giv[140]	nonsal[139]|nonsal[140]	Vans[140]	_	_
 22-29	2190-2192	is	_	_	_	_	_	_
 22-30	2193-2197	like	_	_	_	_	_	_
@@ -539,7 +539,7 @@
 23-10	2259-2263	left	object[144]|object[145]	giv[144]|acc[145]	nonsal[144]|nonsal[145]	_	_	_
 23-11	2264-2268	foot	object[144]|object[145]	giv[144]|acc[145]	nonsal[144]|nonsal[145]	_	_	_
 23-12	2269-2276	because	_	_	_	_	_	_
-23-13	2277-2279	my	event[146]|object[147]|person[148]	new[146]|new[147]|giv[148]	nonsal[146]|nonsal[147]|nonsal[148]	_	coref|coref|bridge:entity-meronomy	24-17[158_146]|23-36[153_148]|23-20[149-147]
+23-13	2277-2279	my	event[146]|object[147]|person[148]	new[146]|new[147]|giv[148]	nonsal[146]|nonsal[147]|nonsal[148]	_	coref|coref|bridge:entity-meronomy	24-17[158_146]|23-36[153_148]|23-20[149_147]
 23-14	2280-2284	foot	event[146]|object[147]	new[146]|new[147]	nonsal[146]|nonsal[147]	_	_	_
 23-15	2285-2290	feels	event[146]	new[146]	nonsal[146]	_	_	_
 23-16	2291-2296	super	event[146]	new[146]	nonsal[146]	_	_	_
@@ -575,7 +575,7 @@
 24-4	2411-2414	gon	_	_	_	_	_	_
 24-5	2415-2417	na	_	_	_	_	_	_
 24-6	2418-2426	exchange	_	_	_	_	_	_
-24-7	2427-2431	them	object[155]	giv[155]	nonsal[155]	Vans[155]	coref|bridge:comparison-relative	28-28[171_155]|24-9[156-155]
+24-7	2427-2431	them	object[155]	giv[155]	nonsal[155]	Vans[155]	coref|bridge:comparison-relative	28-28[171_155]|24-9[156_155]
 24-8	2432-2435	for	_	_	_	_	_	_
 24-9	2436-2443	another	object[156]	acc[156]	nonsal[156]	_	coref	36-10[219_156]
 24-10	2444-2448	pair	object[156]	acc[156]	nonsal[156]	_	_	_
@@ -768,7 +768,7 @@
 34-4	3156-3158	do	_	_	_	_	_	_
 34-5	3159-3161	go	_	_	_	_	_	_
 34-6	3162-3164	to	_	_	_	_	_	_
-34-7	3165-3169	FGCU	organization[201]	new[201]	sal[201]	Florida_Gulf_Coast_University[201]	bridge:entity-associative	34-14[204-201]
+34-7	3165-3169	FGCU	organization[201]	new[201]	sal[201]	Florida_Gulf_Coast_University[201]	bridge:entity-associative	34-14[204_201]
 34-8	3170-3173	and	_	_	_	_	_	_
 34-9	3174-3177	you	person[202]	giv[202]	nonsal[202]	_	coref	34-23[205_202]
 34-10	3178-3182	ever	_	_	_	_	_	_
@@ -806,7 +806,7 @@
 35-12	3298-3300	30	time[211]	new[211]	nonsal[211]	_	_	_
 35-13	3301-3308	minutes	time[211]	new[211]	nonsal[211]	_	_	_
 35-14	3309-3311	in	_	_	_	_	_	_
-35-15	3312-3317	there	organization[212]	giv[212]	nonsal[212]	Designer_Brands[212]	coref|bridge:other|bridge:entity-associative	39-9[233_212]|35-24[216-212]|36-3[218-212]
+35-15	3312-3317	there	organization[212]	giv[212]	nonsal[212]	Designer_Brands[212]	coref|bridge:other|bridge:entity-associative	39-9[233_212]|35-24[216_212]|36-3[218_212]
 35-16	3318-3325	because	_	_	_	_	_	_
 35-17	3326-3328	it	event[213]	new[213]	nonsal[213]	_	coref	35-20[214_213]
 35-18	3329-3332	was	_	_	_	_	_	_

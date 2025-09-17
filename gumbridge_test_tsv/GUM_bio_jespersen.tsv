@@ -27,12 +27,12 @@
 2-17	95-99	July	time[6]|time[7]	new[6]|new[7]	nonsal[6]|nonsal[7]	_	_	_
 2-18	100-104	1860	time[6]|time[7]|time[8]	new[6]|new[7]|acc[8]	nonsal[6]|nonsal[7]|nonsal[8]	_	_	_
 2-19	105-106	–	_	_	_	_	_	_
-2-20	107-109	30	time[9]	new[9]	nonsal[9]	_	bridge:comparison-time	22-48[198-9]
+2-20	107-109	30	time[9]	new[9]	nonsal[9]	_	bridge:comparison-time	22-48[198_9]
 2-21	110-115	April	time[9]|time[10]	new[9]|new[10]	nonsal[9]|nonsal[10]	_	_	_
 2-22	116-120	1943	time[9]|time[10]|time[11]	new[9]|new[10]|acc[11]	nonsal[9]|nonsal[10]|nonsal[11]	_	_	_
 2-23	121-122	)	_	_	_	_	_	_
 2-24	123-126	was	_	_	_	_	_	_
-2-25	127-128	a	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	coref|bridge:entity-associative	4-1[16_12]|3-1[15-12]
+2-25	127-128	a	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	coref|bridge:entity-associative	4-1[16_12]|3-1[15_12]
 2-26	129-135	Danish	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	_	_
 2-27	136-144	linguist	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	_	_
 2-28	145-148	who	person[12]	giv[12]	nonsal[12]	Otto_Jespersen[12]	_	_
@@ -136,7 +136,7 @@
 7-12	617-619	in	_	_	_	_	_	_
 7-13	620-624	1887	time[46]	acc[46]	nonsal[46]	_	coref	9-2[64_46]
 7-14	625-631	earned	_	_	_	_	_	_
-7-15	632-635	his	abstract[47]|person[48]	new[47]|giv[48]	nonsal[47]|nonsal[48]	Otto_Jespersen[48]	coref|bridge:entity-associative	7-27[54_48]|8-5[57-47]
+7-15	632-635	his	abstract[47]|person[48]	new[47]|giv[48]	nonsal[47]|nonsal[48]	Otto_Jespersen[48]	coref|bridge:entity-associative	7-27[54_48]|8-5[57_47]
 7-16	636-642	master	abstract[47]	new[47]	nonsal[47]	_	_	_
 7-17	643-645	's	abstract[47]	new[47]	nonsal[47]	_	_	_
 7-18	646-652	degree	abstract[47]	new[47]	nonsal[47]	_	_	_
@@ -247,7 +247,7 @@
 11-1	1200-1202	He	person[90]	giv[90]	nonsal[90]	Otto_Jespersen[90]	coref	11-4[92_90]
 11-2	1203-1215	successfully	_	_	_	_	_	_
 11-3	1216-1224	defended	_	_	_	_	_	_
-11-4	1225-1228	his	abstract[91]|person[92]	giv[91]|giv[92]	nonsal[91]|nonsal[92]	Otto_Jespersen[92]	coref|bridge:entity-associative|bridge:entity-associative	13-1[96_92]|12-1[94-92]|12-4[95-92]
+11-4	1225-1228	his	abstract[91]|person[92]	giv[91]|giv[92]	nonsal[91]|nonsal[92]	Otto_Jespersen[92]	coref|bridge:entity-associative|bridge:entity-associative	13-1[96_92]|12-1[94_92]|12-4[95_92]
 11-5	1229-1241	dissertation	abstract[91]	giv[91]	nonsal[91]	_	_	_
 11-6	1242-1244	in	_	_	_	_	_	_
 11-7	1245-1249	1891	time[93]	acc[93]	nonsal[93]	_	_	_
@@ -323,7 +323,7 @@
 #Text=He advanced the theories of Rank and Nexus in Danish in two papers : Sprogets logik ( 1913 ) and De to hovedarter af grammatiske forbindelser ( 1921 ) .
 15-1	1578-1580	He	person[119]	giv[119]	nonsal[119]	Otto_Jespersen[119]	coref	16-1[130_119]
 15-2	1581-1589	advanced	_	_	_	_	_	_
-15-3	1590-1593	the	abstract[120]	new[120]	nonsal[120]	_	bridge:set-member	16-3[131-120]
+15-3	1590-1593	the	abstract[120]	new[120]	nonsal[120]	_	bridge:set-member	16-3[131_120]
 15-4	1594-1602	theories	abstract[120]	new[120]	nonsal[120]	_	_	_
 15-5	1603-1605	of	abstract[120]	new[120]	nonsal[120]	_	_	_
 15-6	1606-1610	Rank	abstract[120]|abstract[121]	new[120]|new[121]	nonsal[120]|nonsal[121]	_	coref	24-43[229_121]
@@ -576,10 +576,10 @@
 22-25	2823-2830	English	abstract[191]|abstract[192]	acc[191]|giv[192]	nonsal[191]|nonsal[192]	English_language[192]	_	_
 22-26	2831-2839	Language	abstract[191]|abstract[192]	acc[191]|giv[192]	nonsal[191]|nonsal[192]	English_language[192]	_	_
 22-27	2840-2841	(	_	_	_	_	_	_
-22-28	2842-2846	1905	time[193]	acc[193]	nonsal[193]	_	bridge:comparison-time	22-55[201-193]
+22-28	2842-2846	1905	time[193]	acc[193]	nonsal[193]	_	bridge:comparison-time	22-55[201_193]
 22-29	2847-2848	)	_	_	_	_	_	_
 22-30	2849-2851	is	_	_	_	_	_	_
-22-31	2852-2853	a	abstract[194]	giv[194]	nonsal[194]	_	bridge:entity-associative	22-60[202-194]
+22-31	2852-2853	a	abstract[194]	giv[194]	nonsal[194]	_	bridge:entity-associative	22-60[202_194]
 22-32	2854-2867	comprehensive	abstract[194]	giv[194]	nonsal[194]	_	_	_
 22-33	2868-2872	view	abstract[194]	giv[194]	nonsal[194]	_	_	_
 22-34	2873-2875	of	abstract[194]	giv[194]	nonsal[194]	_	_	_
@@ -820,7 +820,7 @@
 31-3	4061-4062	a	person[268]	giv[268]	nonsal[268]	Otto_Jespersen[268]	coref	34-2[289_268]
 31-4	4063-4072	proponent	person[268]	giv[268]	nonsal[268]	Otto_Jespersen[268]	_	_
 31-5	4073-4075	of	person[268]	giv[268]	nonsal[268]	Otto_Jespersen[268]	_	_
-31-6	4076-4092	phonosemanticism	person[268]|abstract[269]	giv[268]|new[269]	nonsal[268]|nonsal[269]	Otto_Jespersen[268]	bridge:comparison-relative|bridge:comparison-relative	32-5[270-269]|32-9[271-269]
+31-6	4076-4092	phonosemanticism	person[268]|abstract[269]	giv[268]|new[269]	nonsal[268]|nonsal[269]	Otto_Jespersen[268]	bridge:comparison-relative|bridge:comparison-relative	32-5[270_269]|32-9[271_269]
 31-7	4093-4096	and	_	_	_	_	_	_
 31-8	4097-4102	wrote	_	_	_	_	_	_
 31-9	4103-4104	:	_	_	_	_	_	_

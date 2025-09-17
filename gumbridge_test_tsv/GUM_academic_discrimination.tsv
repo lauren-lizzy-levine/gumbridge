@@ -12,7 +12,7 @@
 1-6	40-46	racial	abstract[1]|person[3]	new[1]|new[3]	sal[1]|nonsal[3]	_	_	_
 1-7	47-53	groups	abstract[1]|person[3]	new[1]|new[3]	sal[1]|nonsal[3]	_	_	_
 1-8	54-56	in	abstract[1]	new[1]	sal[1]	_	_	_
-1-9	57-69	contemporary	abstract[1]|place[4]	new[1]|new[4]	sal[1]|nonsal[4]	United_States[4]	bridge:comparison-relative|bridge:entity-associative	2-3[6-4]|12-28[68-4]
+1-9	57-69	contemporary	abstract[1]|place[4]	new[1]|new[4]	sal[1]|nonsal[4]	United_States[4]	bridge:comparison-relative|bridge:entity-associative	2-3[6_4]|12-28[68_4]
 1-10	70-77	America	abstract[1]|place[4]	new[1]|new[4]	sal[1]|nonsal[4]	United_States[4]	_	_
 1-11	78-79	:	_	_	_	_	_	_
 
@@ -193,7 +193,7 @@
 11-2	1017-1026	diversity	abstract[51]|abstract[52]	new[51]|new[52]	nonsal[51]|nonsal[52]	_	_	_
 11-3	1027-1036	trainings	abstract[51]	new[51]	nonsal[51]	_	_	_
 11-4	1037-1039	in	abstract[51]	new[51]	nonsal[51]	_	_	_
-11-5	1040-1052	professional	abstract[51]|abstract[53]	new[51]|new[53]	nonsal[51]|nonsal[53]	_	bridge:entity-associative|bridge:entity-associative	11-17[55-53]|11-24[57-53]
+11-5	1040-1052	professional	abstract[51]|abstract[53]	new[51]|new[53]	nonsal[51]|nonsal[53]	_	bridge:entity-associative|bridge:entity-associative	11-17[55_53]|11-24[57_53]
 11-6	1053-1061	settings	abstract[51]|abstract[53]	new[51]|new[53]	nonsal[51]|nonsal[53]	_	_	_
 11-7	1062-1063	,	_	_	_	_	_	_
 11-8	1064-1067	for	_	_	_	_	_	_
@@ -287,11 +287,11 @@
 14-4	1521-1526	prior	abstract[74]	new[74]	nonsal[74]	_	_	_
 14-5	1527-1532	study	abstract[74]	new[74]	nonsal[74]	_	_	_
 14-6	1533-1535	by	abstract[74]	new[74]	nonsal[74]	_	_	_
-14-7	1536-1543	Kessler	abstract[74]|person[75]	new[74]|new[75]	nonsal[74]|nonsal[75]	_	bridge:entity-associative	14-9[76-75]
+14-7	1536-1543	Kessler	abstract[74]|person[75]	new[74]|new[75]	nonsal[74]|nonsal[75]	_	bridge:entity-associative	14-9[76_75]
 14-8	1544-1547	and	abstract[74]	new[74]	nonsal[74]	_	_	_
 14-9	1548-1558	colleagues	abstract[74]|person[76]	new[74]|acc[76]	nonsal[74]|nonsal[76]	_	_	_
 14-10	1559-1560	[	abstract[74]	new[74]	nonsal[74]	_	_	_
-14-11	1561-1563	15	abstract[74]|abstract[77]	new[74]|giv[77]	nonsal[74]|nonsal[77]	_	coref|bridge:entity-associative	15-8[89_77]|14-33[82-77]
+14-11	1561-1563	15	abstract[74]|abstract[77]	new[74]|giv[77]	nonsal[74]|nonsal[77]	_	coref|bridge:entity-associative	15-8[89_77]|14-33[82_77]
 14-12	1564-1565	]	abstract[74]	new[74]	nonsal[74]	_	_	_
 14-13	1566-1567	,	abstract[74]	new[74]	nonsal[74]	_	_	_
 14-14	1568-1575	however	abstract[74]	new[74]	nonsal[74]	_	_	_
@@ -323,7 +323,7 @@
 14-40	1737-1740	see	_	_	_	_	_	_
 14-41	1741-1745	also	_	_	_	_	_	_
 14-42	1746-1747	,	_	_	_	_	_	_
-14-43	1748-1755	Gibbons	person[85]	new[85]	nonsal[85]	_	bridge:comparison-sense	14-45[86-85]
+14-43	1748-1755	Gibbons	person[85]	new[85]	nonsal[85]	_	bridge:comparison-sense	14-45[86_85]
 14-44	1756-1758	et	_	_	_	_	_	_
 14-45	1759-1762	al.	person[86]	acc[86]	nonsal[86]	_	_	_
 14-46	1763-1764	[	_	_	_	_	_	_
@@ -333,7 +333,7 @@
 14-50	1771-1772	.	_	_	_	_	_	_
 
 #Text=The current study seeks to build on this research by estimating the prevalence of discrimination experiences among a large , nationally representative sample of adults from the United States .
-15-1	1773-1776	The	abstract[88]	acc[88]	nonsal[88]	_	coref|bridge:entity-associative|bridge:entity-associative|bridge:entity-associative	39-2[201_88]|16-3[96-88]|18-1[102-88]|31-5[134-88]
+15-1	1773-1776	The	abstract[88]	acc[88]	nonsal[88]	_	coref|bridge:entity-associative|bridge:entity-associative|bridge:entity-associative	39-2[201_88]|16-3[96_88]|18-1[102_88]|31-5[134_88]
 15-2	1777-1784	current	abstract[88]	acc[88]	nonsal[88]	_	_	_
 15-3	1785-1790	study	abstract[88]	acc[88]	nonsal[88]	_	_	_
 15-4	1791-1796	seeks	_	_	_	_	_	_
@@ -441,7 +441,7 @@
 20-3	2394-2401	allowed	_	_	_	_	_	_
 20-4	2402-2404	to	_	_	_	_	_	_
 20-5	2405-2411	choose	_	_	_	_	_	_
-20-6	2412-2415	one	abstract[113]	new[113]	nonsal[113]	_	bridge:set-member	21-6[116-113]
+20-6	2412-2415	one	abstract[113]	new[113]	nonsal[113]	_	bridge:set-member	21-6[116_113]
 20-7	2416-2424	response	abstract[113]	new[113]	nonsal[113]	_	_	_
 20-8	2425-2429	from	_	_	_	_	_	_
 20-9	2430-2432	11	abstract[114]	new[114]	nonsal[114]	_	_	_
@@ -554,7 +554,7 @@
 32-3	2916-2923	because	_	_	_	_	_	_
 32-4	2924-2928	this	abstract[144]	giv[144]	nonsal[144]	_	_	_
 32-5	2929-2937	question	abstract[144]	giv[144]	nonsal[144]	_	_	_
-32-6	2938-2941	was	abstract[145]	new[145]	nonsal[145]	_	bridge:entity-resultative	32-17[149-145]
+32-6	2938-2941	was	abstract[145]	new[145]	nonsal[145]	_	bridge:entity-resultative	32-17[149_145]
 32-7	2942-2946	only	abstract[145]	new[145]	nonsal[145]	_	_	_
 32-8	2947-2952	asked	abstract[145]	new[145]	nonsal[145]	_	_	_
 32-9	2953-2955	of	abstract[145]	new[145]	nonsal[145]	_	_	_
@@ -623,7 +623,7 @@
 34-28	3290-3291	.	_	_	_	_	_	_
 
 #Text=Wave 1 race — rather than , say , Wave 3 race — was used to preserve case counts .
-35-1	3292-3296	Wave	event[164]|abstract[165]|event[166]	new[164]|new[165]|giv[166]	nonsal[164]|nonsal[165]|nonsal[166]	_	coref|bridge:entity-resultative	36-15[176_166]|36-1[171-164]
+35-1	3292-3296	Wave	event[164]|abstract[165]|event[166]	new[164]|new[165]|giv[166]	nonsal[164]|nonsal[165]|nonsal[166]	_	coref|bridge:entity-resultative	36-15[176_166]|36-1[171_164]
 35-2	3297-3298	1	event[164]|abstract[165]|event[166]	new[164]|new[165]|giv[166]	nonsal[164]|nonsal[165]|nonsal[166]	_	_	_
 35-3	3299-3303	race	event[164]|abstract[165]	new[164]|new[165]	nonsal[164]|nonsal[165]	_	_	_
 35-4	3304-3305	—	event[164]	new[164]	nonsal[164]	_	_	_
@@ -649,7 +649,7 @@
 36-2	3379-3384	logic	abstract[171]	new[171]	nonsal[171]	_	_	_
 36-3	3385-3387	is	_	_	_	_	_	_
 36-4	3388-3392	that	abstract[172]	giv[172]	nonsal[172]	_	_	_
-36-5	3393-3394	(	abstract[172]|person[173]	giv[172]|new[173]	nonsal[172]|nonsal[173]	_	bridge:comparison-sense	36-20[177-173]
+36-5	3393-3394	(	abstract[172]|person[173]	giv[172]|new[173]	nonsal[172]|nonsal[173]	_	bridge:comparison-sense	36-20[177_173]
 36-6	3395-3401	nearly	abstract[172]|person[173]	giv[172]|new[173]	nonsal[172]|nonsal[173]	_	_	_
 36-7	3402-3403	)	abstract[172]|person[173]	giv[172]|new[173]	nonsal[172]|nonsal[173]	_	_	_
 36-8	3404-3407	all	abstract[172]|person[173]	giv[172]|new[173]	nonsal[172]|nonsal[173]	_	_	_
@@ -754,7 +754,7 @@
 
 #Text=In the current study , those respondents who indicated more than one race were coded as “ mixed race ” .
 39-1	3954-3956	In	_	_	_	_	_	_
-39-2	3957-3960	the	abstract[201]	giv[201]	nonsal[201]	_	coref|bridge:entity-associative	45-1[227_201]|41-5[207-201]
+39-2	3957-3960	the	abstract[201]	giv[201]	nonsal[201]	_	coref|bridge:entity-associative	45-1[227_201]|41-5[207_201]
 39-3	3961-3968	current	abstract[201]	giv[201]	nonsal[201]	_	_	_
 39-4	3969-3974	study	abstract[201]	giv[201]	nonsal[201]	_	_	_
 39-5	3975-3976	,	_	_	_	_	_	_
@@ -888,7 +888,7 @@
 46-4	4572-4582	statistics	abstract[230]	new[230]	nonsal[230]	_	_	_
 46-5	4583-4585	of	abstract[230]	new[230]	nonsal[230]	_	_	_
 46-6	4586-4589	the	abstract[230]|abstract[231]	new[230]|new[231]	nonsal[230]|nonsal[231]	_	_	_
-46-7	4590-4595	study	abstract[230]|abstract[231]|abstract[232]	new[230]|new[231]|giv[232]	nonsal[230]|nonsal[231]|nonsal[232]	_	bridge:entity-associative	53-5[286-232]
+46-7	4590-4595	study	abstract[230]|abstract[231]|abstract[232]	new[230]|new[231]|giv[232]	nonsal[230]|nonsal[231]|nonsal[232]	_	bridge:entity-associative	53-5[286_232]
 46-8	4596-4605	variables	abstract[230]|abstract[231]	new[230]|new[231]	nonsal[230]|nonsal[231]	_	_	_
 46-9	4606-4609	and	abstract[230]	new[230]	nonsal[230]	_	_	_
 46-10	4610-4616	racial	abstract[230]|abstract[233]	new[230]|giv[233]	nonsal[230]|nonsal[233]	_	coref	47-15[239_233]
@@ -960,7 +960,7 @@
 49-22	4992-4994	it	abstract[248]	giv[248]	nonsal[248]	_	coref	50-29[262_248]
 49-23	4995-5003	corrects	_	_	_	_	_	_
 49-24	5004-5007	for	_	_	_	_	_	_
-49-25	5008-5009	a	abstract[249]	new[249]	nonsal[249]	_	bridge:entity-associative	53-33[292-247]
+49-25	5008-5009	a	abstract[249]	new[249]	nonsal[249]	_	bridge:entity-associative	53-33[292_247]
 49-26	5010-5017	complex	abstract[249]	new[249]	nonsal[249]	_	_	_
 49-27	5018-5024	sample	abstract[249]|abstract[250]	new[249]|new[250]	nonsal[249]|nonsal[250]	_	_	_
 49-28	5025-5031	design	abstract[249]	new[249]	nonsal[249]	_	_	_
@@ -1042,13 +1042,13 @@
 50-62	5397-5398	]	_	_	_	_	_	_
 
 #Text=The p - value associated with the design - based F is thus more accurate ( than the associated with the χ2 statistic ) given the adjustments and calculations take into account the weighted nature of the data .
-51-1	5399-5402	The	abstract[272]	new[272]	nonsal[272]	_	bridge:comparison-sense	51-18[274-272]
+51-1	5399-5402	The	abstract[272]	new[272]	nonsal[272]	_	bridge:comparison-sense	51-18[274_272]
 51-2	5403-5404	p	abstract[272]	new[272]	nonsal[272]	_	_	_
 51-3	5405-5406	-	abstract[272]	new[272]	nonsal[272]	_	_	_
 51-4	5407-5412	value	abstract[272]	new[272]	nonsal[272]	_	_	_
 51-5	5413-5423	associated	_	_	_	_	_	_
 51-6	5424-5428	with	_	_	_	_	_	_
-51-7	5429-5432	the	abstract[273]	giv[273]	nonsal[273]	_	bridge:entity-associative|bridge:entity-associative	51-26[276-273]|51-29[277-273]
+51-7	5429-5432	the	abstract[273]	giv[273]	nonsal[273]	_	bridge:entity-associative|bridge:entity-associative	51-26[276_273]|51-29[277_273]
 51-8	5433-5439	design	abstract[273]	giv[273]	nonsal[273]	_	_	_
 51-9	5440-5441	-	abstract[273]	giv[273]	nonsal[273]	_	_	_
 51-10	5442-5447	based	abstract[273]	giv[273]	nonsal[273]	_	_	_

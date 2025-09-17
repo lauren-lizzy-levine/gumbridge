@@ -18,7 +18,7 @@
 2-3	60-66	August	time[5]	giv[5]	sal[5]	_	coref	3-21[15_5]
 2-4	67-69	15	time[5]	giv[5]	sal[5]	_	_	_
 2-5	70-71	,	time[5]	giv[5]	sal[5]	_	_	_
-2-6	72-76	2008	time[5]|time[6]	giv[5]|acc[6]	sal[5]|sal[6]	_	coref|bridge:set-span-interval|bridge:set-span-interval	23-17[142_6]|20-2[121-6]|21-2[126-6]
+2-6	72-76	2008	time[5]|time[6]	giv[5]|acc[6]	sal[5]|sal[6]	_	coref|bridge:set-span-interval|bridge:set-span-interval	23-17[142_6]|20-2[121_6]|21-2[126_6]
 
 #Text=A sensitive Environment Canada document was found wet on an Ottawa street by someone who gave it to the CBC today .
 3-1	77-78	A	event[7]|object[8]	giv[7]|giv[8]	nonsal[7]|nonsal[8]	_	coref|coref	4-1[16_7]|3-17[13_8]
@@ -76,7 +76,7 @@
 4-29	332-333	.	_	_	_	_	_	_
 
 #Text=The document which had the stamp Protected B on every page detailed various security vulnerabilities of the NEMISIS database which is used by officers to track and prosecute environmental law - breakers .
-5-1	334-337	The	object[23]	giv[23]	nonsal[23]	_	coref|bridge:entity-meronomy	8-4[42_23]|5-10[26-23]
+5-1	334-337	The	object[23]	giv[23]	nonsal[23]	_	coref|bridge:entity-meronomy	8-4[42_23]|5-10[26_23]
 5-2	338-346	document	object[23]	giv[23]	nonsal[23]	_	_	_
 5-3	347-352	which	object[23]	giv[23]	nonsal[23]	_	_	_
 5-4	353-356	had	object[23]	giv[23]	nonsal[23]	_	_	_
@@ -117,7 +117,7 @@
 6-4	555-559	able	event[32]	new[32]	nonsal[32]	_	_	_
 6-5	560-562	to	event[32]	new[32]	nonsal[32]	_	_	_
 6-6	563-567	shut	event[32]	new[32]	nonsal[32]	_	_	_
-6-7	568-571	the	event[32]|abstract[34]	new[32]|giv[34]	nonsal[32]|nonsal[34]	_	coref|bridge:entity-associative	7-1[39_34]|6-18[35-34]
+6-7	568-571	the	event[32]|abstract[34]	new[32]|giv[34]	nonsal[32]|nonsal[34]	_	coref|bridge:entity-associative	7-1[39_34]|6-18[35_34]
 6-8	572-578	system	event[32]|abstract[34]	new[32]|giv[34]	nonsal[32]|nonsal[34]	_	_	_
 6-9	579-583	down	event[32]	new[32]	nonsal[32]	_	_	_
 6-10	584-585	,	event[32]	new[32]	nonsal[32]	_	_	_
@@ -173,7 +173,7 @@
 8-10	855-858	the	abstract[43]	giv[43]	nonsal[43]	_	coref	8-13[44_43]
 8-11	859-867	database	abstract[43]	giv[43]	nonsal[43]	_	_	_
 8-12	868-870	as	_	_	_	_	_	_
-8-13	871-879	National	abstract[44]	giv[44]	nonsal[44]	_	bridge:entity-property	8-32[47-44]
+8-13	871-879	National	abstract[44]	giv[44]	nonsal[44]	_	bridge:entity-property	8-32[47_44]
 8-14	880-891	Enforcement	abstract[44]	giv[44]	nonsal[44]	_	_	_
 8-15	892-895	and	abstract[44]	giv[44]	nonsal[44]	_	_	_
 8-16	896-905	Emergency	abstract[44]	giv[44]	nonsal[44]	_	_	_
@@ -346,7 +346,7 @@
 
 #Text=" We take document security seriously , " she said , but refused to give any more details about how the papers came to be on a road .
 14-1	1822-1823	"	_	_	_	_	_	_
-14-2	1824-1826	We	organization[83]	giv[83]	nonsal[83]	Environment_and_Climate_Change_Canada[83]	coref|bridge:set-subset	25-2[152_83]|15-19[96-83]
+14-2	1824-1826	We	organization[83]	giv[83]	nonsal[83]	Environment_and_Climate_Change_Canada[83]	coref|bridge:set-subset	25-2[152_83]|15-19[96_83]
 14-3	1827-1831	take	_	_	_	_	_	_
 14-4	1832-1840	document	abstract[84]	giv[84]	nonsal[84]	_	coref	15-13[94_84]
 14-5	1841-1849	security	abstract[84]	giv[84]	nonsal[84]	_	_	_
@@ -365,7 +365,7 @@
 14-18	1904-1911	details	abstract[86]	acc[86]	nonsal[86]	_	_	_
 14-19	1912-1917	about	abstract[86]	acc[86]	nonsal[86]	_	_	_
 14-20	1918-1921	how	abstract[86]	acc[86]	nonsal[86]	_	_	_
-14-21	1922-1925	the	abstract[86]|event[87]|object[88]	acc[86]|giv[87]|giv[88]	nonsal[86]|nonsal[87]|nonsal[88]	_	coref|coref|bridge:entity-resultative	17-4[108_87]|23-2[138_88]|15-11[93-87]
+14-21	1922-1925	the	abstract[86]|event[87]|object[88]	acc[86]|giv[87]|giv[88]	nonsal[86]|nonsal[87]|nonsal[88]	_	coref|coref|bridge:entity-resultative	17-4[108_87]|23-2[138_88]|15-11[93_87]
 14-22	1926-1932	papers	abstract[86]|event[87]|object[88]	acc[86]|giv[87]|giv[88]	nonsal[86]|nonsal[87]|nonsal[88]	_	_	_
 14-23	1933-1937	came	abstract[86]|event[87]	acc[86]|giv[87]	nonsal[86]|nonsal[87]	_	_	_
 14-24	1938-1940	to	abstract[86]|event[87]	acc[86]|giv[87]	nonsal[86]|nonsal[87]	_	_	_
@@ -418,7 +418,7 @@
 16-11	2194-2196	to	_	_	_	_	_	_
 16-12	2197-2200	him	person[102]	giv[102]	nonsal[102]	Paul_Dewar[102]	coref	18-28[118_102]
 16-13	2201-2206	about	_	_	_	_	_	_
-16-14	2207-2215	document	abstract[103]	giv[103]	nonsal[103]	_	coref|bridge:entity-associative	18-8[115_103]|16-24[106-103]
+16-14	2207-2215	document	abstract[103]	giv[103]	nonsal[103]	_	coref|bridge:entity-associative	18-8[115_103]|16-24[106_103]
 16-15	2216-2224	security	abstract[103]	giv[103]	nonsal[103]	_	_	_
 16-16	2225-2227	to	_	_	_	_	_	_
 16-17	2228-2231	the	abstract[104]	new[104]	nonsal[104]	_	_	_
@@ -469,7 +469,7 @@
 18-5	2456-2458	so	_	_	_	_	_	_
 18-6	2459-2467	consumed	_	_	_	_	_	_
 18-7	2468-2472	with	_	_	_	_	_	_
-18-8	2473-2480	control	abstract[115]	giv[115]	nonsal[115]	_	bridge:comparison	18-23[117-115]
+18-8	2473-2480	control	abstract[115]	giv[115]	nonsal[115]	_	bridge:comparison	18-23[117_115]
 18-9	2481-2483	of	abstract[115]	giv[115]	nonsal[115]	_	_	_
 18-10	2484-2495	information	abstract[115]	giv[115]	nonsal[115]	_	_	_
 18-11	2496-2499	and	abstract[115]	giv[115]	nonsal[115]	_	_	_

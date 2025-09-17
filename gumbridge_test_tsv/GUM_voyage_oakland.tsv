@@ -35,7 +35,7 @@
 3-4	149-152	San	place[6]	acc[6]	nonsal[6]	San_Francisco[6]	coref	3-7[7_6]
 3-5	153-162	Francisco	place[6]	acc[6]	nonsal[6]	San_Francisco[6]	_	_
 3-6	163-164	,	_	_	_	_	_	_
-3-7	165-168	its	place[7]|place[8]	giv[7]|acc[8]	nonsal[7]|sal[8]	San_Francisco[7]|West_Oakland%2C_Oakland%2C_California[8]	coref|coref|bridge:entity-associative	10-31[81_7]|3-16[10_8]|3-13[9-8]
+3-7	165-168	its	place[7]|place[8]	giv[7]|acc[8]	nonsal[7]|sal[8]	San_Francisco[7]|West_Oakland%2C_Oakland%2C_California[8]	coref|coref|bridge:entity-associative	10-31[81_7]|3-16[10_8]|3-13[9_8]
 3-8	169-175	larger	place[7]	giv[7]	nonsal[7]	San_Francisco[7]	_	_
 3-9	176-184	neighbor	place[7]	giv[7]	nonsal[7]	San_Francisco[7]	_	_
 3-10	185-190	lying	place[7]	giv[7]	nonsal[7]	San_Francisco[7]	_	_
@@ -284,7 +284,7 @@
 9-9	1345-1346	a	place[68]	new[68]	nonsal[68]	_	_	_
 9-10	1347-1356	direction	place[68]	new[68]	nonsal[68]	_	_	_
 9-11	1357-1361	from	_	_	_	_	_	_
-9-12	1362-1367	there	place[69]	giv[69]	nonsal[69]	West_Oakland%2C_Oakland%2C_California[69]	coref|bridge:comparison-relative	15-4[113_69]|9-15[70-69]
+9-12	1362-1367	there	place[69]	giv[69]	nonsal[69]	West_Oakland%2C_Oakland%2C_California[69]	coref|bridge:comparison-relative	15-4[113_69]|9-15[70_69]
 9-13	1368-1369	,	_	_	_	_	_	_
 9-14	1370-1373	for	_	_	_	_	_	_
 9-15	1374-1377	the	place[70]	acc[70]	nonsal[70]	_	_	_
@@ -416,7 +416,7 @@
 13-16	2041-2044	the	abstract[96]|place[100]	new[96]|new[100]	nonsal[96]|nonsal[100]	_	_	_
 13-17	2045-2054	landmarks	abstract[96]|place[100]	new[96]|new[100]	nonsal[96]|nonsal[100]	_	_	_
 13-18	2055-2057	of	abstract[96]|place[100]	new[96]|new[100]	nonsal[96]|nonsal[100]	_	_	_
-13-19	2058-2061	the	abstract[96]|place[100]|place[101]|place[102]	new[96]|new[100]|new[101]|giv[102]	nonsal[96]|nonsal[100]|nonsal[101]|nonsal[102]	_	coref|bridge:entity-associative|bridge:entity-associative	19-9[140_102]|13-36[105-102]|16-12[120-102]
+13-19	2058-2061	the	abstract[96]|place[100]|place[101]|place[102]	new[96]|new[100]|new[101]|giv[102]	nonsal[96]|nonsal[100]|nonsal[101]|nonsal[102]	_	coref|bridge:entity-associative|bridge:entity-associative	19-9[140_102]|13-36[105_102]|16-12[120_102]
 13-20	2062-2066	city	abstract[96]|place[100]|place[101]|place[102]	new[96]|new[100]|new[101]|giv[102]	nonsal[96]|nonsal[100]|nonsal[101]|nonsal[102]	_	_	_
 13-21	2067-2069	's	abstract[96]|place[100]|place[101]|place[102]	new[96]|new[100]|new[101]|giv[102]	nonsal[96]|nonsal[100]|nonsal[101]|nonsal[102]	_	_	_
 13-22	2070-2080	waterfront	abstract[96]|place[100]|place[101]	new[96]|new[100]|new[101]	nonsal[96]|nonsal[100]|nonsal[101]	_	_	_
@@ -449,7 +449,7 @@
 14-10	2198-2201	the	place[109]	giv[109]	nonsal[109]	_	_	_
 14-11	2202-2206	site	place[109]	giv[109]	nonsal[109]	_	_	_
 14-12	2207-2209	of	place[109]	giv[109]	nonsal[109]	_	_	_
-14-13	2210-2213	the	place[109]|person[110]	giv[109]|giv[110]	nonsal[109]|nonsal[110]	_	bridge:comparison-relative	14-30[112-110]
+14-13	2210-2213	the	place[109]|person[110]	giv[109]|giv[110]	nonsal[109]|nonsal[110]	_	bridge:comparison-relative	14-30[112_110]
 14-14	2214-2222	namesake	place[109]|person[110]	giv[109]|giv[110]	nonsal[109]|nonsal[110]	_	_	_
 14-15	2223-2229	author	place[109]|person[110]	giv[109]|giv[110]	nonsal[109]|nonsal[110]	_	_	_
 14-16	2230-2232	's	place[109]|person[110]	giv[109]|giv[110]	nonsal[109]|nonsal[110]	_	_	_
@@ -610,7 +610,7 @@
 20-9	3004-3006	to	abstract[146]	new[146]	nonsal[146]	_	_	_
 20-10	3007-3011	just	abstract[146]	new[146]	nonsal[146]	_	_	_
 20-11	3012-3017	about	abstract[146]	new[146]	nonsal[146]	_	_	_
-20-12	3018-3028	everywhere	abstract[146]|place[147]	new[146]|giv[147]	nonsal[146]|nonsal[147]	North_Oakland%2C_Oakland%2C_California[147]	coref|bridge:entity-associative	26-23[192_147]|21-3[151-147]
+20-12	3018-3028	everywhere	abstract[146]|place[147]	new[146]|giv[147]	nonsal[146]|nonsal[147]	North_Oakland%2C_Oakland%2C_California[147]	coref|bridge:entity-associative	26-23[192_147]|21-3[151_147]
 20-13	3029-3034	north	abstract[146]|place[147]	new[146]|giv[147]	nonsal[146]|nonsal[147]	North_Oakland%2C_Oakland%2C_California[147]	_	_
 20-14	3035-3037	of	abstract[146]|place[147]	new[146]|giv[147]	nonsal[146]|nonsal[147]	North_Oakland%2C_Oakland%2C_California[147]	_	_
 20-15	3038-3044	Uptown	abstract[146]|place[147]|place[148]	new[146]|giv[147]|giv[148]	nonsal[146]|nonsal[147]|nonsal[148]	North_Oakland%2C_Oakland%2C_California[147]	_	_
@@ -700,7 +700,7 @@
 23-20	3495-3496	,	_	_	_	_	_	_
 23-21	3497-3501	home	place[170]	giv[170]	nonsal[170]	_	coref	24-3[174_170]
 23-22	3502-3504	to	place[170]	giv[170]	nonsal[170]	_	_	_
-23-23	3505-3509	many	place[170]|place[171]	giv[170]|new[171]	nonsal[170]|nonsal[171]	_	bridge:comparison-sense	23-27[172-171]
+23-23	3505-3509	many	place[170]|place[171]	giv[170]|new[171]	nonsal[170]|nonsal[171]	_	bridge:comparison-sense	23-27[172_171]
 23-24	3510-3521	restaurants	place[170]|place[171]	giv[170]|new[171]	nonsal[170]|nonsal[171]	_	_	_
 23-25	3522-3523	,	place[170]	giv[170]	nonsal[170]	_	_	_
 23-26	3524-3533	including	place[170]	giv[170]	nonsal[170]	_	_	_
@@ -854,7 +854,7 @@
 28-10	4278-4279	,	_	_	_	_	_	_
 28-11	4280-4284	home	place[213]	giv[213]	nonsal[213]	_	coref	28-39[223_213]
 28-12	4285-4287	to	place[213]	giv[213]	nonsal[213]	_	_	_
-28-13	4288-4291	the	place[213]|place[214]|place[215]	giv[213]|new[214]|giv[215]	nonsal[213]|nonsal[214]|nonsal[215]	_	bridge:comparison-sense	28-22[217-214]
+28-13	4288-4291	the	place[213]|place[214]|place[215]	giv[213]|new[214]|giv[215]	nonsal[213]|nonsal[214]|nonsal[215]	_	bridge:comparison-sense	28-22[217_214]
 28-14	4292-4296	city	place[213]|place[214]|place[215]	giv[213]|new[214]|giv[215]	nonsal[213]|nonsal[214]|nonsal[215]	_	_	_
 28-15	4297-4299	's	place[213]|place[214]|place[215]	giv[213]|new[214]|giv[215]	nonsal[213]|nonsal[214]|nonsal[215]	_	_	_
 28-16	4300-4306	single	place[213]|place[214]	giv[213]|new[214]	nonsal[213]|nonsal[214]	_	_	_
@@ -1093,7 +1093,7 @@
 36-2	5487-5491	Loma	event[277]	acc[277]	nonsal[277]	1989_Loma_Prieta_earthquake[277]	_	_
 36-3	5492-5498	Prieta	event[277]	acc[277]	nonsal[277]	1989_Loma_Prieta_earthquake[277]	_	_
 36-4	5499-5501	in	event[277]	acc[277]	nonsal[277]	1989_Loma_Prieta_earthquake[277]	_	_
-36-5	5502-5506	1989	event[277]|time[278]	acc[277]|acc[278]	nonsal[277]|nonsal[278]	1989_Loma_Prieta_earthquake[277]	bridge:comparison-time	36-19[281-278]
+36-5	5502-5506	1989	event[277]|time[278]	acc[277]|acc[278]	nonsal[277]|nonsal[278]	1989_Loma_Prieta_earthquake[277]	bridge:comparison-time	36-19[281_278]
 36-6	5507-5508	,	_	_	_	_	_	_
 36-7	5509-5512	the	object[279]	new[279]	nonsal[279]	_	_	_
 36-8	5513-5522	effective	object[279]	new[279]	nonsal[279]	_	_	_

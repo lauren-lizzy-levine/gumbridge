@@ -25,7 +25,7 @@
 #Text=So in today 's video , I 'm finally gon na be doing a room tour .
 3-1	71-73	So	_	_	_	_	_	_
 3-2	74-76	in	_	_	_	_	_	_
-3-3	77-82	today	event[4]|time[5]	giv[4]|acc[5]	nonsal[4]|nonsal[5]	_	bridge:entity-associative	7-13[47-4]
+3-3	77-82	today	event[4]|time[5]	giv[4]|acc[5]	nonsal[4]|nonsal[5]	_	bridge:entity-associative	7-13[47_4]
 3-4	83-85	's	event[4]|time[5]	giv[4]|acc[5]	nonsal[4]|nonsal[5]	_	_	_
 3-5	86-91	video	event[4]	giv[4]	nonsal[4]	_	_	_
 3-6	92-93	,	_	_	_	_	_	_
@@ -92,7 +92,7 @@
 4-48	342-347	ready	_	_	_	_	_	_
 4-49	348-350	to	_	_	_	_	_	_
 4-50	351-355	show	_	_	_	_	_	_
-4-51	356-358	it	place[23]	giv[23]	nonsal[23]	_	coref|bridge:entity-associative|bridge:entity-associative	6-7[29_23]|5-11[26-23]|5-8[25-23]
+4-51	356-358	it	place[23]	giv[23]	nonsal[23]	_	coref|bridge:entity-associative|bridge:entity-associative	6-7[29_23]|5-11[26_23]|5-8[25_23]
 4-52	359-361	to	_	_	_	_	_	_
 4-53	362-365	you	person[24]	giv[24]	nonsal[24]	_	coref	6-34[35_24]
 4-54	366-370	guys	person[24]	giv[24]	nonsal[24]	_	_	_
@@ -137,7 +137,7 @@
 6-20	525-531	double	object[32]	new[32]	nonsal[32]	_	_	_
 6-21	532-535	bed	object[32]	new[32]	nonsal[32]	_	_	_
 6-22	536-538	in	_	_	_	_	_	_
-6-23	539-543	this	place[33]	giv[33]	nonsal[33]	_	coref|bridge:entity-meronomy	11-17[91_33]|6-43[37-33]
+6-23	539-543	this	place[33]	giv[33]	nonsal[33]	_	coref|bridge:entity-meronomy	11-17[91_33]|6-43[37_33]
 6-24	544-548	room	place[33]	giv[33]	nonsal[33]	_	_	_
 6-25	549-550	,	_	_	_	_	_	_
 6-26	551-554	but	_	_	_	_	_	_
@@ -187,7 +187,7 @@
 7-2	739-742	've	_	_	_	_	_	_
 7-3	743-751	recently	_	_	_	_	_	_
 7-4	752-759	changed	_	_	_	_	_	_
-7-5	760-762	it	object[45]	giv[45]	nonsal[45]	_	coref|bridge:entity-associative	8-1[57_45]|7-49[56-45]
+7-5	760-762	it	object[45]	giv[45]	nonsal[45]	_	coref|bridge:entity-associative	8-1[57_45]|7-49[56_45]
 7-6	763-764	,	_	_	_	_	_	_
 7-7	765-768	and	_	_	_	_	_	_
 7-8	769-771	if	_	_	_	_	_	_
@@ -215,7 +215,7 @@
 7-30	867-868	I	person[52]	giv[52]	nonsal[52]	_	coref	8-17[60_52]
 7-31	869-874	color	_	_	_	_	_	_
 7-32	875-880	match	_	_	_	_	_	_
-7-33	881-884	the	object[53]	new[53]	nonsal[53]	_	bridge:entity-property	7-43[55-53]
+7-33	881-884	the	object[53]	new[53]	nonsal[53]	_	bridge:entity-property	7-43[55_53]
 7-34	885-893	pictures	object[53]	new[53]	nonsal[53]	_	_	_
 7-35	894-896	on	object[53]	new[53]	nonsal[53]	_	_	_
 7-36	897-900	the	object[53]|object[54]	new[53]|acc[54]	nonsal[53]|nonsal[54]	_	coref	20-4[167_54]
@@ -462,7 +462,7 @@
 12-59	1964-1968	need	object[107]	split[107]	nonsal[107]	_	_	_
 12-60	1969-1978	somewhere	object[107]	split[107]	nonsal[107]	_	_	_
 12-61	1979-1981	in	object[107]	split[107]	nonsal[107]	_	_	_
-12-62	1982-1985	the	object[107]|place[112]	split[107]|giv[112]	nonsal[107]|nonsal[112]	_	bridge:entity-meronomy	16-37[139-112]
+12-62	1982-1985	the	object[107]|place[112]	split[107]|giv[112]	nonsal[107]|nonsal[112]	_	bridge:entity-meronomy	16-37[139_112]
 12-63	1986-1991	house	object[107]|place[112]	split[107]|giv[112]	nonsal[107]|nonsal[112]	_	_	_
 12-64	1992-1993	.	_	_	_	_	_	_
 
@@ -473,7 +473,7 @@
 13-4	2006-2010	this	abstract[114]|place[115]	new[114]|giv[115]	nonsal[114]|nonsal[115]	_	coref	16-37[139_115]
 13-5	2011-2015	room	abstract[114]|place[115]	new[114]|giv[115]	nonsal[114]|nonsal[115]	_	_	_
 13-6	2016-2019	has	abstract[114]	new[114]	nonsal[114]	_	_	_
-13-7	2020-2025	floor	abstract[114]|object[116]	new[114]|new[116]	nonsal[114]|nonsal[116]	_	bridge:set-member	15-36[133-116]
+13-7	2020-2025	floor	abstract[114]|object[116]	new[114]|new[116]	nonsal[114]|nonsal[116]	_	bridge:set-member	15-36[133_116]
 13-8	2026-2027	-	abstract[114]|object[116]	new[114]|new[116]	nonsal[114]|nonsal[116]	_	_	_
 13-9	2028-2030	to	abstract[114]|object[116]	new[114]|new[116]	nonsal[114]|nonsal[116]	_	_	_
 13-10	2031-2032	-	abstract[114]|object[116]	new[114]|new[116]	nonsal[114]|nonsal[116]	_	_	_

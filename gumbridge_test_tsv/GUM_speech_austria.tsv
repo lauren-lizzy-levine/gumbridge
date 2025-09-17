@@ -4,7 +4,7 @@
 
 
 #Text=This year has once again confirmed the importance of the United Nations as the truly indispensable multilateral forum for addressing today ’s global problems .
-1-1	0-4	This	time[1]	acc[1]	sal[1]	_	coref|bridge:comparison-time|bridge:comparison-time|bridge:comparison-time|bridge:set-span-interval	27-12[156_1]|2-36[19-1]|4-2[30-1]|4-22[36-1]|1-21[6-1]
+1-1	0-4	This	time[1]	acc[1]	sal[1]	_	coref|bridge:comparison-time|bridge:comparison-time|bridge:comparison-time|bridge:set-span-interval	27-12[156_1]|2-36[19_1]|4-2[30_1]|4-22[36_1]|1-21[6_1]
 1-2	5-9	year	time[1]	acc[1]	sal[1]	_	_	_
 1-3	10-13	has	_	_	_	_	_	_
 1-4	14-18	once	_	_	_	_	_	_
@@ -24,7 +24,7 @@
 1-18	112-117	forum	abstract[2]|organization[4]	new[2]|giv[4]	nonsal[2]|nonsal[4]	_	_	_
 1-19	118-121	for	abstract[2]|organization[4]	new[2]|giv[4]	nonsal[2]|nonsal[4]	_	_	_
 1-20	122-132	addressing	abstract[2]|organization[4]	new[2]|giv[4]	nonsal[2]|nonsal[4]	_	_	_
-1-21	133-138	today	abstract[2]|organization[4]|abstract[5]|time[6]	new[2]|giv[4]|new[5]|acc[6]	nonsal[2]|nonsal[4]|nonsal[5]|nonsal[6]	_	bridge:set-span-interval|bridge:comparison-time|bridge:comparison-time	21-7[122-6]|24-7[143-6]|37-14[236-6]
+1-21	133-138	today	abstract[2]|organization[4]|abstract[5]|time[6]	new[2]|giv[4]|new[5]|acc[6]	nonsal[2]|nonsal[4]|nonsal[5]|nonsal[6]	_	bridge:set-span-interval|bridge:comparison-time|bridge:comparison-time	21-7[122_6]|24-7[143_6]|37-14[236_6]
 1-22	139-141	’s	abstract[2]|organization[4]|abstract[5]|time[6]	new[2]|giv[4]|new[5]|acc[6]	nonsal[2]|nonsal[4]|nonsal[5]|nonsal[6]	_	_	_
 1-23	142-148	global	abstract[2]|organization[4]|abstract[5]	new[2]|giv[4]|new[5]	nonsal[2]|nonsal[4]|nonsal[5]	_	_	_
 1-24	149-157	problems	abstract[2]|organization[4]|abstract[5]	new[2]|giv[4]|new[5]	nonsal[2]|nonsal[4]|nonsal[5]	_	_	_
@@ -132,7 +132,7 @@
 4-25	708-709	.	_	_	_	_	_	_
 
 #Text=Pressure for change is driven by the wish of women and men to choose their own fate and to improve their chances for a better life .
-5-1	710-718	Pressure	abstract[37]	new[37]	nonsal[37]	_	bridge:entity-resultative|bridge:entity-resultative	16-13[94-37]|19-3[108-37]
+5-1	710-718	Pressure	abstract[37]	new[37]	nonsal[37]	_	bridge:entity-resultative|bridge:entity-resultative	16-13[94_37]|19-3[108_37]
 5-2	719-722	for	abstract[37]	new[37]	nonsal[37]	_	_	_
 5-3	723-729	change	abstract[37]|event[38]	new[37]|new[38]	nonsal[37]|nonsal[38]	_	_	_
 5-4	730-732	is	_	_	_	_	_	_
@@ -210,7 +210,7 @@
 9-6	1063-1068	their	abstract[61]|person[62]	new[61]|giv[62]	nonsal[61]|nonsal[62]	_	_	_
 9-7	1069-1074	lives	abstract[61]	new[61]	nonsal[61]	_	_	_
 9-8	1075-1077	in	_	_	_	_	_	_
-9-9	1078-1081	the	abstract[63]	new[63]	nonsal[63]	_	bridge:entity-resultative	10-11[68-63]
+9-9	1078-1081	the	abstract[63]	new[63]	nonsal[63]	_	bridge:entity-resultative	10-11[68_63]
 9-10	1082-1090	struggle	abstract[63]	new[63]	nonsal[63]	_	_	_
 9-11	1091-1094	for	abstract[63]	new[63]	nonsal[63]	_	_	_
 9-12	1095-1102	freedom	abstract[63]|abstract[64]	new[63]|new[64]	nonsal[63]|nonsal[64]	_	coref	13-10[83_64]
@@ -245,7 +245,7 @@
 11-7	1236-1242	rights	event[70]|abstract[71]	new[70]|new[71]	sal[70]|sal[71]	_	_	_
 11-8	1243-1253	violations	event[70]	new[70]	sal[70]	_	_	_
 11-9	1254-1257	and	_	_	_	_	_	_
-11-10	1258-1261	the	event[72]	new[72]	sal[72]	_	bridge:entity-associative|bridge:entity-associative	12-4[75-72]|12-9[76-72]
+11-10	1258-1261	the	event[72]	new[72]	sal[72]	_	bridge:entity-associative|bridge:entity-associative	12-4[75_72]|12-9[76_72]
 11-11	1262-1270	violence	event[72]	new[72]	sal[72]	_	_	_
 11-12	1271-1278	against	event[72]	new[72]	sal[72]	_	_	_
 11-13	1279-1287	peaceful	event[72]|person[73]	new[72]|new[73]	sal[72]|nonsal[73]	_	_	_
@@ -343,11 +343,11 @@
 16-14	1794-1804	transition	abstract[94]	new[94]	nonsal[94]	_	_	_
 16-15	1805-1812	process	abstract[94]	new[94]	nonsal[94]	_	_	_
 16-16	1813-1815	in	abstract[94]	new[94]	nonsal[94]	_	_	_
-16-17	1816-1819	the	abstract[94]|place[95]	new[94]|giv[95]	nonsal[94]|nonsal[95]	_	coref|bridge:entity-associative	20-4[116_95]|18-9[105-95]
+16-17	1816-1819	the	abstract[94]|place[95]	new[94]|giv[95]	nonsal[94]|nonsal[95]	_	coref|bridge:entity-associative	20-4[116_95]|18-9[105_95]
 16-18	1820-1824	Arab	abstract[94]|place[95]	new[94]|giv[95]	nonsal[94]|nonsal[95]	_	_	_
 16-19	1825-1830	world	abstract[94]|place[95]	new[94]|giv[95]	nonsal[94]|nonsal[95]	_	_	_
 16-20	1831-1833	as	_	_	_	_	_	_
-16-21	1834-1837	the	organization[96]	giv[96]	nonsal[96]	United_Nations[96]	coref|bridge:entity-associative|bridge:entity-associative	34-2[208_96]|21-11[123-96]|29-10[165-96]
+16-21	1834-1837	the	organization[96]	giv[96]	nonsal[96]	United_Nations[96]	coref|bridge:entity-associative|bridge:entity-associative	34-2[208_96]|21-11[123_96]|29-10[165_96]
 16-22	1838-1844	United	organization[96]	giv[96]	nonsal[96]	United_Nations[96]	_	_
 16-23	1845-1852	Nations	organization[96]	giv[96]	nonsal[96]	United_Nations[96]	_	_
 16-24	1853-1857	does	_	_	_	_	_	_
@@ -576,7 +576,7 @@
 #Text=Austria welcomes President Al - Nasser ’s choice of theme for this year ’s general debate .
 27-1	2998-3005	Austria	place[151]	giv[151]	nonsal[151]	Austria[151]	coref	31-18[194_151]
 27-2	3006-3014	welcomes	_	_	_	_	_	_
-27-3	3015-3024	President	abstract[152]|person[153]	new[152]|new[153]	nonsal[152]|nonsal[153]	_	bridge:other|bridge:entity-associative	28-9[160-152]|28-3[159-153]
+27-3	3015-3024	President	abstract[152]|person[153]	new[152]|new[153]	nonsal[152]|nonsal[153]	_	bridge:other|bridge:entity-associative	28-9[160_152]|28-3[159_153]
 27-4	3025-3027	Al	abstract[152]|person[153]	new[152]|new[153]	nonsal[152]|nonsal[153]	_	_	_
 27-5	3028-3029	-	abstract[152]|person[153]	new[152]|new[153]	nonsal[152]|nonsal[153]	_	_	_
 27-6	3030-3036	Nasser	abstract[152]|person[153]	new[152]|new[153]	nonsal[152]|nonsal[153]	_	_	_
@@ -585,7 +585,7 @@
 27-9	3047-3049	of	abstract[152]	new[152]	nonsal[152]	_	_	_
 27-10	3050-3055	theme	abstract[152]|abstract[154]	new[152]|new[154]	nonsal[152]|nonsal[154]	_	_	_
 27-11	3056-3059	for	abstract[152]|abstract[154]	new[152]|new[154]	nonsal[152]|nonsal[154]	_	_	_
-27-12	3060-3064	this	abstract[152]|abstract[154]|event[155]|time[156]	new[152]|new[154]|new[155]|giv[156]	nonsal[152]|nonsal[154]|nonsal[155]|nonsal[156]	_	coref|bridge:comparison-time	36-2[222_156]|29-1[162-156]
+27-12	3060-3064	this	abstract[152]|abstract[154]|event[155]|time[156]	new[152]|new[154]|new[155]|giv[156]	nonsal[152]|nonsal[154]|nonsal[155]|nonsal[156]	_	coref|bridge:comparison-time	36-2[222_156]|29-1[162_156]
 27-13	3065-3069	year	abstract[152]|abstract[154]|event[155]|time[156]	new[152]|new[154]|new[155]|giv[156]	nonsal[152]|nonsal[154]|nonsal[155]|nonsal[156]	_	_	_
 27-14	3070-3072	’s	abstract[152]|abstract[154]|event[155]|time[156]	new[152]|new[154]|new[155]|giv[156]	nonsal[152]|nonsal[154]|nonsal[155]|nonsal[156]	_	_	_
 27-15	3073-3080	general	abstract[152]|abstract[154]|event[155]	new[152]|new[154]|new[155]	nonsal[152]|nonsal[154]|nonsal[155]	_	_	_
@@ -697,9 +697,9 @@
 31-6	3631-3637	makers	person[188]	new[188]	nonsal[188]	_	_	_
 31-7	3638-3642	from	person[188]	new[188]	nonsal[188]	_	_	_
 31-8	3643-3647	both	person[188]	new[188]	nonsal[188]	_	_	_
-31-9	3648-3656	Khartoum	person[188]|place[189]|place[190]	new[188]|new[189]|new[190]	nonsal[188]|nonsal[189]|nonsal[190]	Khartoum[190]	coref|bridge:entity-meronomy	31-23[196_189]|33-1[201-189]
+31-9	3648-3656	Khartoum	person[188]|place[189]|place[190]	new[188]|new[189]|new[190]	nonsal[188]|nonsal[189]|nonsal[190]	Khartoum[190]	coref|bridge:entity-meronomy	31-23[196_189]|33-1[201_189]
 31-10	3657-3660	and	person[188]|place[189]	new[188]|new[189]	nonsal[188]|nonsal[189]	_	_	_
-31-11	3661-3665	Juba	person[188]|place[189]|place[191]	new[188]|new[189]|new[191]	nonsal[188]|nonsal[189]|nonsal[191]	Juba[191]	bridge:entity-meronomy	33-4[202-190]
+31-11	3661-3665	Juba	person[188]|place[189]|place[191]	new[188]|new[189]|new[191]	nonsal[188]|nonsal[189]|nonsal[191]	Juba[191]	bridge:entity-meronomy	33-4[202_190]
 31-12	3666-3668	to	_	_	_	_	_	_
 31-13	3669-3675	Vienna	place[192]	new[192]	nonsal[192]	Vienna[192]	coref	34-6[209_192]
 31-14	3676-3678	in	_	_	_	_	_	_
@@ -786,7 +786,7 @@
 35-9	4073-4079	office	place[216]	new[216]	nonsal[216]	_	_	_
 35-10	4080-4082	of	place[216]	new[216]	nonsal[216]	_	_	_
 35-11	4083-4086	the	place[216]|organization[217]	new[216]|new[217]	nonsal[216]|nonsal[217]	United_Nations_Office_for_Disarmament_Affairs[217]	_	_
-35-12	4087-4093	United	place[216]|organization[217]|organization[218]	new[216]|new[217]|giv[218]	nonsal[216]|nonsal[217]|nonsal[218]	United_Nations_Office_for_Disarmament_Affairs[217]|United_Nations[218]	coref|bridge:entity-associative	39-14[257_218]|37-9[236-218]
+35-12	4087-4093	United	place[216]|organization[217]|organization[218]	new[216]|new[217]|giv[218]	nonsal[216]|nonsal[217]|nonsal[218]	United_Nations_Office_for_Disarmament_Affairs[217]|United_Nations[218]	coref|bridge:entity-associative	39-14[257_218]|37-9[236_218]
 35-13	4094-4101	Nations	place[216]|organization[217]|organization[218]	new[216]|new[217]|giv[218]	nonsal[216]|nonsal[217]|nonsal[218]	United_Nations_Office_for_Disarmament_Affairs[217]|United_Nations[218]	_	_
 35-14	4102-4108	Office	place[216]|organization[217]	new[216]|new[217]	nonsal[216]|nonsal[217]	United_Nations_Office_for_Disarmament_Affairs[217]	_	_
 35-15	4109-4112	for	place[216]|organization[217]	new[216]|new[217]	nonsal[216]|nonsal[217]	United_Nations_Office_for_Disarmament_Affairs[217]	_	_
@@ -801,7 +801,7 @@
 
 #Text=Over the past year , the International Anti-Corruption Academy set up its headquarters near Vienna , and the Vienna Centre for Disarmament and Non-Proliferation and an office of the International Peace Institute were established .
 36-1	4160-4164	Over	_	_	_	_	_	_
-36-2	4165-4168	the	time[222]	giv[222]	nonsal[222]	_	bridge:comparison-time	40-1[259-222]
+36-2	4165-4168	the	time[222]	giv[222]	nonsal[222]	_	bridge:comparison-time	40-1[259_222]
 36-3	4169-4173	past	time[222]	giv[222]	nonsal[222]	_	_	_
 36-4	4174-4178	year	time[222]	giv[222]	nonsal[222]	_	_	_
 36-5	4179-4180	,	_	_	_	_	_	_
@@ -939,7 +939,7 @@
 40-28	4979-4980	.	_	_	_	_	_	_
 
 #Text=The Fukushima nuclear catastrophe should become a turning point in our approach to nuclear safety .
-41-1	4981-4984	The	event[270]	giv[270]	nonsal[270]	Fukushima_Daiichi_nuclear_disaster[270]	bridge:other	41-2[271-270]
+41-1	4981-4984	The	event[270]	giv[270]	nonsal[270]	Fukushima_Daiichi_nuclear_disaster[270]	bridge:other	41-2[271_270]
 41-2	4985-4994	Fukushima	event[270]|place[271]	giv[270]|acc[271]	nonsal[270]|nonsal[271]	Fukushima_Daiichi_nuclear_disaster[270]|Fukushima_%28city%29[271]	_	_
 41-3	4995-5002	nuclear	event[270]	giv[270]	nonsal[270]	Fukushima_Daiichi_nuclear_disaster[270]	_	_
 41-4	5003-5014	catastrophe	event[270]	giv[270]	nonsal[270]	Fukushima_Daiichi_nuclear_disaster[270]	_	_

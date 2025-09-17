@@ -88,7 +88,7 @@
 4-27	405-408	are	_	_	_	_	_	_
 4-28	409-414	given	_	_	_	_	_	_
 4-29	415-417	to	_	_	_	_	_	_
-4-30	418-425	Eegimaa	person[32]	giv[32]	nonsal[32]	_	coref|bridge:comparison-relative	5-16[40_32]|4-33[33-32]
+4-30	418-425	Eegimaa	person[32]	giv[32]	nonsal[32]	_	coref|bridge:comparison-relative	5-16[40_32]|4-33[33_32]
 4-31	426-432	people	person[32]	giv[32]	nonsal[32]	_	_	_
 4-32	433-437	from	_	_	_	_	_	_
 4-33	438-443	other	organization[33]	acc[33]	nonsal[33]	_	_	_
@@ -273,7 +273,7 @@
 #Text=Mof-Ávvi is a peninsula bordered by the Casamance River to the north , which separates it from the Jóola Búluf and Jóola Fogny areas , and to the east by the villages Brin and Djibonker , where the speakers of Kujireray and Baïnounk Gubëeher live .
 11-1	1320-1328	Mof-Ávvi	place[92]	giv[92]	nonsal[92]	_	coref	11-3[93_92]
 11-2	1329-1331	is	_	_	_	_	_	_
-11-3	1332-1333	a	place[93]	giv[93]	nonsal[93]	_	coref|bridge:entity-associative	11-16[97_93]|11-11[96-93]
+11-3	1332-1333	a	place[93]	giv[93]	nonsal[93]	_	coref|bridge:entity-associative	11-16[97_93]|11-11[96_93]
 11-4	1334-1343	peninsula	place[93]	giv[93]	nonsal[93]	_	_	_
 11-5	1344-1352	bordered	place[93]	giv[93]	nonsal[93]	_	_	_
 11-6	1353-1355	by	place[93]	giv[93]	nonsal[93]	_	_	_
@@ -286,7 +286,7 @@
 11-13	1389-1390	,	place[93]	giv[93]	nonsal[93]	_	_	_
 11-14	1391-1396	which	place[93]	giv[93]	nonsal[93]	_	_	_
 11-15	1397-1406	separates	place[93]	giv[93]	nonsal[93]	_	_	_
-11-16	1407-1409	it	place[93]|place[97]	giv[93]|giv[97]	nonsal[93]|nonsal[97]	_	coref|bridge:entity-associative|bridge:entity-associative	12-12[112_97]|11-28[101-97]|12-2[109-97]
+11-16	1407-1409	it	place[93]|place[97]	giv[93]|giv[97]	nonsal[93]|nonsal[97]	_	coref|bridge:entity-associative|bridge:entity-associative	12-12[112_97]|11-28[101_97]|12-2[109_97]
 11-17	1410-1414	from	place[93]	giv[93]	nonsal[93]	_	_	_
 11-18	1415-1418	the	place[93]|place[98]	giv[93]|new[98]	nonsal[93]|nonsal[98]	_	_	_
 11-19	1419-1424	Jóola	place[93]|place[98]|abstract[99]	giv[93]|new[98]|new[99]	nonsal[93]|nonsal[98]|nonsal[99]	_	coref	19-30[177_99]
@@ -381,7 +381,7 @@
 13-20	1865-1876	approximate	place[126]	new[126]	nonsal[126]	_	_	_
 13-21	1877-1885	location	place[126]	new[126]	nonsal[126]	_	_	_
 13-22	1886-1888	of	place[126]	new[126]	nonsal[126]	_	_	_
-13-23	1889-1897	Mof-Ávvi	place[126]|place[127]	new[126]|giv[127]	nonsal[126]|nonsal[127]	_	coref|bridge:comparison-relative	15-5[137_127]|13-27[128-127]
+13-23	1889-1897	Mof-Ávvi	place[126]|place[127]	new[126]|giv[127]	nonsal[126]|nonsal[127]	_	coref|bridge:comparison-relative	15-5[137_127]|13-27[128_127]
 13-24	1898-1900	in	place[126]	new[126]	nonsal[126]	_	_	_
 13-25	1901-1909	relation	place[126]	new[126]	nonsal[126]	_	_	_
 13-26	1910-1912	to	place[126]	new[126]	nonsal[126]	_	_	_
@@ -413,7 +413,7 @@
 14-19	2050-2051	.	_	_	_	_	_	_
 
 #Text=The Eegimaa spoken in Mof-Ávvi is known by several names given by speakers of neighbouring languages .
-15-1	2052-2055	The	abstract[136]	giv[136]	nonsal[136]	Bandial_language[136]	coref|bridge:comparison-relative	16-24[147_136]|15-15[139-136]
+15-1	2052-2055	The	abstract[136]	giv[136]	nonsal[136]	Bandial_language[136]	coref|bridge:comparison-relative	16-24[147_136]|15-15[139_136]
 15-2	2056-2063	Eegimaa	abstract[136]	giv[136]	nonsal[136]	Bandial_language[136]	_	_
 15-3	2064-2070	spoken	abstract[136]	giv[136]	nonsal[136]	Bandial_language[136]	_	_
 15-4	2071-2073	in	abstract[136]	giv[136]	nonsal[136]	Bandial_language[136]	_	_
@@ -526,7 +526,7 @@
 18-24	2579-2583	more	abstract[164]|person[165]	giv[164]|new[165]	nonsal[164]|nonsal[165]	_	_	_
 18-25	2584-2592	familiar	abstract[164]|person[165]	giv[164]|new[165]	nonsal[164]|nonsal[165]	_	_	_
 18-26	2593-2597	with	abstract[164]|person[165]	giv[164]|new[165]	nonsal[164]|nonsal[165]	_	_	_
-18-27	2598-2601	the	abstract[164]|person[165]|place[167]	giv[164]|new[165]|giv[167]	nonsal[164]|nonsal[165]|nonsal[167]	Seleki[167]	bridge:comparison-relative	18-35[168-167]
+18-27	2598-2601	the	abstract[164]|person[165]|place[167]	giv[164]|new[165]|giv[167]	nonsal[164]|nonsal[165]|nonsal[167]	Seleki[167]	bridge:comparison-relative	18-35[168_167]
 18-28	2602-2609	village	abstract[164]|person[165]|place[167]	giv[164]|new[165]|giv[167]	nonsal[164]|nonsal[165]|nonsal[167]	Seleki[167]	_	_
 18-29	2610-2612	of	abstract[164]|person[165]|place[167]	giv[164]|new[165]|giv[167]	nonsal[164]|nonsal[165]|nonsal[167]	Seleki[167]	_	_
 18-30	2613-2619	Seleki	abstract[164]|person[165]|place[167]	giv[164]|new[165]|giv[167]	nonsal[164]|nonsal[165]|nonsal[167]	Seleki[167]	_	_
@@ -689,7 +689,7 @@
 27-8	3371-3378	written	_	_	_	_	_	_
 27-9	3379-3384	using	_	_	_	_	_	_
 27-10	3385-3388	the	abstract[212]	new[212]	nonsal[212]	_	_	_
-27-11	3389-3396	Eegimaa	abstract[212]|abstract[213]	new[212]|giv[213]	nonsal[212]|nonsal[213]	Bandial_language[213]	coref|bridge:entity-associative	28-9[218_213]|27-21[216-213]
+27-11	3389-3396	Eegimaa	abstract[212]|abstract[213]	new[212]|giv[213]	nonsal[212]|nonsal[213]	Bandial_language[213]	coref|bridge:entity-associative	28-9[218_213]|27-21[216_213]
 27-12	3397-3408	orthography	abstract[212]	new[212]	nonsal[212]	_	_	_
 27-13	3409-3412	and	_	_	_	_	_	_
 27-14	3413-3422	following	_	_	_	_	_	_
@@ -712,7 +712,7 @@
 28-6	3514-3521	closely	abstract[217]	new[217]	nonsal[217]	Jola_languages[217]	_	_
 28-7	3522-3529	related	abstract[217]	new[217]	nonsal[217]	Jola_languages[217]	_	_
 28-8	3530-3532	to	abstract[217]	new[217]	nonsal[217]	Jola_languages[217]	_	_
-28-9	3533-3540	Eegimaa	abstract[217]|abstract[218]	new[217]|giv[218]	nonsal[217]|nonsal[218]	Jola_languages[217]|Bandial_language[218]	coref|bridge:comparison-relative|bridge:comparison-relative	29-37[242_218]|28-21[221-218]|28-35[224-218]
+28-9	3533-3540	Eegimaa	abstract[217]|abstract[218]	new[217]|giv[218]	nonsal[217]|nonsal[218]	Jola_languages[217]|Bandial_language[218]	coref|bridge:comparison-relative|bridge:comparison-relative	29-37[242_218]|28-21[221_218]|28-35[224_218]
 28-10	3541-3548	include	_	_	_	_	_	_
 28-11	3549-3558	Kujireray	abstract[219]	giv[219]	nonsal[219]	_	_	_
 28-12	3559-3560	/	abstract[219]	giv[219]	nonsal[219]	_	_	_
@@ -745,7 +745,7 @@
 28-39	3702-3703	(	_	_	_	_	_	_
 28-40	3704-3709	based	_	_	_	_	_	_
 28-41	3710-3712	on	_	_	_	_	_	_
-28-42	3713-3718	Lewis	abstract[225]|person[226]|person[227]	giv[225]|giv[226]|giv[227]	nonsal[225]|nonsal[226]|nonsal[227]	_	coref|bridge:comparison-sense	28-47[230_226]|28-44[228-227]
+28-42	3713-3718	Lewis	abstract[225]|person[226]|person[227]	giv[225]|giv[226]|giv[227]	nonsal[225]|nonsal[226]|nonsal[227]	_	coref|bridge:comparison-sense	28-47[230_226]|28-44[228_227]
 28-43	3719-3721	et	abstract[225]|person[226]	giv[225]|giv[226]	nonsal[225]|nonsal[226]	_	_	_
 28-44	3722-3725	al.	abstract[225]|person[226]|person[228]	giv[225]|giv[226]|acc[228]	nonsal[225]|nonsal[226]|nonsal[228]	_	_	_
 28-45	3726-3727	,	abstract[225]	giv[225]	nonsal[225]	_	_	_
@@ -897,7 +897,7 @@
 33-25	4463-4470	Eegimaa	abstract[274]	giv[274]	nonsal[274]	Bandial_language[274]	coref	33-28[275_274]
 33-26	4471-4473	to	_	_	_	_	_	_
 33-27	4474-4485	distinguish	_	_	_	_	_	_
-33-28	4486-4491	their	abstract[275]|person[276]	giv[275]|giv[276]	nonsal[275]|nonsal[276]	Bandial_language[275]	coref|bridge:comparison-relative|bridge:comparison-sense	34-1[281_275]|33-34[279-276]|33-32[278-275]
+33-28	4486-4491	their	abstract[275]|person[276]	giv[275]|giv[276]	nonsal[275]|nonsal[276]	Bandial_language[275]	coref|bridge:comparison-relative|bridge:comparison-sense	34-1[281_275]|33-34[279_276]|33-32[278_275]
 33-29	4492-4497	Jóola	abstract[275]|abstract[277]	giv[275]|giv[277]	nonsal[275]|nonsal[277]	Bandial_language[275]|Jola_language[277]	coref	33-35[280_277]
 33-30	4498-4505	variety	abstract[275]	giv[275]	nonsal[275]	Bandial_language[275]	_	_
 33-31	4506-4510	from	_	_	_	_	_	_
@@ -939,7 +939,7 @@
 35-7	4702-4709	contact	event[286]|abstract[287]	giv[286]|giv[287]	nonsal[286]|nonsal[287]	_	_	_
 35-8	4710-4719	situation	event[286]|abstract[287]	giv[286]|giv[287]	nonsal[286]|nonsal[287]	_	_	_
 35-9	4720-4722	of	event[286]|abstract[287]	giv[286]|giv[287]	nonsal[286]|nonsal[287]	_	_	_
-35-10	4723-4730	Eegimaa	event[286]|abstract[287]|abstract[288]	giv[286]|giv[287]|giv[288]	nonsal[286]|nonsal[287]|nonsal[288]	Bandial_language[288]	coref|bridge:comparison-relative|bridge:entity-associative	36-7[294_288]|35-24[291-288]|35-28[292-288]
+35-10	4723-4730	Eegimaa	event[286]|abstract[287]|abstract[288]	giv[286]|giv[287]|giv[288]	nonsal[286]|nonsal[287]|nonsal[288]	Bandial_language[288]	coref|bridge:comparison-relative|bridge:entity-associative	36-7[294_288]|35-24[291_288]|35-28[292_288]
 35-11	4731-4732	,	_	_	_	_	_	_
 35-12	4733-4740	because	_	_	_	_	_	_
 35-13	4741-4745	some	abstract[289]	new[289]	nonsal[289]	_	coref	36-1[293_289]

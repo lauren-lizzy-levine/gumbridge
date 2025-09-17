@@ -5,7 +5,7 @@
 
 #Text=_ ________ ___ _
 1-1	0-1	_	_	_	_	_	_	_
-1-2	2-10	________	abstract[1]	new[1]	nonsal[1]	Monsters%2C_Inc._%28franchise%29[1]	bridge:entity-associative|bridge:entity-associative	3-9[8-1]|7-8[21-1]
+1-2	2-10	________	abstract[1]	new[1]	nonsal[1]	Monsters%2C_Inc._%28franchise%29[1]	bridge:entity-associative|bridge:entity-associative	3-9[8_1]|7-8[21_1]
 1-3	11-14	___	abstract[1]	new[1]	nonsal[1]	Monsters%2C_Inc._%28franchise%29[1]	_	_
 1-4	15-16	_	_	_	_	_	_	_
 
@@ -16,7 +16,7 @@
 2-4	37-41	____	abstract[2]|place[4]	new[2]|giv[4]	nonsal[2]|nonsal[4]	_	_	_
 2-5	42-46	____	abstract[2]|place[4]	new[2]|giv[4]	nonsal[2]|nonsal[4]	_	_	_
 2-6	47-49	__	abstract[2]	new[2]	nonsal[2]	_	_	_
-2-7	50-51	_	abstract[2]|place[5]	new[2]|new[5]	nonsal[2]|sal[5]	_	coref|bridge:entity-resultative	6-17[18_5]|4-13[11-5]
+2-7	50-51	_	abstract[2]|place[5]	new[2]|new[5]	nonsal[2]|sal[5]	_	coref|bridge:entity-resultative	6-17[18_5]|4-13[11_5]
 2-8	52-61	_________	abstract[2]|place[5]	new[2]|new[5]	nonsal[2]|sal[5]	_	_	_
 2-9	62-67	_____	abstract[2]|place[5]	new[2]|new[5]	nonsal[2]|sal[5]	_	_	_
 
@@ -37,7 +37,7 @@
 4-2	135-136	_	organization[9]	new[9]	sal[9]	Monsters%2C_Inc.[9]	_	_
 4-3	137-141	____	organization[9]	new[9]	sal[9]	Monsters%2C_Inc.[9]	_	_
 4-4	142-144	__	_	_	_	_	_	_
-4-5	145-148	___	organization[10]	giv[10]	nonsal[10]	Monsters%2C_Inc.[10]	coref|bridge:comparison-relative	6-6[15_10]|5-1[13-10]
+4-5	145-148	___	organization[10]	giv[10]	nonsal[10]	Monsters%2C_Inc.[10]	coref|bridge:comparison-relative	6-6[15_10]|5-1[13_10]
 4-6	149-153	____	organization[10]	giv[10]	nonsal[10]	Monsters%2C_Inc.[10]	_	_
 4-7	154-161	_______	organization[10]	giv[10]	nonsal[10]	Monsters%2C_Inc.[10]	_	_
 4-8	162-166	____	_	_	_	_	_	_
@@ -60,7 +60,7 @@
 5-7	239-241	__	_	_	_	_	_	_
 5-8	242-246	____	_	_	_	_	_	_
 5-9	247-252	_____	_	_	_	_	_	_
-5-10	253-257	____	abstract[14]	giv[14]	nonsal[14]	_	coref|bridge:entity-associative	15-4[79_14]|8-12[32-14]
+5-10	253-257	____	abstract[14]	giv[14]	nonsal[14]	_	coref|bridge:entity-associative	15-4[79_14]|8-12[32_14]
 5-11	258-264	______	abstract[14]	giv[14]	nonsal[14]	_	_	_
 5-12	265-267	__	abstract[14]	giv[14]	nonsal[14]	_	_	_
 5-13	268-269	_	abstract[14]	giv[14]	nonsal[14]	_	_	_
@@ -119,7 +119,7 @@
 7-24	527-531	____	organization[23]|person[24]	giv[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_
 7-25	532-534	__	organization[23]|person[24]	giv[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_
 7-26	535-537	__	organization[23]|person[24]	giv[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_
-7-27	538-545	_______	organization[23]|person[24]|person[25]	giv[23]|new[24]|new[25]	nonsal[23]|nonsal[24]|nonsal[25]	_	coref|bridge:entity-associative	45-31[203_25]|9-1[43-25]
+7-27	538-545	_______	organization[23]|person[24]|person[25]	giv[23]|new[24]|new[25]	nonsal[23]|nonsal[24]|nonsal[25]	_	coref|bridge:entity-associative	45-31[203_25]|9-1[43_25]
 7-28	546-547	_	organization[23]|person[24]	giv[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_
 7-29	548-553	_____	organization[23]|person[24]	giv[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_
 7-30	554-566	____________	organization[23]|person[24]	giv[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_
@@ -156,7 +156,7 @@
 8-9	694-697	___	abstract[29]|event[30]|person[31]	giv[29]|new[30]|new[31]	nonsal[29]|nonsal[30]|nonsal[31]	_	coref|coref	8-44[40_30]|16-7[83_31]
 8-10	698-703	_____	abstract[29]|event[30]	giv[29]|new[30]	nonsal[29]|nonsal[30]	_	_	_
 8-11	704-711	_______	abstract[29]|event[30]	giv[29]|new[30]	nonsal[29]|nonsal[30]	_	_	_
-8-12	712-715	___	abstract[29]|event[30]|object[32]	giv[29]|new[30]|acc[32]	nonsal[29]|nonsal[30]|nonsal[32]	_	bridge:entity-associative	8-38[38-32]
+8-12	712-715	___	abstract[29]|event[30]|object[32]	giv[29]|new[30]|acc[32]	nonsal[29]|nonsal[30]|nonsal[32]	_	bridge:entity-associative	8-38[38_32]
 8-13	716-720	____	abstract[29]|event[30]|object[32]	giv[29]|new[30]|acc[32]	nonsal[29]|nonsal[30]|nonsal[32]	_	_	_
 8-14	721-725	____	abstract[29]|event[30]	giv[29]|new[30]	nonsal[29]|nonsal[30]	_	_	_
 8-15	726-729	___	abstract[29]|event[30]|place[33]	giv[29]|new[30]|giv[33]	nonsal[29]|nonsal[30]|nonsal[33]	_	coref	10-26[57_33]
@@ -277,7 +277,7 @@
 10-42	1289-1298	_________	_	_	_	_	_	_
 10-43	1299-1307	________	_	_	_	_	_	_
 10-44	1308-1310	__	_	_	_	_	_	_
-10-45	1311-1313	__	organization[61]	giv[61]	nonsal[61]	Monsters%2C_Inc.[61]	bridge:entity-associative|bridge:entity-associative|bridge:comparison-sense	12-15[68-61]|12-23[71-61]|11-8[63-61]
+10-45	1311-1313	__	organization[61]	giv[61]	nonsal[61]	Monsters%2C_Inc.[61]	bridge:entity-associative|bridge:entity-associative|bridge:comparison-sense	12-15[68_61]|12-23[71_61]|11-8[63_61]
 10-46	1314-1315	_	_	_	_	_	_	_
 
 #Text=____ ____ ______ _____ ____ _________ __ _____ _______ ___ __ ___________ _____ _ _______ _
@@ -359,7 +359,7 @@
 #Text=____________ __ ___ ____ ____ ____ _________ _
 14-1	1670-1682	____________	place[77]	giv[77]	nonsal[77]	_	coref	14-3[78_77]
 14-2	1683-1685	__	_	_	_	_	_	_
-14-3	1686-1689	___	place[78]	giv[78]	nonsal[78]	_	coref|bridge:comparison-relative	17-9[88_78]|15-18[82-78]
+14-3	1686-1689	___	place[78]	giv[78]	nonsal[78]	_	coref|bridge:comparison-relative	17-9[88_78]|15-18[82_78]
 14-4	1690-1694	____	place[78]	giv[78]	nonsal[78]	_	_	_
 14-5	1695-1699	____	place[78]	giv[78]	nonsal[78]	_	_	_
 14-6	1700-1704	____	_	_	_	_	_	_
@@ -416,7 +416,7 @@
 17-6	1952-1953	_	object[87]	new[87]	nonsal[87]	_	coref	18-3[89_87]
 17-7	1954-1960	______	object[87]	new[87]	nonsal[87]	_	_	_
 17-8	1961-1966	_____	_	_	_	_	_	_
-17-9	1967-1970	___	place[88]	giv[88]	nonsal[88]	_	coref|bridge:entity-meronomy	29-16[127_88]|22-17[103-88]
+17-9	1967-1970	___	place[88]	giv[88]	nonsal[88]	_	coref|bridge:entity-meronomy	29-16[127_88]|22-17[103_88]
 17-10	1971-1975	____	place[88]	giv[88]	nonsal[88]	_	_	_
 
 #Text=__ _____ _____ __ _______ ___ ____ _ ___ ____ _
@@ -525,7 +525,7 @@
 26-2	2391-2396	_____	object[108]	giv[108]	nonsal[108]	_	coref	26-5[109_108]
 26-3	2397-2398	_	_	_	_	_	_	_
 26-4	2399-2409	__________	_	_	_	_	_	_
-26-5	2410-2414	____	object[109]	giv[109]	nonsal[109]	_	bridge:entity-meronomy	30-10[131-109]
+26-5	2410-2414	____	object[109]	giv[109]	nonsal[109]	_	bridge:entity-meronomy	30-10[131_109]
 26-6	2415-2418	___	person[110]	giv[110]	nonsal[110]	_	_	_
 26-7	2419-2421	__	_	_	_	_	_	_
 26-8	2422-2425	___	_	_	_	_	_	_
@@ -569,7 +569,7 @@
 28-20	2584-2587	___	abstract[117]	giv[117]	nonsal[117]	_	_	_
 28-21	2588-2594	______	abstract[117]|person[118]	giv[117]|new[118]	nonsal[117]|nonsal[118]	_	coref	28-41[122_118]
 28-22	2595-2598	___	abstract[117]|person[118]	giv[117]|new[118]	nonsal[117]|nonsal[118]	_	_	_
-28-23	2599-2604	_____	abstract[117]|person[118]|place[119]	giv[117]|new[118]|giv[119]	nonsal[117]|nonsal[118]|nonsal[119]	_	coref|bridge:entity-associative	33-7[144_119]|32-8[141-119]
+28-23	2599-2604	_____	abstract[117]|person[118]|place[119]	giv[117]|new[118]|giv[119]	nonsal[117]|nonsal[118]|nonsal[119]	_	coref|bridge:entity-associative	33-7[144_119]|32-8[141_119]
 28-24	2605-2609	____	abstract[117]	giv[117]	nonsal[117]	_	_	_
 28-25	2610-2613	___	abstract[117]	giv[117]	nonsal[117]	_	_	_
 28-26	2614-2618	____	abstract[117]	giv[117]	nonsal[117]	_	_	_
@@ -590,7 +590,7 @@
 28-41	2691-2699	________	person[122]	giv[122]	nonsal[122]	_	coref	41-6[181_122]
 28-42	2700-2702	__	person[122]	giv[122]	nonsal[122]	_	_	_
 28-43	2703-2714	___________	person[122]	giv[122]	nonsal[122]	_	_	_
-28-44	2715-2722	_______	person[122]|abstract[123]	giv[122]|new[123]	nonsal[122]|nonsal[123]	_	coref|bridge:entity-associative	36-11[154_123]|29-10[126-123]
+28-44	2715-2722	_______	person[122]|abstract[123]	giv[122]|new[123]	nonsal[122]|nonsal[123]	_	coref|bridge:entity-associative	36-11[154_123]|29-10[126_123]
 28-45	2723-2735	____________	person[122]|abstract[123]	giv[122]|new[123]	nonsal[122]|nonsal[123]	_	_	_
 28-46	2736-2737	_	_	_	_	_	_	_
 
@@ -815,7 +815,7 @@
 39-5	3823-3826	___	abstract[165]	new[165]	nonsal[165]	_	_	_
 39-6	3827-3829	__	abstract[165]	new[165]	nonsal[165]	_	_	_
 39-7	3830-3834	____	abstract[165]	new[165]	nonsal[165]	_	_	_
-39-8	3835-3840	_____	abstract[165]|place[167]|person[168]	new[165]|giv[167]|giv[168]	nonsal[165]|nonsal[167]|nonsal[168]	_	coref|coref|bridge:comparison-relative	45-46[206_167]|39-14[170_168]|39-29[174-167]
+39-8	3835-3840	_____	abstract[165]|place[167]|person[168]	new[165]|giv[167]|giv[168]	nonsal[165]|nonsal[167]|nonsal[168]	_	coref|coref|bridge:comparison-relative	45-46[206_167]|39-14[170_168]|39-29[174_167]
 39-9	3841-3845	____	abstract[165]|place[167]	new[165]|giv[167]	nonsal[165]|nonsal[167]	_	_	_
 39-10	3846-3852	______	abstract[165]	new[165]	nonsal[165]	_	_	_
 39-11	3853-3857	____	abstract[165]	new[165]	nonsal[165]	_	_	_
@@ -825,7 +825,7 @@
 39-15	3876-3879	___	abstract[165]	new[165]	nonsal[165]	_	_	_
 39-16	3880-3886	______	abstract[165]	new[165]	nonsal[165]	_	_	_
 39-17	3887-3889	__	abstract[165]	new[165]	nonsal[165]	_	_	_
-39-18	3890-3892	__	abstract[165]|person[171]	new[165]|giv[171]	nonsal[165]|nonsal[171]	_	coref|bridge:comparison-relative	43-1[187_171]|39-35[176-171]
+39-18	3890-3892	__	abstract[165]|person[171]	new[165]|giv[171]	nonsal[165]|nonsal[171]	_	coref|bridge:comparison-relative	43-1[187_171]|39-35[176_171]
 39-19	3893-3896	___	abstract[165]	new[165]	nonsal[165]	_	_	_
 39-20	3897-3900	___	abstract[165]|object[172]	new[165]|giv[172]	nonsal[165]|nonsal[172]	_	_	_
 39-21	3901-3905	____	abstract[165]|object[172]	new[165]|giv[172]	nonsal[165]|nonsal[172]	_	_	_

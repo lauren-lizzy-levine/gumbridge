@@ -43,7 +43,7 @@
 
 #Text=After Bedřich Smetana , he was the next Czech Romantic - era composer to achieve worldwide recognition .
 3-1	182-187	After	_	_	_	_	_	_
-3-2	188-195	Bedřich	person[14]	new[14]	nonsal[14]	Bedřich_Smetana[14]	coref|bridge:comparison-relative|bridge:comparison-relative	4-2[20_14]|3-7[16-14]|3-7[16-14]
+3-2	188-195	Bedřich	person[14]	new[14]	nonsal[14]	Bedřich_Smetana[14]	coref|bridge:comparison-relative|bridge:comparison-relative	4-2[20_14]|3-7[16_14]|3-7[16_14]
 3-3	196-203	Smetana	person[14]	new[14]	nonsal[14]	Bedřich_Smetana[14]	_	_
 3-4	204-205	,	_	_	_	_	_	_
 3-5	206-208	he	person[15]	giv[15]	nonsal[15]	Antonín_Dvořák[15]	coref	3-7[16_15]
@@ -71,13 +71,13 @@
 4-7	330-336	Dvořák	person[21]	giv[21]	nonsal[21]	Antonín_Dvořák[21]	coref	4-22[27_21]
 4-8	337-347	frequently	_	_	_	_	_	_
 4-9	348-356	employed	_	_	_	_	_	_
-4-10	357-364	aspects	abstract[22]	new[22]	nonsal[22]	_	bridge:set-member	4-13[23-22]
+4-10	357-364	aspects	abstract[22]	new[22]	nonsal[22]	_	bridge:set-member	4-13[23_22]
 4-11	365-366	,	abstract[22]	new[22]	nonsal[22]	_	_	_
 4-12	367-379	specifically	abstract[22]	new[22]	nonsal[22]	_	_	_
 4-13	380-387	rhythms	abstract[22]|abstract[23]	new[22]|acc[23]	nonsal[22]|nonsal[23]	_	_	_
 4-14	388-389	,	abstract[22]	new[22]	nonsal[22]	_	_	_
 4-15	390-392	of	abstract[22]	new[22]	nonsal[22]	_	_	_
-4-16	393-396	the	abstract[22]|abstract[24]	new[22]|new[24]	nonsal[22]|nonsal[24]	_	bridge:entity-property	5-25[32-24]
+4-16	393-396	the	abstract[22]|abstract[24]	new[22]|new[24]	nonsal[22]|nonsal[24]	_	bridge:entity-property	5-25[32_24]
 4-17	397-401	folk	abstract[22]|abstract[24]	new[22]|new[24]	nonsal[22]|nonsal[24]	_	_	_
 4-18	402-407	music	abstract[22]|abstract[24]	new[22]|new[24]	nonsal[22]|nonsal[24]	_	_	_
 4-19	408-410	of	abstract[22]|abstract[24]	new[22]|new[24]	nonsal[22]|nonsal[24]	_	_	_
@@ -173,7 +173,7 @@
 8-17	843-850	success	abstract[49]	new[49]	nonsal[49]	_	_	_
 8-18	851-852	,	_	_	_	_	_	_
 8-19	853-855	in	_	_	_	_	_	_
-8-20	856-860	1873	time[50]	acc[50]	nonsal[50]	_	bridge:comparison-time	9-36[63-50]
+8-20	856-860	1873	time[50]	acc[50]	nonsal[50]	_	bridge:comparison-time	9-36[63_50]
 8-21	861-862	,	_	_	_	_	_	_
 8-22	863-867	when	_	_	_	_	_	_
 8-23	868-870	he	person[51]	giv[51]	nonsal[51]	Antonín_Dvořák[51]	coref	9-8[56_51]
@@ -231,7 +231,7 @@
 10-5	1122-1123	a	abstract[66]	new[66]	nonsal[66]	_	_	_
 10-6	1124-1134	submission	abstract[66]	new[66]	nonsal[66]	_	_	_
 10-7	1135-1137	to	_	_	_	_	_	_
-10-8	1138-1141	the	abstract[67]	new[67]	nonsal[67]	_	coref|bridge:entity-associative	12-1[78_67]|11-16[77-67]
+10-8	1138-1141	the	abstract[67]	new[67]	nonsal[67]	_	coref|bridge:entity-associative	12-1[78_67]|11-16[77_67]
 10-9	1142-1150	Austrian	abstract[67]	new[67]	nonsal[67]	_	_	_
 10-10	1151-1156	State	abstract[67]	new[67]	nonsal[67]	_	_	_
 10-11	1157-1162	Prize	abstract[67]	new[67]	nonsal[67]	_	_	_
@@ -241,7 +241,7 @@
 10-15	1181-1190	including	_	_	_	_	_	_
 10-16	1191-1197	scores	object[69]	new[69]	nonsal[69]	_	_	_
 10-17	1198-1200	of	object[69]	new[69]	nonsal[69]	_	_	_
-10-18	1201-1204	two	object[69]|abstract[70]	new[69]|new[70]	nonsal[69]|nonsal[70]	_	bridge:comparison-relative	10-22[71-70]
+10-18	1201-1204	two	object[69]|abstract[70]	new[69]|new[70]	nonsal[69]|nonsal[70]	_	bridge:comparison-relative	10-22[71_70]
 10-19	1205-1212	further	object[69]|abstract[70]	new[69]|new[70]	nonsal[69]|nonsal[70]	_	_	_
 10-20	1213-1223	symphonies	object[69]|abstract[70]	new[69]|new[70]	nonsal[69]|nonsal[70]	_	_	_
 10-21	1224-1227	and	object[69]	new[69]	nonsal[69]	_	_	_
@@ -341,7 +341,7 @@
 13-22	1678-1679	.	_	_	_	_	_	_
 
 #Text=These were highly praised by the Berlin music critic Louis Ehlert in 1878 , the sheet music ( of the original piano 4 - hands version ) had excellent sales , and Dvořák 's international reputation was launched at last .
-14-1	1680-1685	These	abstract[97]	giv[97]	nonsal[97]	Slavonic_Dances[97]	bridge:entity-associative	14-20[102-97]
+14-1	1680-1685	These	abstract[97]	giv[97]	nonsal[97]	Slavonic_Dances[97]	bridge:entity-associative	14-20[102_97]
 14-2	1686-1690	were	_	_	_	_	_	_
 14-3	1691-1697	highly	_	_	_	_	_	_
 14-4	1698-1705	praised	_	_	_	_	_	_
@@ -409,7 +409,7 @@
 
 #Text=It was very successfully performed in London in 1883 , leading to many other performances in the United Kingdom and United States . [ 2 ]
 16-1	2010-2012	It	abstract[115]	giv[115]	nonsal[115]	_	_	_
-16-2	2013-2016	was	event[116]	new[116]	nonsal[116]	_	bridge:comparison-relative	16-13[119-116]
+16-2	2013-2016	was	event[116]	new[116]	nonsal[116]	_	bridge:comparison-relative	16-13[119_116]
 16-3	2017-2021	very	event[116]	new[116]	nonsal[116]	_	_	_
 16-4	2022-2034	successfully	event[116]	new[116]	nonsal[116]	_	_	_
 16-5	2035-2044	performed	event[116]	new[116]	nonsal[116]	_	_	_
@@ -557,7 +557,7 @@
 22-26	2712-2713	.	_	_	_	_	_	_
 
 #Text=While in the United States , Dvořák wrote his two most successful orchestral works : the Symphony From the New World , which spread his reputation worldwide , [ 4 ] and his Cello Concerto , one of the most highly regarded of all cello concerti .
-23-1	2714-2719	While	event[166]	new[166]	nonsal[166]	_	bridge:comparison-time	24-18[187-166]
+23-1	2714-2719	While	event[166]	new[166]	nonsal[166]	_	bridge:comparison-time	24-18[187_166]
 23-2	2720-2722	in	event[166]	new[166]	nonsal[166]	_	_	_
 23-3	2723-2726	the	event[166]|place[167]	new[166]|giv[167]	nonsal[166]|nonsal[167]	United_States[167]	coref	25-25[197_167]
 23-4	2727-2733	United	event[166]|place[167]	new[166]|giv[167]	nonsal[166]|nonsal[167]	United_States[167]	_	_
@@ -666,7 +666,7 @@
 #Text=All of Dvořák 's nine operas but his first have librettos in Czech and were intended to convey Czech national spirit , as were some of his choral works .
 26-1	3253-3256	All	abstract[200]	new[200]	nonsal[200]	_	_	_
 26-2	3257-3259	of	abstract[200]	new[200]	nonsal[200]	_	_	_
-26-3	3260-3266	Dvořák	abstract[200]|abstract[201]|person[202]	new[200]|new[201]|giv[202]	nonsal[200]|nonsal[201]|nonsal[202]	Antonín_Dvořák[202]	coref|coref|bridge:comparison-sense	27-7[212_201]|26-8[204_202]|26-8[203-201]
+26-3	3260-3266	Dvořák	abstract[200]|abstract[201]|person[202]	new[200]|new[201]|giv[202]	nonsal[200]|nonsal[201]|nonsal[202]	Antonín_Dvořák[202]	coref|coref|bridge:comparison-sense	27-7[212_201]|26-8[204_202]|26-8[203_201]
 26-4	3267-3269	's	abstract[200]|abstract[201]|person[202]	new[200]|new[201]|giv[202]	nonsal[200]|nonsal[201]|nonsal[202]	Antonín_Dvořák[202]	_	_
 26-5	3270-3274	nine	abstract[200]|abstract[201]	new[200]|new[201]	nonsal[200]|nonsal[201]	_	_	_
 26-6	3275-3281	operas	abstract[200]|abstract[201]	new[200]|new[201]	nonsal[200]|nonsal[201]	_	_	_

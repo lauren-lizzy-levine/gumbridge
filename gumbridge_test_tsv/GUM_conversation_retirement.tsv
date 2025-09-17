@@ -458,7 +458,7 @@
 41-19	1539-1540	I	person[93]	giv[93]	nonsal[93]	_	coref	42-2[96_93]
 41-20	1541-1543	am	_	_	_	_	_	_
 41-21	1544-1547	not	_	_	_	_	_	_
-41-22	1548-1549	a	person[94]	giv[94]	nonsal[94]	_	bridge:entity-associative	43-12[99-94]
+41-22	1548-1549	a	person[94]	giv[94]	nonsal[94]	_	bridge:entity-associative	43-12[99_94]
 41-23	1550-1559	political	person[94]	giv[94]	nonsal[94]	_	_	_
 41-24	1560-1569	appointee	person[94]	giv[94]	nonsal[94]	_	_	_
 41-25	1570-1571	.	_	_	_	_	_	_
@@ -672,7 +672,7 @@
 55-1	2325-2328	Can	_	_	_	_	_	_
 55-2	2329-2330	I	person[139]	giv[139]	nonsal[139]	_	coref	63-2[154_139]
 55-3	2331-2335	grow	_	_	_	_	_	_
-55-4	2336-2340	some	plant[140]	new[140]	sal[140]	_	bridge:entity-meronomy|bridge:comparison-sense	56-2[141-140]|58-5[145-140]
+55-4	2336-2340	some	plant[140]	new[140]	sal[140]	_	bridge:entity-meronomy|bridge:comparison-sense	56-2[141_140]|58-5[145_140]
 55-5	2341-2346	basil	plant[140]	new[140]	sal[140]	_	_	_
 55-6	2347-2348	?	_	_	_	_	_	_
 
@@ -697,7 +697,7 @@
 58-3	2392-2395	n't	_	_	_	_	_	_
 58-4	2396-2400	have	_	_	_	_	_	_
 58-5	2401-2404	any	plant[145]	acc[145]	nonsal[145]	_	coref	58-13[148_145]
-58-6	2405-2409	this	time[146]	acc[146]	nonsal[146]	_	coref|bridge:comparison-relative	85-6[196_146]|58-14[149-146]
+58-6	2405-2409	this	time[146]	acc[146]	nonsal[146]	_	coref|bridge:comparison-relative	85-6[196_146]|58-14[149_146]
 58-7	2410-2414	year	time[146]	acc[146]	nonsal[146]	_	_	_
 58-8	2415-2416	,	_	_	_	_	_	_
 58-9	2417-2420	but	_	_	_	_	_	_
@@ -897,7 +897,7 @@
 83-5	2987-2988	–	_	_	_	_	_	_
 83-6	2989-2994	given	_	_	_	_	_	_
 83-7	2995-2998	him	person[192]	giv[192]	nonsal[192]	_	_	_
-83-8	2999-3003	some	plant[193]	giv[193]	sal[193]	_	bridge:comparison-sense	85-5[195-193]
+83-8	2999-3003	some	plant[193]	giv[193]	sal[193]	_	bridge:comparison-sense	85-5[195_193]
 83-9	3004-3009	basil	plant[193]	giv[193]	sal[193]	_	_	_
 83-10	3010-3011	,	_	_	_	_	_	_
 83-11	3012-3015	yes	_	_	_	_	_	_
@@ -938,7 +938,7 @@
 88-2	3104-3108	good	object[201]	new[201]	nonsal[201]	_	_	_
 88-3	3109-3114	stand	object[201]	new[201]	nonsal[201]	_	_	_
 88-4	3115-3117	of	object[201]	new[201]	nonsal[201]	_	_	_
-88-5	3118-3120	it	object[201]|plant[202]	new[201]|giv[202]	nonsal[201]|nonsal[202]	_	bridge:comparison-sense	88-10[204-202]
+88-5	3118-3120	it	object[201]|plant[202]	new[201]|giv[202]	nonsal[201]|nonsal[202]	_	bridge:comparison-sense	88-10[204_202]
 88-6	3121-3122	,	_	_	_	_	_	_
 88-7	3123-3125	if	_	_	_	_	_	_
 88-8	3126-3129	you	person[203]	giv[203]	nonsal[203]	_	coref	90-1[205_203]
@@ -986,7 +986,7 @@
 #Text=You smoked it down into the cork , did n't you ?
 94-1	3247-3250	You	person[211]	giv[211]	nonsal[211]	_	coref	94-11[214_211]
 94-2	3251-3257	smoked	_	_	_	_	_	_
-94-3	3258-3260	it	object[212]	giv[212]	nonsal[212]	_	coref|bridge:entity-meronomy	96-3[217_212]|94-6[213-212]
+94-3	3258-3260	it	object[212]	giv[212]	nonsal[212]	_	coref|bridge:entity-meronomy	96-3[217_212]|94-6[213_212]
 94-4	3261-3265	down	_	_	_	_	_	_
 94-5	3266-3270	into	_	_	_	_	_	_
 94-6	3271-3274	the	object[213]	acc[213]	nonsal[213]	_	coref	96-6[218_213]

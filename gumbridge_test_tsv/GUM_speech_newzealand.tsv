@@ -29,13 +29,13 @@
 2-1	101-103	On	_	_	_	_	_	_
 2-2	104-110	Friday	time[6]	new[6]	nonsal[6]	_	coref	2-4[7_6]
 2-3	111-112	,	_	_	_	_	_	_
-2-4	113-115	28	time[7]	giv[7]	nonsal[7]	_	coref|bridge:comparison-time	16-28[114_7]|3-7[18-7]
+2-4	113-115	28	time[7]	giv[7]	nonsal[7]	_	coref|bridge:comparison-time	16-28[114_7]|3-7[18_7]
 2-5	116-124	February	time[7]|time[8]	giv[7]|new[8]	nonsal[7]|nonsal[8]	_	coref	16-23[112_8]
 2-6	125-126	,	_	_	_	_	_	_
 2-7	127-130	New	place[9]	giv[9]	nonsal[9]	New_Zealand[9]	coref	2-10[11_9]
 2-8	131-138	Zealand	place[9]	giv[9]	nonsal[9]	New_Zealand[9]	_	_
 2-9	139-147	recorded	_	_	_	_	_	_
-2-10	148-151	its	event[10]|place[11]	giv[10]|giv[11]	nonsal[10]|nonsal[11]	New_Zealand[11]	coref|coref|bridge:entity-associative|bridge:entity-resultative	5-5[30_10]|2-21[14_11]|3-1[16-10]|4-12[26-10]
+2-10	148-151	its	event[10]|place[11]	giv[10]|giv[11]	nonsal[10]|nonsal[11]	New_Zealand[11]	coref|coref|bridge:entity-associative|bridge:entity-resultative	5-5[30_10]|2-21[14_11]|3-1[16_10]|4-12[26_10]
 2-11	152-157	first	event[10]	giv[10]	nonsal[10]	_	_	_
 2-12	158-162	case	event[10]	giv[10]	nonsal[10]	_	_	_
 2-13	163-165	of	event[10]	giv[10]	nonsal[10]	_	_	_
@@ -61,7 +61,7 @@
 3-2	252-262	individual	person[16]	acc[16]	nonsal[16]	_	_	_
 3-3	263-266	had	_	_	_	_	_	_
 3-4	267-274	entered	_	_	_	_	_	_
-3-5	275-278	the	place[17]	giv[17]	nonsal[17]	New_Zealand[17]	coref|bridge:entity-associative	5-20[36_17]|4-5[24-17]
+3-5	275-278	the	place[17]	giv[17]	nonsal[17]	New_Zealand[17]	coref|bridge:entity-associative	5-20[36_17]|4-5[24_17]
 3-6	279-286	country	place[17]	giv[17]	nonsal[17]	New_Zealand[17]	_	_
 3-7	287-290	two	time[18]	acc[18]	nonsal[18]	_	_	_
 3-8	291-295	days	time[18]	acc[18]	nonsal[18]	_	_	_
@@ -103,7 +103,7 @@
 4-15	474-483	improving	abstract[26]	new[26]	nonsal[26]	_	_	_
 4-16	484-493	condition	abstract[26]	new[26]	nonsal[26]	_	_	_
 4-17	494-496	at	abstract[26]	new[26]	nonsal[26]	_	_	_
-4-18	497-505	Auckland	abstract[26]|place[27]|place[28]	new[26]|new[27]|new[28]	nonsal[26]|nonsal[27]|nonsal[28]	Auckland_City_Hospital[27]|Auckland[28]	bridge:entity-meronomy	5-34[40-27]
+4-18	497-505	Auckland	abstract[26]|place[27]|place[28]	new[26]|new[27]|new[28]	nonsal[26]|nonsal[27]|nonsal[28]	Auckland_City_Hospital[27]|Auckland[28]	bridge:entity-meronomy	5-34[40_27]
 4-19	506-514	Hospital	abstract[26]|place[27]	new[26]|new[27]	nonsal[26]|nonsal[27]	Auckland_City_Hospital[27]	_	_
 4-20	515-516	.	_	_	_	_	_	_
 
@@ -166,7 +166,7 @@
 6-17	821-825	case	event[45]	giv[45]	sal[45]	_	_	_
 6-18	826-829	and	_	_	_	_	_	_
 6-19	830-835	limit	_	_	_	_	_	_
-6-20	836-839	the	abstract[46]	new[46]	nonsal[46]	_	bridge:entity-resultative	7-1[49-46]
+6-20	836-839	the	abstract[46]	new[46]	nonsal[46]	_	bridge:entity-resultative	7-1[49_46]
 6-21	840-844	risk	abstract[46]	new[46]	nonsal[46]	_	_	_
 6-22	845-847	of	abstract[46]	new[46]	nonsal[46]	_	_	_
 6-23	848-851	any	abstract[46]|event[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_
@@ -226,7 +226,7 @@
 9-6	1106-1108	in	_	_	_	_	_	_
 9-7	1109-1114	touch	_	_	_	_	_	_
 9-8	1115-1119	with	_	_	_	_	_	_
-9-9	1120-1131	individuals	person[57]	giv[57]	nonsal[57]	_	bridge:entity-associative	9-12[58-57]
+9-9	1120-1131	individuals	person[57]	giv[57]	nonsal[57]	_	bridge:entity-associative	9-12[58_57]
 9-10	1132-1134	to	_	_	_	_	_	_
 9-11	1135-1142	monitor	_	_	_	_	_	_
 9-12	1143-1146	the	abstract[58]	acc[58]	nonsal[58]	_	_	_
@@ -269,7 +269,7 @@
 10-29	1336-1342	answer	_	_	_	_	_	_
 10-30	1343-1346	any	abstract[66]	new[66]	nonsal[66]	_	_	_
 10-31	1347-1356	questions	abstract[66]	new[66]	nonsal[66]	_	_	_
-10-32	1357-1361	they	abstract[66]|person[67]	new[66]|giv[67]	nonsal[66]|nonsal[67]	_	bridge:comparison-sense	10-36[68-67]
+10-32	1357-1361	they	abstract[66]|person[67]	new[66]|giv[67]	nonsal[66]|nonsal[67]	_	bridge:comparison-sense	10-36[68_67]
 10-33	1362-1367	might	abstract[66]	new[66]	nonsal[66]	_	_	_
 10-34	1368-1372	have	abstract[66]	new[66]	nonsal[66]	_	_	_
 10-35	1373-1374	;	_	_	_	_	_	_
@@ -369,7 +369,7 @@
 14-4	1834-1837	the	abstract[87]	giv[87]	nonsal[87]	_	_	_
 14-5	1838-1846	approach	abstract[87]	giv[87]	nonsal[87]	_	_	_
 14-6	1847-1851	that	abstract[87]	giv[87]	nonsal[87]	_	_	_
-14-7	1852-1855	New	abstract[87]|place[88]	giv[87]|giv[88]	nonsal[87]|nonsal[88]	New_Zealand[88]	coref|bridge:entity-associative|bridge:entity-associative|bridge:entity-associative	17-15[118_88]|15-18[102-88]|15-5[97-88]|16-4[107-88]
+14-7	1852-1855	New	abstract[87]|place[88]	giv[87]|giv[88]	nonsal[87]|nonsal[88]	New_Zealand[88]	coref|bridge:entity-associative|bridge:entity-associative|bridge:entity-associative	17-15[118_88]|15-18[102_88]|15-5[97_88]|16-4[107_88]
 14-8	1856-1863	Zealand	abstract[87]|place[88]	giv[87]|giv[88]	nonsal[87]|nonsal[88]	New_Zealand[88]	_	_
 14-9	1864-1866	is	abstract[87]	giv[87]	nonsal[87]	_	_	_
 14-10	1867-1873	taking	abstract[87]	giv[87]	nonsal[87]	_	_	_
@@ -442,7 +442,7 @@
 15-38	2209-2210	.	_	_	_	_	_	_
 
 #Text=Just yesterday , Cabinet decided to extend for another week the travel restrictions that have been in place for China since 3 February and for Iran since last Friday .
-16-1	2211-2215	Just	time[106]	acc[106]	nonsal[106]	_	bridge:comparison-time|bridge:comparison-time|bridge:comparison-time	16-28[114-106]|19-31[135-106]|23-19[154-106]
+16-1	2211-2215	Just	time[106]	acc[106]	nonsal[106]	_	bridge:comparison-time|bridge:comparison-time|bridge:comparison-time	16-28[114_106]|19-31[135_106]|23-19[154_106]
 16-2	2216-2225	yesterday	time[106]	acc[106]	nonsal[106]	_	_	_
 16-3	2226-2227	,	_	_	_	_	_	_
 16-4	2228-2235	Cabinet	organization[107]	acc[107]	nonsal[107]	Cabinet_of_New_Zealand[107]	_	_
@@ -474,7 +474,7 @@
 16-30	2377-2378	.	_	_	_	_	_	_
 
 #Text=These restrictions have played a key role in keeping COVID - 19 out of New Zealand for so long and have given us time to better understand the disease and ramp up our preparations .
-17-1	2379-2384	These	abstract[115]	giv[115]	nonsal[115]	_	bridge:comparison-relative|bridge:comparison-relative	18-13[126-115]|19-4[127-115]
+17-1	2379-2384	These	abstract[115]	giv[115]	nonsal[115]	_	bridge:comparison-relative|bridge:comparison-relative	18-13[126_115]|19-4[127_115]
 17-2	2385-2397	restrictions	abstract[115]	giv[115]	nonsal[115]	_	_	_
 17-3	2398-2402	have	_	_	_	_	_	_
 17-4	2403-2409	played	_	_	_	_	_	_
@@ -488,7 +488,7 @@
 17-12	2440-2442	19	abstract[116]|abstract[117]	new[116]|giv[117]	nonsal[116]|nonsal[117]	Coronavirus_disease_2019[117]	_	_
 17-13	2443-2446	out	abstract[116]	new[116]	nonsal[116]	_	_	_
 17-14	2447-2449	of	abstract[116]	new[116]	nonsal[116]	_	_	_
-17-15	2450-2453	New	abstract[116]|place[118]	new[116]|giv[118]	nonsal[116]|nonsal[118]	New_Zealand[118]	coref|bridge:entity-associative	19-15[131_118]|18-4[124-118]
+17-15	2450-2453	New	abstract[116]|place[118]	new[116]|giv[118]	nonsal[116]|nonsal[118]	New_Zealand[118]	coref|bridge:entity-associative	19-15[131_118]|18-4[124_118]
 17-16	2454-2461	Zealand	abstract[116]|place[118]	new[116]|giv[118]	nonsal[116]|nonsal[118]	New_Zealand[118]	_	_
 17-17	2462-2465	for	abstract[116]	new[116]	nonsal[116]	_	_	_
 17-18	2466-2468	so	abstract[116]	new[116]	nonsal[116]	_	_	_
@@ -597,7 +597,7 @@
 21-9	2953-2957	both	place[142]	split[142]	nonsal[142]	_	coref	21-12[143_142]
 21-10	2958-2967	countries	place[142]	split[142]	nonsal[142]	_	_	_
 21-11	2968-2969	,	_	_	_	_	_	_
-21-12	2970-2974	they	place[143]	giv[143]	nonsal[143]	_	bridge:entity-meronomy	21-27[146-143]
+21-12	2970-2974	they	place[143]	giv[143]	nonsal[143]	_	bridge:entity-meronomy	21-27[146_143]
 21-13	2975-2979	also	_	_	_	_	_	_
 21-14	2980-2984	have	_	_	_	_	_	_
 21-15	2985-2989	well	abstract[144]	new[144]	nonsal[144]	_	_	_
@@ -796,7 +796,7 @@
 29-7	3994-4000	health	abstract[195]	new[195]	sal[195]	_	_	_
 29-8	4001-4007	system	abstract[195]	new[195]	sal[195]	_	_	_
 29-9	4008-4017	continues	_	_	_	_	_	_
-29-10	4018-4021	its	event[197]|abstract[198]	new[197]|giv[198]	nonsal[197]|nonsal[198]	_	coref|bridge:set-subset|bridge:set-subset|bridge:set-subset	32-3[216_198]|30-13[207-198]|30-5[204-198]|30-8[206-198]
+29-10	4018-4021	its	event[197]|abstract[198]	new[197]|giv[198]	nonsal[197]|nonsal[198]	_	coref|bridge:set-subset|bridge:set-subset|bridge:set-subset	32-3[216_198]|30-13[207_198]|30-5[204_198]|30-8[206_198]
 29-11	4022-4034	preparations	event[197]	new[197]	nonsal[197]	_	_	_
 29-12	4035-4037	in	_	_	_	_	_	_
 29-13	4038-4042	line	_	_	_	_	_	_

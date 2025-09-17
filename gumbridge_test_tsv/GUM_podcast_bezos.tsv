@@ -5,7 +5,7 @@
 
 #Text=As the Western United States burns up with over seventy forest fires in thirteen states and Germany deals with the aftermath of devastating floods , the world 's richest man , not counting Vladimir Putin , rocketed himself up to outer space for ten minutes at a cost of two point five million dollars every 60 seconds .
 1-1	0-2	As	_	_	_	_	_	_
-1-2	3-6	the	place[1]	new[1]	nonsal[1]	Western_United_States[1]	bridge:set-subset	1-14[3-1]
+1-2	3-6	the	place[1]	new[1]	nonsal[1]	Western_United_States[1]	bridge:set-subset	1-14[3_1]
 1-3	7-14	Western	place[1]	new[1]	nonsal[1]	Western_United_States[1]	_	_
 1-4	15-21	United	place[1]	new[1]	nonsal[1]	Western_United_States[1]	_	_
 1-5	22-28	States	place[1]	new[1]	nonsal[1]	Western_United_States[1]	_	_
@@ -352,7 +352,7 @@
 17-13	1616-1621	space	abstract[92]|place[93]	giv[92]|giv[93]	nonsal[92]|nonsal[93]	_	coref	19-11[107_93]
 17-14	1622-1630	programs	abstract[92]	giv[92]	nonsal[92]	_	_	_
 17-15	1631-1633	by	abstract[92]	giv[92]	nonsal[92]	_	_	_
-17-16	1634-1639	these	abstract[92]|person[94]	giv[92]|giv[94]	nonsal[92]|sal[94]	_	coref|bridge:entity-associative	19-22[110_94]|19-8[106-94]
+17-16	1634-1639	these	abstract[92]|person[94]	giv[92]|giv[94]	nonsal[92]|sal[94]	_	coref|bridge:entity-associative	19-22[110_94]|19-8[106_94]
 17-17	1640-1647	various	abstract[92]|person[94]	giv[92]|giv[94]	nonsal[92]|sal[94]	_	_	_
 17-18	1648-1659	millionaire	abstract[92]|person[94]	giv[92]|giv[94]	nonsal[92]|sal[94]	_	_	_
 17-19	1660-1662	--	abstract[92]|person[94]	giv[92]|giv[94]	nonsal[92]|sal[94]	_	_	_
@@ -436,7 +436,7 @@
 20-16	2024-2027	're	_	_	_	_	_	_
 20-17	2028-2035	talking	_	_	_	_	_	_
 20-18	2036-2041	about	_	_	_	_	_	_
-20-19	2042-2049	welfare	abstract[118]	new[118]	nonsal[118]	_	bridge:comparison-relative	20-21[119-118]
+20-19	2042-2049	welfare	abstract[118]	new[118]	nonsal[118]	_	bridge:comparison-relative	20-21[119_118]
 20-20	2050-2053	and	_	_	_	_	_	_
 20-21	2054-2064	everything	abstract[119]	giv[119]	nonsal[119]	_	_	_
 20-22	2065-2069	else	abstract[119]	giv[119]	nonsal[119]	_	_	_
@@ -539,7 +539,7 @@
 24-14	2518-2528	successful	_	_	_	_	_	_
 24-15	2529-2531	in	_	_	_	_	_	_
 24-16	2532-2540	creating	_	_	_	_	_	_
-24-17	2541-2542	a	organization[144]	new[144]	nonsal[144]	_	bridge:entity-associative	24-23[146-144]
+24-17	2541-2542	a	organization[144]	new[144]	nonsal[144]	_	bridge:entity-associative	24-23[146_144]
 24-18	2543-2551	business	organization[144]	new[144]	nonsal[144]	_	_	_
 24-19	2552-2555	and	_	_	_	_	_	_
 24-20	2556-2562	making	_	_	_	_	_	_
@@ -711,7 +711,7 @@
 29-12	3356-3359	May	time[200]	acc[200]	nonsal[200]	_	_	_
 29-13	3360-3364	that	_	_	_	_	_	_
 29-14	3365-3366	a	event[201]|abstract[202]	new[201]|new[202]	nonsal[201]|nonsal[202]	_	coref	30-1[212_201]
-29-15	3367-3369	US	event[201]|abstract[202]|place[203]	new[201]|new[202]|new[203]	nonsal[201]|nonsal[202]|nonsal[203]	United_States[203]	bridge:entity-associative	29-23[204-203]
+29-15	3367-3369	US	event[201]|abstract[202]|place[203]	new[201]|new[202]|new[203]	nonsal[201]|nonsal[202]|nonsal[203]	United_States[203]	bridge:entity-associative	29-23[204_203]
 29-16	3370-3385	competitiveness	event[201]|abstract[202]	new[201]|new[202]	nonsal[201]|nonsal[202]	_	_	_
 29-17	3386-3390	bill	event[201]|abstract[202]	new[201]|new[202]	nonsal[201]|nonsal[202]	_	_	_
 29-18	3391-3392	,	event[201]|abstract[202]	new[201]|new[202]	nonsal[201]|nonsal[202]	_	_	_
@@ -782,7 +782,7 @@
 31-25	3692-3697	again	abstract[219]	new[219]	nonsal[219]	_	_	_
 31-26	3698-3699	,	abstract[219]	new[219]	nonsal[219]	_	_	_
 31-27	3700-3708	arguably	abstract[219]	new[219]	nonsal[219]	_	_	_
-31-28	3709-3712	the	abstract[219]|person[221]	new[219]|giv[221]	nonsal[219]|nonsal[221]	Jeff_Bezos[221]	coref|bridge:other	31-47[225_221]|31-36[223-221]
+31-28	3709-3712	the	abstract[219]|person[221]	new[219]|giv[221]	nonsal[219]|nonsal[221]	Jeff_Bezos[221]	coref|bridge:other	31-47[225_221]|31-36[223_221]
 31-29	3713-3720	richest	abstract[219]|person[221]	new[219]|giv[221]	nonsal[219]|nonsal[221]	Jeff_Bezos[221]	_	_
 31-30	3721-3724	man	abstract[219]|person[221]	new[219]|giv[221]	nonsal[219]|nonsal[221]	Jeff_Bezos[221]	_	_
 31-31	3725-3727	on	abstract[219]|person[221]	new[219]|giv[221]	nonsal[219]|nonsal[221]	Jeff_Bezos[221]	_	_
@@ -801,7 +801,7 @@
 31-44	3782-3785	top	abstract[219]|abstract[224]	new[219]|new[224]	nonsal[219]|nonsal[224]	_	_	_
 31-45	3786-3787	,	abstract[219]	new[219]	nonsal[219]	_	_	_
 31-46	3788-3795	deliver	abstract[219]	new[219]	nonsal[219]	_	_	_
-31-47	3796-3799	him	abstract[219]|person[225]	new[219]|giv[225]	nonsal[219]|nonsal[225]	Jeff_Bezos[225]	coref|bridge:comparison-relative	33-9[239_225]|31-48[226-225]
+31-47	3796-3799	him	abstract[219]|person[225]	new[219]|giv[225]	nonsal[219]|nonsal[225]	Jeff_Bezos[225]	coref|bridge:comparison-relative	33-9[239_225]|31-48[226_225]
 31-48	3800-3803	one	abstract[219]|place[226]	new[219]|acc[226]	nonsal[219]|nonsal[226]	_	_	_
 31-49	3804-3811	billion	abstract[219]|place[226]	new[219]|acc[226]	nonsal[219]|nonsal[226]	_	_	_
 31-50	3812-3816	more	abstract[219]|place[226]	new[219]|acc[226]	nonsal[219]|nonsal[226]	_	_	_
@@ -824,7 +824,7 @@
 32-14	3900-3909	household	abstract[230]	new[230]	nonsal[230]	_	_	_
 32-15	3910-3916	brings	_	_	_	_	_	_
 32-16	3917-3919	in	_	_	_	_	_	_
-32-17	3920-3926	around	abstract[231]	new[231]	nonsal[231]	_	bridge:set-subset	32-24[233-231]
+32-17	3920-3926	around	abstract[231]	new[231]	nonsal[231]	_	bridge:set-subset	32-24[233_231]
 32-18	3927-3934	seventy	abstract[231]	new[231]	nonsal[231]	_	_	_
 32-19	3935-3943	thousand	abstract[231]	new[231]	nonsal[231]	_	_	_
 32-20	3944-3945	a	time[232]	new[232]	nonsal[232]	_	_	_
@@ -935,7 +935,7 @@
 36-33	4447-4451	well	place[256]	giv[256]	nonsal[256]	_	_	_
 36-34	4452-4454	be	place[256]	giv[256]	nonsal[256]	_	_	_
 36-35	4455-4457	on	place[256]	giv[256]	nonsal[256]	_	_	_
-36-36	4458-4461	our	place[256]|place[258]|person[259]	giv[256]|new[258]|new[259]	nonsal[256]|nonsal[258]|nonsal[259]	Americans[259]	coref|bridge:comparison-sense	37-11[263_259]|37-2[260-259]
+36-36	4458-4461	our	place[256]|place[258]|person[259]	giv[256]|new[258]|new[259]	nonsal[256]|nonsal[258]|nonsal[259]	Americans[259]	coref|bridge:comparison-sense	37-11[263_259]|37-2[260_259]
 36-37	4462-4466	moon	place[256]|place[258]	giv[256]|new[258]	nonsal[256]|nonsal[258]	_	_	_
 36-38	4467-4468	.	_	_	_	_	_	_
 

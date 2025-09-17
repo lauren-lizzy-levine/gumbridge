@@ -9,7 +9,7 @@
 1-3	20-31	Christopher	event[1]|person[3]	new[1]|new[3]	sal[1]|sal[3]	_	coref	1-6[4_3]
 1-4	32-36	Hill	event[1]|person[3]	new[1]|new[3]	sal[1]|sal[3]	_	_	_
 1-5	37-38	,	event[1]	new[1]	sal[1]	_	_	_
-1-6	39-43	U.S.	event[1]|person[4]|organization[5]|place[6]	new[1]|giv[4]|acc[5]|acc[6]	sal[1]|nonsal[4]|sal[5]|sal[6]	Republican_Party_%28United_States%29[5]|United_States[6]	coref|coref|coref|bridge:entity-associative	3-4[9_4]|21-8[96_5]|4-14[19_6]|3-15[12-6]
+1-6	39-43	U.S.	event[1]|person[4]|organization[5]|place[6]	new[1]|giv[4]|acc[5]|acc[6]	sal[1]|nonsal[4]|sal[5]|sal[6]	Republican_Party_%28United_States%29[5]|United_States[6]	coref|coref|coref|bridge:entity-associative	3-4[9_4]|21-8[96_5]|4-14[19_6]|3-15[12_6]
 1-7	44-54	Republican	event[1]|person[4]|organization[5]	new[1]|giv[4]|acc[5]	sal[1]|nonsal[4]|sal[5]	Republican_Party_%28United_States%29[5]	_	_
 1-8	55-60	Party	event[1]|person[4]|organization[5]	new[1]|giv[4]|acc[5]	sal[1]|nonsal[4]|sal[5]	Republican_Party_%28United_States%29[5]	_	_
 1-9	61-73	presidential	event[1]|person[4]	new[1]|giv[4]	sal[1]|nonsal[4]	_	_	_
@@ -85,7 +85,7 @@
 6-12	392-393	.	_	_	_	_	_	_
 
 #Text=Politicians profess an Oath to this nation but once in office pursue their party agenda and reward their voters .
-7-1	394-405	Politicians	person[28]	new[28]	nonsal[28]	_	coref|bridge:entity-associative	7-13[33_28]|7-11[31-28]
+7-1	394-405	Politicians	person[28]	new[28]	nonsal[28]	_	coref|bridge:entity-associative	7-13[33_28]|7-11[31_28]
 7-2	406-413	profess	_	_	_	_	_	_
 7-3	414-416	an	abstract[29]	giv[29]	nonsal[29]	_	_	_
 7-4	417-421	Oath	abstract[29]	giv[29]	nonsal[29]	_	_	_
@@ -118,7 +118,7 @@
 8-9	543-546	the	person[39]	giv[39]	nonsal[39]	_	_	_
 8-10	547-553	people	person[39]	giv[39]	nonsal[39]	_	_	_
 8-11	554-556	in	person[39]	giv[39]	nonsal[39]	_	_	_
-8-12	557-564	America	person[39]|place[40]	giv[39]|giv[40]	nonsal[39]|nonsal[40]	United_States[40]	coref|bridge:entity-associative	17-6[84_40]|16-1[80-40]
+8-12	557-564	America	person[39]|place[40]	giv[39]|giv[40]	nonsal[39]|nonsal[40]	United_States[40]	coref|bridge:entity-associative	17-6[84_40]|16-1[80_40]
 8-13	565-566	,	_	_	_	_	_	_
 8-14	567-573	guided	_	_	_	_	_	_
 8-15	574-576	by	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 11-28	847-848	.	_	_	_	_	_	_
 
 #Text=The Air Force only selected 180 Officers a year from the Academy , Squadron Officer School and ROTC to attend .
-12-1	849-852	The	organization[57]	giv[57]	nonsal[57]	United_States_Air_Force[57]	bridge:entity-associative|bridge:entity-associative	12-11[60-57]|12-14[61-57]
+12-1	849-852	The	organization[57]	giv[57]	nonsal[57]	United_States_Air_Force[57]	bridge:entity-associative|bridge:entity-associative	12-11[60_57]|12-14[61_57]
 12-2	853-856	Air	organization[57]	giv[57]	nonsal[57]	United_States_Air_Force[57]	_	_
 12-3	857-862	Force	organization[57]	giv[57]	nonsal[57]	United_States_Air_Force[57]	_	_
 12-4	863-867	only	_	_	_	_	_	_
@@ -252,7 +252,7 @@
 15-4	1127-1130	you	person[72]	acc[72]	nonsal[72]	_	coref	15-11[74_72]
 15-5	1131-1135	were	_	_	_	_	_	_
 15-6	1136-1144	assigned	_	_	_	_	_	_
-15-7	1145-1146	a	object[73]	new[73]	nonsal[73]	_	bridge:comparison-relative	15-24[78-73]
+15-7	1145-1146	a	object[73]	new[73]	nonsal[73]	_	bridge:comparison-relative	15-24[78_73]
 15-8	1147-1154	fighter	object[73]	new[73]	nonsal[73]	_	_	_
 15-9	1155-1156	,	_	_	_	_	_	_
 15-10	1157-1159	if	_	_	_	_	_	_
@@ -295,7 +295,7 @@
 17-3	1329-1330	a	abstract[83]	new[83]	nonsal[83]	_	_	_
 17-4	1331-1341	difference	abstract[83]	new[83]	nonsal[83]	_	_	_
 17-5	1342-1344	in	_	_	_	_	_	_
-17-6	1345-1352	America	place[84]	giv[84]	nonsal[84]	United_States[84]	coref|bridge:entity-associative	49-2[215_84]|45-6[197-84]
+17-6	1345-1352	America	place[84]	giv[84]	nonsal[84]	United_States[84]	coref|bridge:entity-associative	49-2[215_84]|45-6[197_84]
 17-7	1353-1356	you	person[85]	acc[85]	nonsal[85]	_	_	_
 17-8	1357-1361	must	_	_	_	_	_	_
 17-9	1362-1366	have	_	_	_	_	_	_
@@ -353,7 +353,7 @@
 22-1	1558-1560	My	abstract[97]	new[97]	nonsal[97]	_	_	_
 22-2	1561-1565	ties	abstract[97]	new[97]	nonsal[97]	_	_	_
 22-3	1566-1568	to	abstract[97]	new[97]	nonsal[97]	_	_	_
-22-4	1569-1572	the	abstract[97]|organization[98]	new[97]|giv[98]	nonsal[97]|nonsal[98]	Republican_Party_%28United_States%29[98]	coref|bridge:set-member	26-5[116_98]|23-11[108-98]
+22-4	1569-1572	the	abstract[97]|organization[98]	new[97]|giv[98]	nonsal[97]|nonsal[98]	Republican_Party_%28United_States%29[98]	coref|bridge:set-member	26-5[116_98]|23-11[108_98]
 22-5	1573-1583	Republican	abstract[97]|organization[98]	new[97]|giv[98]	nonsal[97]|nonsal[98]	Republican_Party_%28United_States%29[98]	_	_
 22-6	1584-1589	party	abstract[97]|organization[98]	new[97]|giv[98]	nonsal[97]|nonsal[98]	Republican_Party_%28United_States%29[98]	_	_
 22-7	1590-1594	date	_	_	_	_	_	_
@@ -434,7 +434,7 @@
 #Text=How do you plan to get into the Republican debates and make an impact on polls ?
 27-1	1934-1937	How	_	_	_	_	_	_
 27-2	1938-1940	do	_	_	_	_	_	_
-27-3	1941-1944	you	person[120]	giv[120]	nonsal[120]	_	coref|bridge:set-member	31-2[133_120]|28-10[125-120]
+27-3	1941-1944	you	person[120]	giv[120]	nonsal[120]	_	coref|bridge:set-member	31-2[133_120]|28-10[125_120]
 27-4	1945-1949	plan	_	_	_	_	_	_
 27-5	1950-1952	to	_	_	_	_	_	_
 27-6	1953-1956	get	_	_	_	_	_	_
@@ -532,7 +532,7 @@
 
 #Text=After that , I may reconsider .
 33-1	2376-2381	After	_	_	_	_	_	_
-33-2	2382-2386	that	time[142]	giv[142]	nonsal[142]	_	bridge:comparison-relative	34-13[148-142]
+33-2	2382-2386	that	time[142]	giv[142]	nonsal[142]	_	bridge:comparison-relative	34-13[148_142]
 33-3	2387-2388	,	_	_	_	_	_	_
 33-4	2389-2390	I	person[143]	giv[143]	nonsal[143]	_	coref	34-3[144_143]
 33-5	2391-2394	may	_	_	_	_	_	_
@@ -640,7 +640,7 @@
 38-15	2836-2837	.	_	_	_	_	_	_
 
 #Text=His use of the Presidency to further this agenda has in many ways been unconstitutional .
-39-1	2838-2841	His	event[171]|person[172]	new[171]|giv[172]	nonsal[171]|nonsal[172]	Barack_Obama[172]	coref|bridge:entity-associative	40-11[179_172]|39-4[173-172]
+39-1	2838-2841	His	event[171]|person[172]	new[171]|giv[172]	nonsal[171]|nonsal[172]	Barack_Obama[172]	coref|bridge:entity-associative	40-11[179_172]|39-4[173_172]
 39-2	2842-2845	use	event[171]	new[171]	nonsal[171]	_	_	_
 39-3	2846-2848	of	event[171]	new[171]	nonsal[171]	_	_	_
 39-4	2849-2852	the	event[171]|abstract[173]	new[171]|acc[173]	nonsal[171]|nonsal[173]	_	_	_
@@ -681,7 +681,7 @@
 41-5	3030-3036	Holder	event[180]|person[182]	new[180]|new[182]	nonsal[180]|nonsal[182]	Eric_Holder[182]	_	_
 41-6	3037-3039	to	event[180]	new[180]	nonsal[180]	_	_	_
 41-7	3040-3047	enforce	event[180]	new[180]	nonsal[180]	_	_	_
-41-8	3048-3052	some	event[180]|abstract[183]	new[180]|new[183]	nonsal[180]|nonsal[183]	_	bridge:comparison-sense	41-12[184-183]
+41-8	3048-3052	some	event[180]|abstract[183]	new[180]|new[183]	nonsal[180]|nonsal[183]	_	bridge:comparison-sense	41-12[184_183]
 41-9	3053-3057	laws	event[180]|abstract[183]	new[180]|new[183]	nonsal[180]|nonsal[183]	_	_	_
 41-10	3058-3061	and	event[180]	new[180]	nonsal[180]	_	_	_
 41-11	3062-3065	not	event[180]	new[180]	nonsal[180]	_	_	_
@@ -896,7 +896,7 @@
 57-2	4025-4032	believe	_	_	_	_	_	_
 57-3	4033-4035	it	event[243]	new[243]	nonsal[243]	_	coref	57-5[244_243]
 57-4	4036-4038	is	_	_	_	_	_	_
-57-5	4039-4042	our	event[244]|person[245]	giv[244]|giv[245]	nonsal[244]|nonsal[245]	_	coref|coref|bridge:comparison-relative	57-7[246_244]|57-20[249_245]|57-14[248-245]
+57-5	4039-4042	our	event[244]|person[245]	giv[244]|giv[245]	nonsal[244]|nonsal[245]	_	coref|coref|bridge:comparison-relative	57-7[246_244]|57-20[249_245]|57-14[248_245]
 57-6	4043-4057	responsibility	event[244]	giv[244]	nonsal[244]	_	_	_
 57-7	4058-4060	to	event[246]	giv[246]	nonsal[246]	_	coref	58-8[252_246]
 57-8	4061-4065	pass	event[246]	giv[246]	nonsal[246]	_	_	_

@@ -24,7 +24,7 @@
 2-6	73-76	and	_	_	_	_	_	_
 2-7	77-78	I	person[7]	giv[7]	nonsal[7]	Sharon_L._Kennedy[7]	coref	4-5[15_7]
 2-8	79-81	'm	_	_	_	_	_	_
-2-9	82-89	arguing	event[8]	new[8]	nonsal[8]	_	bridge:entity-associative	3-9[11-8]
+2-9	82-89	arguing	event[8]	new[8]	nonsal[8]	_	bridge:entity-associative	3-9[11_8]
 2-10	90-93	for	event[8]	new[8]	nonsal[8]	_	_	_
 2-11	94-103	appellant	event[8]|person[9]	new[8]|new[9]	nonsal[8]|sal[9]	_	coref	5-21[21_9]
 2-12	104-111	Darnell	event[8]|person[9]	new[8]|new[9]	nonsal[8]|sal[9]	_	_	_
@@ -96,7 +96,7 @@
 5-18	401-403	in	abstract[20]	new[20]	nonsal[20]	_	_	_
 5-19	404-409	favor	abstract[20]	new[20]	nonsal[20]	_	_	_
 5-20	410-412	of	abstract[20]	new[20]	nonsal[20]	_	_	_
-5-21	413-420	Darnell	abstract[20]|person[21]	new[20]|giv[21]	nonsal[20]|nonsal[21]	_	coref|bridge:other	7-1[27_21]|6-16[25-21]
+5-21	413-420	Darnell	abstract[20]|person[21]	new[20]|giv[21]	nonsal[20]|nonsal[21]	_	coref|bridge:other	7-1[27_21]|6-16[25_21]
 5-22	421-425	Hurt	abstract[20]|person[21]	new[20]|giv[21]	nonsal[20]|nonsal[21]	_	_	_
 5-23	426-427	.	_	_	_	_	_	_
 
@@ -135,7 +135,7 @@
 7-10	598-600	to	_	_	_	_	_	_
 7-11	601-606	apply	_	_	_	_	_	_
 7-12	607-609	to	_	_	_	_	_	_
-7-13	610-613	all	abstract[30]	new[30]	nonsal[30]	_	coref|bridge:entity-associative|bridge:set-member|bridge:set-member	17-114[126_30]|15-4[88-30]|7-22[32-30]|7-37[35-30]
+7-13	610-613	all	abstract[30]	new[30]	nonsal[30]	_	coref|bridge:entity-associative|bridge:set-member|bridge:set-member	17-114[126_30]|15-4[88_30]|7-22[32_30]|7-37[35_30]
 7-14	614-622	offenses	abstract[30]	new[30]	nonsal[30]	_	_	_
 7-15	623-628	which	abstract[30]	new[30]	nonsal[30]	_	_	_
 7-16	629-631	he	abstract[30]|person[31]	new[30]|giv[31]	nonsal[30]|nonsal[31]	_	coref	7-29[33_31]
@@ -184,7 +184,7 @@
 8-14	857-866	felonious	event[40]	new[40]	nonsal[40]	_	_	_
 8-15	867-875	assaults	event[40]	new[40]	nonsal[40]	_	_	_
 8-16	876-879	and	_	_	_	_	_	_
-8-17	880-886	felony	event[41]	giv[41]	nonsal[41]	_	coref|bridge:entity-associative	30-52[217_41]|10-41[63-41]
+8-17	880-886	felony	event[41]	giv[41]	nonsal[41]	_	coref|bridge:entity-associative	30-52[217_41]|10-41[63_41]
 8-18	887-893	murder	event[41]	giv[41]	nonsal[41]	_	_	_
 8-19	894-895	.	_	_	_	_	_	_
 
@@ -194,12 +194,12 @@
 9-3	907-911	that	_	_	_	_	_	_
 9-4	912-914	on	_	_	_	_	_	_
 9-5	915-922	retrial	event[43]	new[43]	nonsal[43]	_	coref	9-11[46_43]
-9-6	923-924	,	abstract[44]	new[44]	nonsal[44]	_	bridge:other	17-30[104-44]
+9-6	923-924	,	abstract[44]	new[44]	nonsal[44]	_	bridge:other	17-30[104_44]
 9-7	925-935	collateral	abstract[44]|abstract[45]	new[44]|new[45]	nonsal[44]|nonsal[45]	_	coref	17-44[107_45]
 9-8	936-944	estoppel	abstract[44]|abstract[45]	new[44]|new[45]	nonsal[44]|nonsal[45]	_	_	_
 9-9	945-950	would	abstract[44]	new[44]	nonsal[44]	_	_	_
 9-10	951-958	prevent	abstract[44]	new[44]	nonsal[44]	_	_	_
-9-11	959-966	retrial	abstract[44]|event[46]	new[44]|new[46]	nonsal[44]|nonsal[46]	_	coref|bridge:entity-associative|bridge:set-span-interval|bridge:entity-associative|bridge:entity-associative	26-12[176_46]|10-17[57-46]|10-20[58-46]|10-5[54-46]|9-15[48-46]
+9-11	959-966	retrial	abstract[44]|event[46]	new[44]|new[46]	nonsal[44]|nonsal[46]	_	coref|bridge:entity-associative|bridge:set-span-interval|bridge:entity-associative|bridge:entity-associative	26-12[176_46]|10-17[57_46]|10-20[58_46]|10-5[54_46]|9-15[48_46]
 9-12	967-974	without	abstract[44]	new[44]	nonsal[44]	_	_	_
 9-13	975-981	regard	abstract[44]	new[44]	nonsal[44]	_	_	_
 9-14	982-985	for	abstract[44]	new[44]	nonsal[44]	_	_	_
@@ -276,7 +276,7 @@
 10-43	1324-1327	was	_	_	_	_	_	_
 10-44	1328-1334	coming	_	_	_	_	_	_
 10-45	1335-1339	into	_	_	_	_	_	_
-10-46	1340-1344	this	place[64]	acc[64]	nonsal[64]	_	bridge:other	12-8[71-64]
+10-46	1340-1344	this	place[64]	acc[64]	nonsal[64]	_	bridge:other	12-8[71_64]
 10-47	1345-1354	apartment	place[64]	acc[64]	nonsal[64]	_	_	_
 10-48	1355-1356	.	_	_	_	_	_	_
 
@@ -579,7 +579,7 @@
 20-14	2850-2855	Court	organization[145]	giv[145]	nonsal[145]	United_States_Court_of_Appeals_for_the_Seventh_Circuit[145]	_	_
 20-15	2856-2862	stated	_	_	_	_	_	_
 20-16	2863-2867	that	_	_	_	_	_	_
-20-17	2868-2871	the	abstract[146]	giv[146]	nonsal[146]	_	bridge:entity-associative	21-11[156-146]
+20-17	2868-2871	the	abstract[146]	giv[146]	nonsal[146]	_	bridge:entity-associative	21-11[156_146]
 20-18	2872-2877	Green	abstract[146]|person[147]	giv[146]|new[147]	nonsal[146]|nonsal[147]	_		
 20-19	2878-2884	versus	abstract[146]	giv[146]	nonsal[146]	_	_	_
 20-20	2885-2891	United	abstract[146]|organization[148]	giv[146]|giv[148]	nonsal[146]|nonsal[148]	United_States[148]		
@@ -697,7 +697,7 @@
 #Text=Should n't these arguments be made at the -- at the trial court , given the fact that this was remanded ?
 26-1	3420-3426	Should	_	_	_	_	_	_
 26-2	3427-3430	n't	_	_	_	_	_	_
-26-3	3431-3436	these	abstract[174]	new[174]	nonsal[174]	_	bridge:comparison-relative	31-3[218-174]
+26-3	3431-3436	these	abstract[174]	new[174]	nonsal[174]	_	bridge:comparison-relative	31-3[218_174]
 26-4	3437-3446	arguments	abstract[174]	new[174]	nonsal[174]	_	_	_
 26-5	3447-3449	be	_	_	_	_	_	_
 26-6	3450-3454	made	_	_	_	_	_	_
@@ -735,7 +735,7 @@
 27-14	3583-3585	's	_	_	_	_	_	_
 27-15	3586-3594	remanded	_	_	_	_	_	_
 27-16	3595-3597	on	_	_	_	_	_	_
-27-17	3598-3601	the	abstract[183]	new[183]	nonsal[183]	_	bridge:entity-associative	27-23[183-181]
+27-17	3598-3601	the	abstract[183]	new[183]	nonsal[183]	_	bridge:entity-associative	27-23[183_181]
 27-18	3602-3609	grounds	abstract[183]	new[183]	nonsal[183]	_	_	_
 27-19	3610-3612	of	abstract[183]	new[183]	nonsal[183]	_	_	_
 27-20	3613-3619	double	abstract[183]|abstract[184]	new[183]|new[184]	nonsal[183]|sal[184]	_	coref	28-3[187_184]
