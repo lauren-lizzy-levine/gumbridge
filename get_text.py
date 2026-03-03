@@ -490,9 +490,11 @@ if __name__ == "__main__":
         make_underscores(script_dir + "data" + os.sep + "train" + os.sep, 2)
         make_underscores(script_dir + "data" + os.sep + "dev" + os.sep, 2)
         make_underscores(script_dir + "data" + os.sep + "test" + os.sep, 2)
+        make_underscores(script_dir + "pilot" + os.sep + "test_v0" + os.sep, 2)
     else:
         text_dict = run_fetch()
         script_dir += os.sep
         make_text(script_dir + "data" + os.sep + "train" + os.sep, text_dict, 2, unescape_xml=True)
         make_text(script_dir + "data" + os.sep + "dev" + os.sep, text_dict, 2, unescape_xml=True)
         make_text(script_dir + "data" + os.sep + "test" + os.sep, text_dict, 2, unescape_xml=True)
+        make_text(script_dir + "pilot" + os.sep + "test_v0" + os.sep, text_dict, 2, unescape_xml=True)

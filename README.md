@@ -1,6 +1,6 @@
-# GUMBridge
+# GUMBridge v1
 
-Repository for the GUMBridge corpus for varieties of bridging anaphora. 
+Repository for the [GUMBridge corpus]((https://arxiv.org/abs/2512.07134)) for varieties of bridging anaphora. 
 
 GUMBridge is an extended bridging layer for [the Georgetown University Multilayer (GUM) corpus](https://gucorpling.org/gum). 
 As of GUM version 12, the extended bridging coverage of GUMBridge has been merged into [the main distribution of GUM](https://github.com/amir-zeldes/gum).
@@ -93,6 +93,27 @@ To obtain the text data, please run python ```get_text.py```, which will allow y
 
 If you do not have credentials for the Python Reddit API wrapper (praw) and Google bigquery, the script can attempt to download data for you from a proxy. Otherwise you can also use your own credentials for praw etc. and include them in two files, praw.txt and key.json. For this to work, you must have the praw and bigquery libraries installed for python (e.g. via pip).
 
+To add text to the reddit files:
+
+```python get_text.py -m add```
+
+To remove text from the reddit files:
+
+```python get_text.py -m del```
+
+## LLM Baseline
+
+Code for the LLM baseline is available in the ```llm_baseline``` directory.
+
+## GUMBridge v0.1 
+
+Prior to the full annotation effort for GUMBridge v1, we conducted an annotation pilot on the
+GUM test data. The adjudicated results of that initial pilot are included in ```pilot/test_v0```.
+
+The ```pilot``` directory also includes the annotation guidelines used in the pilot. See this [paper](https://aclanthology.org/2025.law-1.4/) for details on the pilot.
+
+Note: The annotation guidelines and test data have undergone revision since the v0 pilot. Please refer to the v1 release in ```data/test``` for the current test data.
+
 ## Citing
 
 GUMBridge v1 release:
@@ -112,7 +133,7 @@ Levine, L., & Zeldes, A. (2025). [GUMBridge: a Corpus for Varieties of Bridging 
 
 GUMBridge test v0.1 release:
 
-```pilot/gumbridge_test_tsv``` contains the bridging annotations from the annotation pilot (conducted on the GUM test data) described in the following paper:
+```pilot/test_v0``` contains the bridging annotations from the annotation pilot (conducted on the GUM test data) described in the following paper:
 
 Lauren Levine and Amir Zeldes. 2025. [Subjectivity in the Annotation of Bridging Anaphora](https://aclanthology.org/2025.law-1.4/). In *Proceedings of the 19th Linguistic Annotation Workshop (LAW-XIX-2025)*, pages 48–59, Vienna, Austria. Association for Computational Linguistics.
 ```bibtex
