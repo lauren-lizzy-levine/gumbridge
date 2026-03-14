@@ -296,7 +296,7 @@
 11-27	1378-1379	.	_	_	_	_	_	_	
 
 #Text=We collaborated over the years in many activities of common interest during which we had occasion to visit each other ’s offices , to drink wine together at Italian restaurants , and to talk of many things in friendly , casual conversation .
-12-1	1380-1382	We	person[76]	split[76]	nnnnn[76]	_	bridge|coref	12-10[78_76]|12-14[79_76]	
+12-1	1380-1382	We	person[76]	split[76]	nnnnn[76]	_	bridge:entity-associative|coref	12-10[78_76]|12-14[79_76]	
 12-2	1383-1395	collaborated	_	_	_	_	_	_	
 12-3	1396-1400	over	_	_	_	_	_	_	
 12-4	1401-1404	the	time[77]	giv[77]	nnnnn[77]	_	_	_	

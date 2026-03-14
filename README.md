@@ -114,6 +114,8 @@ The ```pilot``` directory also includes the annotation guidelines used in the pi
 
 Note: The annotation guidelines and test data have undergone revision since the v0 pilot. Please refer to the v1 release in ```data/test``` for the current test data.
 
+Data from the inter-annotator agreement (IAA) study conducted on the dev set can be found in ```pilot/dev_iaa```.
+
 ## Citing
 
 GUMBridge v1 release:
